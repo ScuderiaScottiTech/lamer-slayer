@@ -1,0 +1,1 @@
+Ovviamente se hai il secure boot devi signarli tutti oppure crashano, visto che usi winzoz

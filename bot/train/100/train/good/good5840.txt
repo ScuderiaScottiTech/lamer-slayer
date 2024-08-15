@@ -1,0 +1,1 @@
+Ah, e allora? Il motivo è che secondo te cassandra nello specifico non è battle tested?

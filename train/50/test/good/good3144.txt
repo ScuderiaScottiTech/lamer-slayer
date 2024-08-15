@@ -1,0 +1,1 @@
+è un simpatico comando che manda un messaggio broadcast a tutti gli utenti connessi ssh

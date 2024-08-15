@@ -1,0 +1,1 @@
+piuttosto mi uso l'as a service di gcloud, che ha anche il nosql se proprio

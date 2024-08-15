@@ -1,0 +1,5 @@
+allora, sto usando un modem alice solo ethernet, assai vecchio.
+ho collegato il pc al modem, e impostato il profilo pppoe di netctl e tutto va; al momento non ho un router disponibile e 0 wi-fi.
+quindi devo usare il pc come "wifi"
+ho impostato dhcpd, hostapd e iptables per forwardare la connessione alla scheda che ospita il wifi ; infatti ora sto scrivendo da tale wifi e tutto funziona;
+la domanda è, come mai whatsapp è l’unica che non invia/riceve messaggi o si connette?

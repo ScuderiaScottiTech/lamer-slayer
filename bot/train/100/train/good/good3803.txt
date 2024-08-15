@@ -1,0 +1,1 @@
+[{'type': 'mention_name', 'text': '@stonksw2', 'user_id': 1540714723}, ' [', {'type': 'code', 'text': '1540714723'}, '] bannato.\n', {'type': 'bold', 'text': 'Motivo'}, ': ma capaci di cosa']

@@ -1,0 +1,1 @@
+[{'type': 'mention_name', 'text': '𝓖𝓸𝓭𝓘𝓓𝓚', 'user_id': 242808656}, ' ha bannato ', {'type': 'mention_name', 'text': 'GinoIsMad', 'user_id': 999443703}, '']

@@ -1,0 +1,1 @@
+[{'type': 'mention', 'text': '@rennaarenata'}, " pensa che al momento sei l'unico che ha giocato al mio gioco"]

@@ -1,0 +1,1 @@
+il metodo con cui compila i file rendendoli stand alone mi fa cagasburrare dalla gioia

@@ -1,0 +1,1 @@
+1 passaggio in più! Madonna devi creare una partizione in più e hai fatto, tanto l'installazione di grub è comunque automatizzata

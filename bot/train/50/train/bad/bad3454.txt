@@ -1,0 +1,1 @@
+mi sembra il servizio del sottosistema windows per linux e quello della piattaforma hypervisor per windows

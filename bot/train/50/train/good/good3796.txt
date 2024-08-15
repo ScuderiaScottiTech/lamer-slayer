@@ -1,0 +1,1 @@
+[{'type': 'mention', 'text': '@MewlingS'}, ' il prossimo sei te vedi di non fare cazzate']

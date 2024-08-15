@@ -1,0 +1,1 @@
+non essendo nativo (eccetto con le impl dotnet native, l'unica differenza sarà probabilmente la output size anche se di pochissimmo rispetto ai self packed)

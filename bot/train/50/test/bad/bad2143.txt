@@ -1,0 +1,1 @@
+dimmi quali sono le comodità di farlo in go rispetto a c# allora

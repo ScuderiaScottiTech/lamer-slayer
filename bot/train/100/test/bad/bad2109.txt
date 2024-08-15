@@ -1,0 +1,1 @@
+[{'type': 'bold', 'text': '⚙️ Impostazioni inviate'}, '\nImpostazioni inviate a ', {'type': 'mention_name', 'text': '~Spar', 'user_id': 680674121}, '.']

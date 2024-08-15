@@ -1,0 +1,1 @@
+['Vuoi confrontare con ', {'type': 'mention', 'text': '@stack_smash'}]

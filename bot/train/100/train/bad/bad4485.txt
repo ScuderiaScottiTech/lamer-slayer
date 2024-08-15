@@ -1,0 +1,1 @@
+Dipende da come il compiler interpreta e ottimizza lo stesso algoritmo che se è davvero uguale verrà praticamente identico

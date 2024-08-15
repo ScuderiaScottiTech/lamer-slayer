@@ -1,0 +1,1 @@
+[{'type': 'bold', 'text': 'Dice il saggio:'}, '\nSe ari male, e ti dirò chi sei.']

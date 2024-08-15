@@ -1,0 +1,1 @@
+nota bene: ci sono dei modi per simulare il segnale facendo bit banging con la DMA per piattaforme che non hanno nessun modo di fare alcun tipo di offload su un core che non sia il principale però sprecheresti molta molta molta molta molta memoria

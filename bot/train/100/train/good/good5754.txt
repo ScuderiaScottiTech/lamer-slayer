@@ -1,0 +1,1 @@
+con linux-lts e nvidia-lts

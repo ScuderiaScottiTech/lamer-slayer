@@ -1,0 +1,5 @@
+con stm32 staresti tutto il tempo a driveare i segnali della vga senza avere nient'altro spazio per il tuo codice
+
+con esp32 puoi buttare tutto sull'altro core ma devi disabilitare il preempter dell'RTOS e perdi le funzionalità di wifi lol
+
+con pico puoi scriverti un PIO

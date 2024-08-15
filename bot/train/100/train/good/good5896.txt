@@ -1,0 +1,2 @@
+metti su questa "chat app", e simula 10k di messaggi, termini l'i/o ben prima. 
+o meglio, sarei curioso di leggere come conteggiano l'i\o effettiva

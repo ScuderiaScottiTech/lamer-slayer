@@ -1,0 +1,1 @@
+Ma esattamente come funziona una vga? O meglio che tipo di segnali vengono mandati dai pin, so quali pin ci sono e a cosa servono, RGB ,h,v e gnd

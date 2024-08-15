@@ -1,0 +1,3 @@
+The xz backdoor was initially caught by a software engineer at Microsoft. He noticed 500ms lag and thought something was suspicious.
+
+This is the Silver Back Gorilla of nerds. The internet final boss.

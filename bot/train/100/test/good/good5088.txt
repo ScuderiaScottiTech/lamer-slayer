@@ -1,0 +1,1 @@
+['se Jetbrains decidesse mai di fare un IDE per Elixir avrei anche quello perma-aperto. sadly, elixir lo codo su rubymine, tristemente. \ncomunque ', {'type': 'mention', 'text': '@rab00t'}, ' pensavo che anche tu fossi diventato un RusterFanatic come Pietro']

@@ -1,0 +1,1 @@
+io ti dico, senza usare orm strani, imparati quelle due cose di sql, da li è tutto in discesa e scoprirai che è estremamente semplice

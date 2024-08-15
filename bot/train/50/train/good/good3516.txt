@@ -1,0 +1,1 @@
+io sapevo di uno script in perl che faceva bruteforce delle password

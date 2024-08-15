@@ -1,0 +1,1 @@
+['poverello ', {'type': 'mention', 'text': '@Luca_C1VHosting'}, ' lo avete demolito']

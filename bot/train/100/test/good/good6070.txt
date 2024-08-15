@@ -1,0 +1,1 @@
+[{'type': 'link', 'text': 'https://docs.python.org/3/tutorial/index.html'}, '\n\nse non ti va bene ti basta cercare online, ci son fin troppe opzioni']

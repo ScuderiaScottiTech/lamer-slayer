@@ -1,0 +1,10 @@
+io
+22 scritto di aritmetica
+24 scritto di info
+26 orale di aritmetica
+30 scritto di geometria
+31 scritto di analisi
+6 scritto di algebra
+7 orale di algebra
+
+da definire gli orali di geom e analisi

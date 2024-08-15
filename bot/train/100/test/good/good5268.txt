@@ -1,0 +1,1 @@
+Ho fatto un cesso di DB access con 4 pulsantini per inserire ticket. Come faccio a farlo aprire standalone senza che me lo apra dentro access?

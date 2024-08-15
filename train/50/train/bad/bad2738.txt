@@ -1,0 +1,1 @@
+['semmai: ', {'type': 'link', 'text': '8.8.8.8'}, ' e ', {'type': 'link', 'text': '8.8.4.4'}]

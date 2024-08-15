@@ -1,0 +1,1 @@
+non sono sicuro che ext4 te lo permetta, estendere sicuro no, ridurre idk non ricordo

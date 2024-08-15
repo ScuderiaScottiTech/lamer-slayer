@@ -1,0 +1,1 @@
+Yup ti capisco, secondo me una buona path é iniziare dal game hacking che ti insegna un po' la winapi e interagire con la memoria a basso livello, il resto viene da sé

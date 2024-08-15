@@ -1,0 +1,1 @@
+Esattamente sui pin che segnali dovrei mandare per riempire il frame buffer?

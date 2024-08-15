@@ -1,0 +1,1 @@
+sapete se c'è modo di stringere la larghezza dei tab in webstorm senza effettivamente cambiarne la dimensione in spazzi?

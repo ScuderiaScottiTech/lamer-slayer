@@ -1,0 +1,1 @@
+[{'type': 'mention', 'text': '@SparBTW'}, ' visto che a te divertiva usare EDR e fare roba maldev\ne ', {'type': 'mention', 'text': '@davtur19'}, ' per ricollegarmi allo smatto della call']

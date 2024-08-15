@@ -1,0 +1,1 @@
+E ok ma sono sempre 2 mil di I/O. In più, non hai a disposizione solo GraphQL, ma anche una Document API e alternativamente un Vector DB per search engine e AI

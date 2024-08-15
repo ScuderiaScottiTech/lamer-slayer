@@ -1,0 +1,1 @@
+ma in windows un file può non richiedere i privilegi ed averli comunque? pare strano ma randomicamente ho fatto un eseguibile del genere

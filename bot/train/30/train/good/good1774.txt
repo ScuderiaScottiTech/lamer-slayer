@@ -1,0 +1,1 @@
+per la precisione dovrei cambiare la subnet da 192.168.157.x a 192.168.1.x

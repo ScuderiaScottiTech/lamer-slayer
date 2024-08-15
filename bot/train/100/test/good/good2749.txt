@@ -1,0 +1,1 @@
+E che mi era venuta voglia di contribuire a qualche progetto in rust

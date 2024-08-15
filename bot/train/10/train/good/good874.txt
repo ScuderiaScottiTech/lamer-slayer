@@ -1,0 +1,1 @@
+dato che è partita la conversazione su hardware, secondo voi quale può essere il motivo per cui al cambio di gpu il pc decida di spegnersi e riaccendersi in momenti casuali o quasi?

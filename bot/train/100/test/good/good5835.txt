@@ -1,0 +1,1 @@
+ripeto, l'interprete è simil-sql te lo do per buono, ma per quanto mi riguarda, l''use-case dei colonne è infinitesimale, ma pd perchè devo adattarmi un db e devo pensare anche a quello, per un tier? proprio non capisco

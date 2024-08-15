@@ -1,0 +1,3 @@
+In poche parole da poco sono riuscito ad avviare per la prima volta una macchina virtuale, scaricando l'iso e configurando il tutto, ma avrei alcune domande, ad esempio a me interesserebbe sapere la mia macchina virtuale come viene vista, calcolando che ha la connessione wifi  da hotspot dedicata (il mio PC è connesso con lan al modem), 
+Ma mi chiedo, per far si che la MV sia connessa, devo connettere il mio pc sia al WiFi all'hotspot che alla porta lan, far ciò può lasciare tracce? 
+In più non riesco a capire perché non si abilita il colia ed incolla bidirezionale sia per file che per testo pur avendoli attivati

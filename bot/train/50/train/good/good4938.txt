@@ -1,0 +1,1 @@
+ma niente di più, e redis oramai lo uso solo per sidekiq, ma quando passeranno a mongo anche i job di sidekiq, lo leverò completamente

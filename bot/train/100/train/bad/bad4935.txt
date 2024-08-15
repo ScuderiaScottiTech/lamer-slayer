@@ -1,0 +1,1 @@
+['non esiste ', {'type': 'mention', 'text': '@sanitizzare'}]

@@ -1,0 +1,1 @@
+[{'type': 'bold', 'text': 'Dice il saggio:'}, "\nChi è tosato da un usuraio, ch'io non mi medicassi col suo olio."]

@@ -1,0 +1,1 @@
+quindi sarebbe comunque meglio partire da C++ per acquisire i concetti base e poi trasporli su rust a quanto ho capito

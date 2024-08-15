@@ -1,0 +1,1 @@
+['𝗔𝗹𝗽𝗵𝘃𝗶𝗻𝗼 |𝗟𝗲𝗮𝗿𝗻𝗶𝗻𝗴 𝗛𝗧𝗠𝗟 & 𝗖𝗦𝗦 (', {'type': 'mention', 'text': '@dnsflush'}, ") ha spammato un gruppo... vergogna. TE SPETA N'warnato (", {'type': 'code', 'text': '5'}, '/', {'type': 'code', 'text': '6'}, ' warns)']

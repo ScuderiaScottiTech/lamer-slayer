@@ -1,0 +1,1 @@
+['Il forum non è su ', {'type': 'link', 'text': 'forum.awaremc.it'}, '']

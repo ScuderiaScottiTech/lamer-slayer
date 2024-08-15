@@ -1,0 +1,1 @@
+È come dire che un programma x è più lento perché uso y lib e vice versa è un po' senza senso imo

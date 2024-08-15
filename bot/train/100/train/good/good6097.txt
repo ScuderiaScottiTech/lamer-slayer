@@ -1,0 +1,1 @@
+Django è per i normie. Flask è per i chad

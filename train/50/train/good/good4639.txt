@@ -1,0 +1,1 @@
+["Ieri c'era una vista ", {'type': 'strikethrough', 'text': 'che non hai idea'}]

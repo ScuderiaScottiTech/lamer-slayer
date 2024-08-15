@@ -1,0 +1,1 @@
+[{'type': 'mention', 'text': '@GnuYessMan'}, ' tu che hai la AMD FirePro se non sbsglio, sai perché ci sta una specie di Mini Display Port sul davanti ? porta di debug?']

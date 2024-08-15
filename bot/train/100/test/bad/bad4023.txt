@@ -1,0 +1,1 @@
+la velocità sarà quella di c# classica se non un po' di più essendo nativo

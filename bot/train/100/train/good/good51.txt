@@ -1,0 +1,2 @@
+Oppure, come ha detto primeagen, che gli è venuto male al polso dopo aver spammato shift grazie alla winapi. 
+Tipo: KeAcquireInStackQueuedSpinLockForDpc

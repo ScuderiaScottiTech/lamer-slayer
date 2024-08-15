@@ -1,0 +1,1 @@
+punti di vista, ci sono provider che costano 2,99€ 1gb\1cpu, in ogni caso, fatti un dedicato e virtualizza da lì, con un server su cherryservers con 100 euro/mo prendi un 32gb/16core e ci fai girare il cazzo che vuoi

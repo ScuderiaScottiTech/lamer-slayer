@@ -1,0 +1,2 @@
+mi piace programmare
+ho pure creato un piccolo gioco in c

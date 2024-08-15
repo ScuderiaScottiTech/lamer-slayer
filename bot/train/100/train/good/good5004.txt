@@ -1,0 +1,1 @@
+dimmi cosa fai in rust rover che non potresti fare su vscode lol

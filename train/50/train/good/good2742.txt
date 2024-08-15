@@ -1,0 +1,1 @@
+[{'type': 'mention', 'text': '@thisisluxion'}, ' taggo te perchè mi pare che anche te avevi sta cosa, solo io mi trovo veramente bene a scrivere soluzioni di problemi di info su carta? riesco a ragionare molto più easy senza dover scrivere sulla tastiera tutto bello formale e magari potendo fare qualche scarabocchio']

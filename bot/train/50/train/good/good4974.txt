@@ -1,0 +1,1 @@
+no dico prisma solo per la UI

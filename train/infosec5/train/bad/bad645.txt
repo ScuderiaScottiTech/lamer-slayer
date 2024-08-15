@@ -1,0 +1,1 @@
+Buonasera chiedo scusa se esordisco così ma non saprei a chi chiedere, vorrei sapere se qualcuno potrebbe darmi una mano nella configurazione dei DNS di cloudflare

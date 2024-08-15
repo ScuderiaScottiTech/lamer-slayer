@@ -1,0 +1,1 @@
+su DO hai anche  la possibilità di fare deploy app\db serverless

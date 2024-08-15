@@ -1,0 +1,1 @@
+Ma tu lo sai che puoi avere il tuo db relazionale con cassandra?

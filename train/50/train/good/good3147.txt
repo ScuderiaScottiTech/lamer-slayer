@@ -1,0 +1,1 @@
+emula l'input sudo a tutti gli utenti se non sbaglio e invece sei in messaggio broadcast

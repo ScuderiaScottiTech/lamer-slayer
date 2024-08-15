@@ -1,0 +1,8 @@
+puoi fare
+
+new Point(X, Y);
+new Point(x: X, y: Y);
+new Point {
+    x = X,
+    y = Y,
+}

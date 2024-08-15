@@ -1,0 +1,1 @@
+Eh ci sta che siano doppi perché la memoria ha effettivamente il doppio di trasferimenti per ciclo

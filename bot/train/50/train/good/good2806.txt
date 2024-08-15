@@ -1,0 +1,3 @@
+Microsoft engineer: 500ms lag in liblzma? Something's up.
+
+Also Microsoft engineer: 45 minute lag in Microsoft Teams? Perfect.

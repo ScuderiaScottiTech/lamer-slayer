@@ -1,0 +1,1 @@
+Passavo 3/4 del tempo a disinstallare visual studio e reinstallarlo perché qualcosa si rompeva male

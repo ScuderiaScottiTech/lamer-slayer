@@ -1,0 +1,1 @@
+in teoria dovrebbero ricevere un segnale modulato dal controller e nello stesso si chiude il circuito e viene groundato però è tricky

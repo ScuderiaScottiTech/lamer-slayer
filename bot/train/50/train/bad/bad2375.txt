@@ -1,0 +1,1 @@
+Ti conviene mettere un filtro anti icmp, è piu efficiente

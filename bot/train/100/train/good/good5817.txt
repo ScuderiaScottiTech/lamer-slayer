@@ -1,0 +1,1 @@
+strano, vedo nel quotidiano infrastrutture medio-grandi, ed anche enterprise, che utilizzano ad ora, servizi distribuiti con postgres ed oracle

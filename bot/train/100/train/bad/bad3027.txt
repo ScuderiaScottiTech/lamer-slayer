@@ -1,0 +1,1 @@
+[{'type': 'mention', 'text': '@drillionaire1'}, ' tanto per sapere, per quali transiti sono passati i DDoS da "piotte di gigabit" di cui tu parli?']

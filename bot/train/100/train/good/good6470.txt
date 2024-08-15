@@ -1,0 +1,1 @@
+nel mentre per chi ha kde, almeno su arch, divertitevi a disinstallare i pacchetti non più mantenuti in vista di questo update che chiedono dipendenze obsolete da repleaceare

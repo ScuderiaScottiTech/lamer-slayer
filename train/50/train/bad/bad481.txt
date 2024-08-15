@@ -1,0 +1,2 @@
+Whatsapp = end to end perché sennò non è sicuro 
+Telegram = non c’è bisogno perché è già sicuro

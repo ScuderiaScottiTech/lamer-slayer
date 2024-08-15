@@ -1,0 +1,1 @@
+Beh Cassandra è schemaless di default, ma puoi usare tranquillamente usare i tuoi schemi per quando ti servono relazioni simil-grafiche. Comunque in caso crei un altro namespace per altre collezzioni. E comunque per una chat app ti dovrebbe bastare un Document DB

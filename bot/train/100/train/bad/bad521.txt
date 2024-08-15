@@ -1,0 +1,1 @@
+[{'type': 'bold', 'text': 'Dice il saggio:'}, "\nSe occhio non mira, gli uomini s'incontrano."]

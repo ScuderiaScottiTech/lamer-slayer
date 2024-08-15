@@ -1,0 +1,1 @@
+[{'type': 'mention_name', 'text': 'Rennaarenata', 'user_id': 743185718}, ' ha warnato ', {'type': 'mention_name', 'text': 'Pippo Baudo ❄️', 'user_id': 570486946}, '  per ', {'type': 'italic', 'text': 'contenuto pornoattoriali'}, ' (', {'type': 'code', 'text': '1/6'}, ' warns)']

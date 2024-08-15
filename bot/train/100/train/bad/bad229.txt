@@ -1,0 +1,1 @@
+['COMANDI VIVALABANANABOT:\n1. ps\n2. comandi\n3. super sos\n4. storm\n5. ma io direi\n6. porco\n7. real phrase\n8. cavoli\n9. andrea phrase\n10. sos\n11. ', {'type': 'bot_command', 'text': '/saluto'}, '\n12. super bono']

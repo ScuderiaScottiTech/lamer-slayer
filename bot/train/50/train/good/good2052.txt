@@ -1,0 +1,1 @@
+3cx, mi sono stancato di giocare con la sip.conf e con vim

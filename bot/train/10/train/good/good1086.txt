@@ -1,0 +1,1 @@
+se prima un intero gioco stava su una schedina di 8 megabyte, con delle texture a massimo 128 bit forse, esagerando

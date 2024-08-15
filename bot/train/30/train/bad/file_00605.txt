@@ -1,0 +1,1 @@
+['Si infatti, io mi sono sempre riferito a questo ', {'type': 'mention', 'text': '@SparPivuppi'}, " vedi che non solo l'unico lol"]

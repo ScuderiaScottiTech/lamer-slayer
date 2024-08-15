@@ -1,0 +1,3 @@
+scrive microsoft in una nota ufficiale, tutti i nuovi progetti saranno scritti tassativamente in rust, c e c++ sono stati ufficialmente cestinati per tutti i nuovi progetti
+
+ferrocene, l'azienda dedita a stabilizzare il compiler di rust, ha ottenuto la certificazione ISO di sicurezza per ambienti mission-critical

@@ -1,0 +1,1 @@
+[{'type': 'hashtag', 'text': '#include'}, ' <iostream>\n\nint main()\n{\n   std::cout<<"I\'m ready";\n}']

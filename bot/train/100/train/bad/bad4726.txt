@@ -1,0 +1,1 @@
+['dimmi ', {'type': 'mention', 'text': '@skullsmasher'}]

@@ -1,0 +1,1 @@
+['del ', {'type': 'bot_command', 'text': '/f'}, ' da access denied']

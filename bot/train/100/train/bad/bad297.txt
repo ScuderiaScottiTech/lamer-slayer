@@ -1,0 +1,1 @@
+['btw sto facendo una scan con nmap su ', {'type': 'link', 'text': '89.175.188.58'}]

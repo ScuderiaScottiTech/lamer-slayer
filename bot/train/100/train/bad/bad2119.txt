@@ -1,0 +1,1 @@
+['Ciao Pippo Baudo ❄️! (IoSiQueVales) sei appena entrato nel canale tech per eccellenza! Per qualsiasi domanda taggare ', {'type': 'mention', 'text': '@SparPivuppi'}, ' o ', {'type': 'mention', 'text': '@xNotturnox'}, '\nAh, ogni tanto si farà qualche give!\nInfo ulteriori:\nDC: 4\nuserid: ', {'type': 'phone', 'text': '570486946'}, '']

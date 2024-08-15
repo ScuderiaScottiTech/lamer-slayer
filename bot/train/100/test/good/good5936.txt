@@ -1,0 +1,1 @@
+E ma lo vedi che un infrastuttura serverless poi non è così male? Hai quanti core e memoria che ti servono per non superare i 2 secondi di risposta. Poi certo, i limiti gli hai, ma poi sei pay as you go. Guarda che forse la macchina 32/16 è perfetta per un solo progetto, ma quando ne hai 20 sulla stess macchina o sono inevitabili i conflitti oppure alla fine uno risponde 503

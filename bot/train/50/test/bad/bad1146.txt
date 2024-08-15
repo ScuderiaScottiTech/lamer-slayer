@@ -1,0 +1,1 @@
+[{'type': 'mention_name', 'text': "PixelGod {😈𝔓𝔢𝔠𝔠𝔞𝔱𝔬 𝔇'𝔦𝔯...", 'user_id': 399555502}, ' ha bannato Account Eliminato']

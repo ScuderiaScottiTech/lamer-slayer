@@ -1,0 +1,1 @@
+Siccome notavo che hydra usando il protocollo smtp controllava una wrd list velocemente,imap mi sembrava più lento

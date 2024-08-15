@@ -1,0 +1,2 @@
+poi, vuoi dirmi che datastax ha buttato dentro l'api restful che ti permette di usare graphsql ? vuoi dirmi che ci fai anche sql-like con cql? 
+Ok, tutto bellissimo, ma quando tu digiti la "sql-like-query" ricordiamoci sempre che è un cazzo di db a colonne

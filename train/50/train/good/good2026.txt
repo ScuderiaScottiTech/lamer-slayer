@@ -1,0 +1,1 @@
+['Ti dico solo che da una loro BTS uscivo tranquillamente con qualsiasi ip di una ', {'type': 'bot_command', 'text': '/21'}, ' al namex senza autenticarmi in pppoe']

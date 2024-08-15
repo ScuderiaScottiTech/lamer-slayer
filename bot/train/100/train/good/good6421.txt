@@ -1,0 +1,1 @@
+[{'type': 'pre', 'text': 'let a = 10;', 'language': 'rust'}]

@@ -1,0 +1,3 @@
+quale lang mi consiglieresti per iniziare programmazione di basso livello?
+
+finora conosco soltanto linguaggi per lo sviluppo web, quindi programmazione di alto livello

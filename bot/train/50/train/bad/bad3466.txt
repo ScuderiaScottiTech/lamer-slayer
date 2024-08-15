@@ -1,0 +1,1 @@
+['ho dato del negro a ', {'type': 'mention', 'text': '@processoreintel'}]

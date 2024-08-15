@@ -1,0 +1,2 @@
+Pensavo che anche le api di NT ricadessero sotto il gruppo WinApi
+O le winApi sono quelle accessibili in userland? O meglio, quelle che ti espone kernel32 ed etc ?

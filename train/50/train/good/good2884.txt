@@ -1,0 +1,1 @@
+['perché per qualche motivo hai\nscolastica a dicembre/gennaio\nterry a maggio\noii a settembre/ottobre\nioi estate dopo\n\nquindi, dato che devono mandare gente che è max appena uscita dalla quinta per le IOI, devi ', {'type': 'italic', 'text': 'iniziare'}, " l'ultima sessione in quarta"]

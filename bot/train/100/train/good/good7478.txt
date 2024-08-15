@@ -1,0 +1,1 @@
+qualcuno ha qualche idea sul perchè ogni x giorni il server mi va a puttane maxando 100/100 ram e swap e diventa a malapena accessibile da ssh? proxmox neanche logga

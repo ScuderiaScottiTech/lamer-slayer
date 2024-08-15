@@ -1,0 +1,1 @@
+[{'type': 'mention', 'text': '@stack_smash'}, ' a quanto mi devo preoccupare di wearout sugli ssd?']

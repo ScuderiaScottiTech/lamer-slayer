@@ -1,0 +1,1 @@
+non ha una singola cazzo di funzionalità per le chiavi esterne, non fa tx acid multiline come postgresql e oracle

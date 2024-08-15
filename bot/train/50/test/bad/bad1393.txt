@@ -1,0 +1,1 @@
+['raga perchè mi da sto errore\n\nFile "c:\\Users\\utente\\Desktop\\', {'type': 'link', 'text': 'Prova.py'}, '", line 2, in <module>\n    if quantiannihai >= 18:\nTypeError: \'>=\' not supported between instances of \'str\' and \'int\'']

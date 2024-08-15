@@ -1,0 +1,2 @@
+Ma difatti.
+Al momento nel mio piccolo ho tutto in management con protocollo TR069, piu un IDS a manuccia che mi notifica su un bot telegram qualsiasi mac address non catalogato da radius.db sui BRAS

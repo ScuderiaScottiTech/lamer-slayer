@@ -1,0 +1,3 @@
+Ok che bypassing cloudflare usando cloudflare, ma è una cosa che praticamente potresti fare con qualsiasi servizio di Reverse Proxy / simil cloudflare, che ti offre le "authenticated origin pulls".
+
+Magari mi sono perso qualcosa

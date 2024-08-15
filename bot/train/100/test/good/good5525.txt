@@ -1,0 +1,1 @@
+[{'type': 'mention', 'text': '@craftare'}, ' ho una curiosità']

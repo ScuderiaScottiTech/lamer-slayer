@@ -1,0 +1,1 @@
+l'unico motivo per cui c# > go è la oop

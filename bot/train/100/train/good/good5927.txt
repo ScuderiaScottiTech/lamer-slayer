@@ -1,0 +1,1 @@
+Con l'architettura serverless abbiamo call lillimitate delle serverless function, 80gb di storage e 20 mil I/O, tutto gratis, e poi puoi fare Pay as you Go in caso abbia bisogni di più di un milione di edge functions o limiti del database. Con Digital Ocean pagiamo 4 euro mensili per una VM 4gb RAM e 2 core, se ricordo giusto

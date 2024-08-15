@@ -1,0 +1,1 @@
+Ma poi quando vai ad esplorare strumenti "nuovi", che sia mongo, cassandra, svelte, nim, etc

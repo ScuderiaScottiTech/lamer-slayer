@@ -1,0 +1,1 @@
+['ma non usa er truce klan pe insultamme ', {'type': 'mention', 'text': '@ggwpwpwpwpez'}]

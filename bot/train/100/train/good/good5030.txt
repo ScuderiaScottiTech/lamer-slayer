@@ -1,0 +1,1 @@
+se si potesse usare rust-analyzer capirei, ma forzano il loro immaturo language server del cazzo

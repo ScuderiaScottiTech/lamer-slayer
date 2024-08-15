@@ -1,0 +1,1 @@
+non so come mettere parametri pointer nulli

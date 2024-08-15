@@ -1,0 +1,1 @@
+che sono più sicuri da utilizzare in quanto non cambiano IRQL

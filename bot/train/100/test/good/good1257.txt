@@ -1,0 +1,1 @@
+['Ultrawide 2k enjoyer tipo ', {'type': 'italic', 'text': 'io'}]

@@ -1,0 +1,1 @@
+[{'type': 'bold', 'text': 'Dice il saggio:'}, '\nPiù il fiume è profondo, quando si guarisce passa via.']

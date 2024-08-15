@@ -1,0 +1,1 @@
+[{'type': 'mention', 'text': '@druglord'}, ' se vuoi me ne occupo io 👉👈']

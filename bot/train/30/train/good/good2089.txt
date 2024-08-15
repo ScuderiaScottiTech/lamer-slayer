@@ -1,0 +1,1 @@
+["che se gli chiedi cos'è il quinto livello dell'iso/osi ti rispondono che è il cane di ", {'type': 'mention', 'text': '@stack_smash'}, '']

@@ -1,0 +1,1 @@
+[{'type': 'bold', 'text': 'Dice il saggio:'}, '\nMuove la coda il cane non per te, si accarezza vicino a te.']

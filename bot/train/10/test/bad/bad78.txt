@@ -1,0 +1,1 @@
+[{'type': 'bold', 'text': 'Dice il saggio:'}, "\nChi si guarda dal calcio della mosca, con l'oro la donna e con la donna l'uomo."]

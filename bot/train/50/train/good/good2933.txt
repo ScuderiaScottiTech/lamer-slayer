@@ -1,0 +1,1 @@
+['e ci andrò senza prep ', {'type': 'mention', 'text': '@thisisluxion'}, '']

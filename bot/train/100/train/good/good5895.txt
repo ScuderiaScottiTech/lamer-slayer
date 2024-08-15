@@ -1,0 +1,1 @@
+I/o sognifica che spendi un credito (su 20 mil) per ogni richiesta all'API

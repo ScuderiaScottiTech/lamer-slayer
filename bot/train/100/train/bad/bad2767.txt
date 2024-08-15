@@ -1,0 +1,1 @@
+[{'type': 'link', 'text': 'https://www.youtube.com/watch?v=_WH6cbwZ5m8&ab_channel=Jombo'}, ' plz guardatelo']

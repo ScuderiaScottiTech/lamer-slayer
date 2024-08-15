@@ -1,0 +1,1 @@
+ma se tipo altervista faccio una pagina php che esegue con system diventa un vps

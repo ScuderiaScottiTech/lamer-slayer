@@ -1,0 +1,2 @@
+Vabbè si torna al vecchio metodo
+Bruteforce di tutti gli IP nazionali* con l'host corretto

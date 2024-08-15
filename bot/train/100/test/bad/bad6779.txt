@@ -1,0 +1,1 @@
+io ho provato a fare diversi progetti in rust e letteralmente non c'era modo di farlo completamente safe per l'abbondante 60% della roba era impossibile farlo safe

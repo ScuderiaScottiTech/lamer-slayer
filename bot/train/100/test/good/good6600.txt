@@ -1,0 +1,1 @@
+[{'type': 'bot_command', 'text': '/ban'}, ' perchè sei coglione']

@@ -1,0 +1,1 @@
+[{'type': 'bold', 'text': '1OO%'}, ' Async']

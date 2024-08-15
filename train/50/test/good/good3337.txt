@@ -1,0 +1,1 @@
+['quindi\n\naⁿ diventa a!', {'type': 'bot_command', 'text': '/n'}, '!']

@@ -1,0 +1,2 @@
+non ha grandi fregature, per alcune cose è comoda, il problema sono i r/w che hai menzionato. tieni presente che solamente fare un operazione di lettura o aggiornamento record può prenderti 10-25 r/w. 
+cassandra non è una brutta soluzione per scalare sui db, ma costa comunque due madonne, se voglio un servizio con graphsql punterei comunque altrove.

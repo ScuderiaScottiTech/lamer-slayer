@@ -1,0 +1,2 @@
+Se non conosci neanche un linguaggio per scrivere software desktop, in base a quello che hai detto le scelte migliori sono C++, Rust e Go, scritti in ordine di come li consiglierei. 
+Chiedi a qualcun'altro e te li rankeranno in ordine diverso o magari ti daranno altri linguaggi ma bene o male è tutto quello che ti serve per fare agilmente il 99% dei task possibili da low level fino a scrivere api (spostandosi a destra man mano che sali di livello, circa)

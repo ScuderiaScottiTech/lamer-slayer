@@ -1,0 +1,1 @@
+Ecco il messaggio di errore che mi dà quando cerco di decriptare il file in via permanente

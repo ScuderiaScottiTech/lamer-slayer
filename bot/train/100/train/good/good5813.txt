@@ -1,0 +1,1 @@
+Non ho fatto grande fatica ad usare l'SDK JavaScript, poi è chiaro che se non si usa un ORM a prescindere nella vita di tutti i giorni diventa più complesso da imparare

@@ -1,0 +1,2 @@
+Ma la cosa che non mi è chiara , vedendo gli schemi
+È che l'attaccante sa l'IP di origine

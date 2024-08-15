@@ -1,0 +1,1 @@
+Pgsql è il migliore imho, però al momento mi trovo bene comunque con mariadb

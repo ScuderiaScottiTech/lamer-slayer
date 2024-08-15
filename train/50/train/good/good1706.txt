@@ -1,0 +1,1 @@
+Yup ho provato ad attaccare letteralmente un jumper su un gpio e leggere

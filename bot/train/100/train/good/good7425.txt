@@ -1,0 +1,1 @@
+[{'type': 'bot_command', 'text': '/ban'}, ' ', {'type': 'mention_name', 'text': 'Cr7', 'user_id': 5988529469}, ' arrivederci e buona giornata']

@@ -1,0 +1,1 @@
+[{'type': 'mention', 'text': '@GnuYessMan'}, ' entra qua ', {'type': 'link', 'text': 'http://t.me/grindrandsex'}]

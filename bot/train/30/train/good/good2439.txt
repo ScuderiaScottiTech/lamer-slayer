@@ -1,0 +1,1 @@
+['letto vicino al cesso, località ottima, odore lo-fi, 500€', {'type': 'bot_command', 'text': '/mese'}, '']

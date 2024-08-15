@@ -1,0 +1,1 @@
+['Ok grazie per le informazioni ', {'type': 'mention', 'text': '@JacopoMii'}, ' 👍']

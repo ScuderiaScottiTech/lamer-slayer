@@ -1,0 +1,1 @@
+['qui è spiegato benissimo \n\n', {'type': 'link', 'text': 'http://ece320web.groups.et.byu.net/labs/Lab-FrameBuffer/SRAM_display_part1.html'}, '']

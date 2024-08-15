@@ -1,0 +1,1 @@
+In cascata si intende collegato col cavo LAN al primo modem, giusto? E non è quello che voglio fare perché non posso collegare fisicamente i due dispositivi

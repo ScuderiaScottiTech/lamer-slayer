@@ -1,0 +1,1 @@
+geometria intesa come? perché la geometria 1 che si fa a mate è principalmente algebra lineare + teoria dei campi, e so che a CS si fa un po' di algebra lineare (seppur in modo meno approfondito, ovviamente) inclusa in matematica discreta

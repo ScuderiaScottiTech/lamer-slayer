@@ -1,0 +1,1 @@
+['Io e ', {'type': 'mention', 'text': '@stack_smash'}, ' risolvemo da luca c1vhosting']

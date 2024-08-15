@@ -1,0 +1,1 @@
+semplicemente c++>=11 in modo idiomatico

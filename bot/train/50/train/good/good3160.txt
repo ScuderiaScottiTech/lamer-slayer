@@ -1,0 +1,1 @@
+[{'type': 'link', 'text': 'https://archlinux.org/news/the-xz-package-has-been-backdoored/'}]

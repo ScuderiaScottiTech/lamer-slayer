@@ -1,0 +1,1 @@
+In realtà ho realizzato che l’app si apre dentro access per forza, no way

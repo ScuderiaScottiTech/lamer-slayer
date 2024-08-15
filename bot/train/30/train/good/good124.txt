@@ -1,0 +1,2 @@
+Per farti capire, così non devo importare nulla troppe volte.
+1 import ogni volta che la CA viene rifatta e basta

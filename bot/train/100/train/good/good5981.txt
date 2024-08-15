@@ -1,0 +1,3 @@
+Opinione non popolare:
+
+Scegliti un web framework javascript e impara tutto il web development da là. Ti consiglio Astro

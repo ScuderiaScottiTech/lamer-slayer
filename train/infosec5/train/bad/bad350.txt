@@ -1,0 +1,1 @@
+Sto provando ad installare VirtualBox su Kali, ma mi da questo errore:

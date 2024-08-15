@@ -1,0 +1,1 @@
+con 2 breakpoint la performance scende a 5 fps

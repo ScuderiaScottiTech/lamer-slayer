@@ -1,0 +1,1 @@
+stiamo andando molto randomicamente eh? diciamo, che, gzip, su postgresql, a sentimento, 100k, di conversazioni mediamente reali e daily, 130mb

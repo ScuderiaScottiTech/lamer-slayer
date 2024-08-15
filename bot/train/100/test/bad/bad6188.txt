@@ -1,0 +1,1 @@
+[{'type': 'mention', 'text': '@LucaIaria2304'}, ' ciao, volevo contattarti per un video su tiktok é possibile ?']

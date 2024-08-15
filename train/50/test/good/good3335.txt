@@ -1,0 +1,7 @@
+praticamente
+
+si può creare un omomorfismo che ti manda le funzioni dell'analisi reale in quelle umbrali
+
+tipo φ(D(f)) (con D derivata di f) ti manda la derivata in Δ che è quella umbrale
+
+ma la cosa interessante è che tu puoi applicare l'omomorfismo e l'inverso in qualsiasi momento, quindi puoi prendere un'equazione o qualcosa che magari è molto difficile da risolvere in analisi reale, trasformarla nella sua versione umbrale, risolverla e poi ritornare nei reali o viceversa

@@ -1,0 +1,1 @@
+ho solo una vm che dovrebbe avere 4 o 6 gb di ram allocata

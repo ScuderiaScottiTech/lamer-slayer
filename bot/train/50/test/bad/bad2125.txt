@@ -1,0 +1,2 @@
+"c++ è meglio di c#" = oggettivo
+"preferisco c++ a c# per x task" = soggettivo

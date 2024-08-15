@@ -1,0 +1,1 @@
+["Immaginate unirsi al fediverso e poi bannare dalla propria istanza tutti i server in cui al primo contenuto un po' libero non vieni bannato a tua volta\n\n", {'type': 'link', 'text': 'https://github.com/dzuk-mutant/blockchain/blob/master/list/list.md'}]

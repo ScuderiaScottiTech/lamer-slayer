@@ -1,0 +1,1 @@
+['tutto per colpa del ', {'type': 'mention', 'text': '@vollaphone'}]

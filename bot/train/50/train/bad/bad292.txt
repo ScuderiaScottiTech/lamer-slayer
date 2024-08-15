@@ -1,0 +1,1 @@
+[{'type': 'bold', 'text': 'Dice il saggio:'}, '\nA chi batte forte, convien che razzoli.']

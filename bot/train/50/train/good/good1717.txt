@@ -1,0 +1,1 @@
+[{'type': 'text_link', 'text': 'pietrodev', 'href': 'http://t.me/stack_smash'}, ' sicuramente sa come aiutarmi qui']

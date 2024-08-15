@@ -1,0 +1,1 @@
+da una parte dici "fico, prestazioni da super-top" dall'altra se guardi, predilige l'availability del dato e a volte capita che quando in over, qualcosa perda di consistency

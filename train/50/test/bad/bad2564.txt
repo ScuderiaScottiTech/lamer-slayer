@@ -1,0 +1,1 @@
+Dipende da come viene interpretato dai due compiler ma la maggior parte delle volte è più veloce c

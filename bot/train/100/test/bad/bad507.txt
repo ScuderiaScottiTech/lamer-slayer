@@ -1,0 +1,1 @@
+[{'type': 'bold', 'text': 'Dice il saggio:'}, "\nChi rimane in umile stato, assicura bel tempo tutto l'anno."]

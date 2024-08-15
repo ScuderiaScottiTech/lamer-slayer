@@ -1,0 +1,1 @@
+['sono un voip di ', {'type': 'mention', 'text': '@zDarkGodx'}]

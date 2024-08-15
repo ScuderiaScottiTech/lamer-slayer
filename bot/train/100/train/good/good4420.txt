@@ -1,0 +1,1 @@
+quindi a livello di script è possibile ottenere lo stesso risultato però meno ottimizzato a livello di codice mi sembra

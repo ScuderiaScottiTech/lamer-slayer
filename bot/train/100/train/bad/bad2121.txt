@@ -1,0 +1,1 @@
+[{'type': 'mention_name', 'text': 'DᴜᴍʙMᴀʜʀᴇᴇᴏ🇮🇹', 'user_id': 215601853}, ' ha bannato ', {'type': 'mention_name', 'text': 'Pippo Baudo ❄️', 'user_id': 570486946}, '']

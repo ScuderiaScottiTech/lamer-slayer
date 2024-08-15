@@ -1,0 +1,1 @@
+Tipo tutto, se si parla di FPM, visto che spawna un thread per ogni richiesta.

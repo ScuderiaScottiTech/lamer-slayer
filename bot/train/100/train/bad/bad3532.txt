@@ -1,0 +1,5 @@
+Scusa eh, se fai process escalation, non prendi permessi da admin sul processo ?
+
+Se sì, è una LPE no?
+
+Se è così Easy farlo, come mai allora la gente non lo fa ovunque , invece di usare bypass di UAC ed etc?

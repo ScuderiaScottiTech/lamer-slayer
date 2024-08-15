@@ -1,0 +1,1 @@
+['📊 ', {'type': 'bold', 'text': 'Release Sistema Denunce v1.00 ?'}, '\n\n', {'type': 'bold', 'text': 'Si'}, '  [4]\n\n', {'type': 'bold', 'text': 'No'}, '  [0]\n\n👥 4 persone hanno votato finora.\n📖 ', {'type': 'italic', 'text': 'Voto Anonimo'}, '']

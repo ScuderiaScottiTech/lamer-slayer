@@ -1,0 +1,1 @@
+Se il codice da 7h  non compilava bocciatura automatica

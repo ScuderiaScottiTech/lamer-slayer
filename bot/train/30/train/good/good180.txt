@@ -1,0 +1,1 @@
+Comunque potresti gestire i dns dal pihole e usare un .local

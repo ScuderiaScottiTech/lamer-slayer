@@ -1,0 +1,1 @@
+[{'type': 'mention', 'text': '@getroot'}, ' ultima cosa inserendo su è normale che quando mi chiede la password anche se la metto corretta mi dà autenticazione non riuscita?']

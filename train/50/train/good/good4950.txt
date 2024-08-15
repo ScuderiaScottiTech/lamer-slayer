@@ -1,0 +1,1 @@
+comunque mongodb ha un sistema abbastanza fluido per gestire i carichi o i nodi, tuttavia è molto diverso da ciò che fanno postgres oracle o sqlserver.

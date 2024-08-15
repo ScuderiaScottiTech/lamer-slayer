@@ -1,0 +1,1 @@
+[{'type': 'mention_name', 'text': '@anonimosicuro', 'user_id': 6331999045}, ' [', {'type': 'code', 'text': '6331999045'}, '] bannato.\n', {'type': 'bold', 'text': 'Motivo'}, ': ma mannaggia al porco di dio mastica veramente un cazzo enorme di un cavallo dio imbestialito']

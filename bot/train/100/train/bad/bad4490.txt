@@ -1,0 +1,1 @@
+["Credo nella quale il dio è l'unico credente\n\n", {'type': 'italic', 'text': '~ Wikipedia'}, '']

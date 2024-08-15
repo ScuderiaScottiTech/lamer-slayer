@@ -1,0 +1,1 @@
+e comunque ora c# è cross platform senza runtime

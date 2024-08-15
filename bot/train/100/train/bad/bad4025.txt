@@ -1,0 +1,1 @@
+vero, non sarà as good come una build go, rust, c++, c o altro però funzionerà comunque bene

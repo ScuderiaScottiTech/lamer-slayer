@@ -1,0 +1,1 @@
+[{'type': 'bold', 'text': 'Dice il saggio:'}, '\nA chi Dio vuole aiutare, la materna ai materni.']

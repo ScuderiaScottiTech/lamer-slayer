@@ -1,0 +1,1 @@
+['certamente! ecco il download di chrome invece di internet explorer: ', {'type': 'link', 'text': 'https://www.google.com/intl/it_it/chrome/'}]

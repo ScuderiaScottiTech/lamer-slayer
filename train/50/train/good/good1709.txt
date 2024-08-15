@@ -1,0 +1,1 @@
+["questa non l'ho capita però, le rail ", {'type': 'italic', 'text': 'sono'}, " rgb, ci sono due standard uno dove c'è il ground a parte e una linea data, e l'altro ha rgb separati (che ancora mi confonde un po' come sia lo schema e cosa ricevano in entrata queste rail infatti ho provato abbastanza a caso)"]

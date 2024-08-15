@@ -1,0 +1,1 @@
+[{'type': 'code', 'text': "Nim's memory management is deterministic and customizable with destructors and move semantics, inspired by C++ and Rust. It is well-suited for embedded, hard-realtime systems.\n\n"}, 'ah ecco perchè']

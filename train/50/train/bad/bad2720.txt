@@ -1,0 +1,1 @@
+[{'type': 'mention', 'text': '@SilentDaemon'}, ' che manda dati "Invisibili" a ', {'type': 'mention', 'text': '@matt3p'}]

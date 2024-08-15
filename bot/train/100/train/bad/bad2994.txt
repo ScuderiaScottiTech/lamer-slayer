@@ -1,0 +1,1 @@
+[{'type': 'mention', 'text': '@omegatr3'}, ' sono anche quì']

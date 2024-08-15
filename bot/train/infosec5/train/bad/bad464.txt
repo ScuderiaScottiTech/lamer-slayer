@@ -1,0 +1,1 @@
+["Avete sentito cos'è successo negli ospedali? Questa è una cosa SERIA!!1!2\n", {'type': 'link', 'text': 'https://www.lercio.it/hacker-attaccano-ospedali-italiani-e-riducono-le-liste-di-attesa-a-tre-giorni/'}, '']

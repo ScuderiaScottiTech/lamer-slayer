@@ -1,0 +1,1 @@
+[{'type': 'mention', 'text': '@SparPivuppi'}, ' toglimi mod o fammi bannare qualche admin']

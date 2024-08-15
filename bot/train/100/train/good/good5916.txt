@@ -1,0 +1,1 @@
+la domanda è, perchè devo usare una soluzione di cassandra, e mettermi in casa astra, se posso usare soluzioni già collaudate da decadi, con molta più documentazione ed use-case documentata

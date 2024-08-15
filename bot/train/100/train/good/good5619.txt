@@ -1,0 +1,1 @@
+[{'type': 'mention', 'text': '@shishcat'}, ' lo vuoi un dominio']

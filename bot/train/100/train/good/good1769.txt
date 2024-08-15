@@ -1,0 +1,1 @@
+['Cerca in ', {'type': 'bot_command', 'text': '/etc'}, ' file di config per server dhcp']

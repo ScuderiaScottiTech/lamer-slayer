@@ -1,0 +1,1 @@
+premesso che parli dei db con una use case totalmente generica che può essere acqua come può essere vino, hai un solo db? perchè astra e non relazionale managed classico? Oracle\Postgresql con collaterali in memoria per gli utilizzi più intensivi (come group-chat etc)

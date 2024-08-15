@@ -1,0 +1,1 @@
+infatti io sono d'accordo, è un pò come quando i provider medio-piccolo fanno keepalive di versioni come php 6 e 7, per mantenere dei siti hackati e poi si lamentano che i clienti dicono che vengono hackati, perchè non ci mettono davanti un waf decente e cloudflare

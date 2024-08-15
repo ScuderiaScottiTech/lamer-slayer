@@ -1,0 +1,1 @@
+['Io non ho problemi perché non uso Linux ', {'type': 'bot_command', 'text': '/s'}, '']

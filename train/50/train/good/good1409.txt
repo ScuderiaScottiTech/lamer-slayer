@@ -1,0 +1,1 @@
+[{'type': 'link', 'text': 'https://www.neowin.net/news/crowdstrike-broke-debian-and-rocky-linux-months-ago-but-no-one-noticed/'}]

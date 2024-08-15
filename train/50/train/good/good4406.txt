@@ -1,0 +1,1 @@
+provo a farmi prima un'introduzione base alle vulnerabilità di livello hw (basso livello) o lato web?

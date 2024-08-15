@@ -1,0 +1,1 @@
+[{'type': 'mention', 'text': '@lettiera'}, ' voleva chiedere una sponsor al suo canale youtube, potresti farlo oltre al github mio che hai già messo?']

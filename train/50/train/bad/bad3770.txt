@@ -1,0 +1,1 @@
+['Aspe ', {'type': 'mention', 'text': '@stack_smash'}, ' vieni in off topic']

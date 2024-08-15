@@ -1,0 +1,1 @@
+"studiare", principalmente imparare ad usare react e vue

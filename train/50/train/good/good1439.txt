@@ -1,0 +1,1 @@
+["faccio un mini spammino (tranquilli, non è una delle solite offerte di lavoro inutili random): è stato pubblicato il bando per l'iscrizione alla Superiore per il prossimo anno accademico, se a qualcuno di voi interessa un percorso di questo tipo dateci un'occhiata :)\n\n", {'type': 'link', 'text': 'https://superiore.uniud.it/it/futuri-allievi/ammissione-primo-anno'}, '']

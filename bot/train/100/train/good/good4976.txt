@@ -1,0 +1,5 @@
+Era per rispondere al tuo "che merda" di prima, ma in realtà ha anche un senso. 
+Jetbrains è una soluzione tendenzialmente chiusa, crackabilissima,ok, ma nasce come soluzione a pagamento (o free per student) 
+Il "marketplace" per quanto riguarda il mio uso è material, copilot, sonarlint e altri 3-4 plugin. 
+Il punto è che, un IDE nato per un linguaggio, se (e dico se) sviluppato correttamente integra senza sbatti una marea di cose, come i vari rbenv, ti pre-imposta gli ambienti in cui avvi l'app, è proprio comodo in termini di sviluppo. 
+e ripeto sto parlando ora di rubymine e pycharcazzi, che son quelli che uso maggiormente

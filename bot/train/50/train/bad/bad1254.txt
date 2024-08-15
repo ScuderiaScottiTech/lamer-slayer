@@ -1,0 +1,1 @@
+Cloudflare: CDN (Non quella cagata che hai fatto te), DNS, Ottimizzazione dei contenuti e WAF

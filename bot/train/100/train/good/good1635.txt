@@ -1,0 +1,1 @@
+['il bro ', {'type': 'mention', 'text': '@thisisluxion'}, ' è matto di set theory se non erro']

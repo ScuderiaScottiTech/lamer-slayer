@@ -1,0 +1,1 @@
+Boh, ci sono i 35 bug noti sulla pagina di segnalazioni ma se usi wayland filtri i peggiori, non mi sembrano un big deal

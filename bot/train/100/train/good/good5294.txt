@@ -1,0 +1,1 @@
+[{'type': 'mention', 'text': '@OnlyDemor'}, ' ma eri tu al corso di IA con il thinkpad con i3?']

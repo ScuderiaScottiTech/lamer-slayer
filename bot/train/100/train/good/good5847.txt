@@ -1,0 +1,1 @@
+perchè in un sistema di messaggistica, basato su utenti e su chat, il db relazionale mi sembra decisamente più utile

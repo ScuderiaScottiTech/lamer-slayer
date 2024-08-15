@@ -1,0 +1,1 @@
+[{'type': 'mention', 'text': '@nulled_space'}, " sei sparito da telegram perchè hai ricevuto una sentenza che ti proibiva l'accesso a internet durante i tuoi domiciliari? tipo in america?"]

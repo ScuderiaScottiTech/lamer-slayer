@@ -1,0 +1,1 @@
+['disponibilità di combo UHQ \n', {'type': 'mention', 'text': '@loschizzofrenico'}, ' per info']

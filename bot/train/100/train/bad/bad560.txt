@@ -1,0 +1,1 @@
+[{'type': 'bold', 'text': 'Dice il saggio:'}, "\nChi non trovò ombra nell'estate, che Dio provvede al resto."]

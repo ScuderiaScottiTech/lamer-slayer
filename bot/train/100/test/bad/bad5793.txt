@@ -1,0 +1,1 @@
+['Mandala a ', {'type': 'mention', 'text': '@GnuYessMan'}]

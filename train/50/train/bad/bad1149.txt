@@ -1,0 +1,1 @@
+[{'type': 'mention_name', 'text': '~Spar', 'user_id': 680674121}, ' ha unwarnato ', {'type': 'mention_name', 'text': 'Pietro ☬', 'user_id': 160598362}, ' (', {'type': 'code', 'text': '0/6'}, ' warns)']

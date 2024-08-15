@@ -1,0 +1,1 @@
+['che parto scrivere tutte le integrazioni api di powerdns per gli edit degli rrset, vorrei avere un pietroslave che lo facesse per me ', {'type': 'mention', 'text': '@stack_smash'}, '  😢']

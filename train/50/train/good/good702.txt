@@ -1,0 +1,1 @@
+['Che ho ', {'type': 'phone', 'text': '374737473'}, ' beghe legali ancora aperte']

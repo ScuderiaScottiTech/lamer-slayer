@@ -1,0 +1,1 @@
+['Seh sono diretti a Microsoft mica a ', {'type': 'link', 'text': 'indiano.com'}]

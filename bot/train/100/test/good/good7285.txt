@@ -1,0 +1,1 @@
+['Vediamo che dice ', {'type': 'mention', 'text': '@savethekiddes'}]

@@ -1,0 +1,1 @@
+['secondo voi è un buon investimento comprare una vps e farci installare scuderiaos desktop da lucadev? ', {'type': 'mention', 'text': '@GnuYessMan'}, '']

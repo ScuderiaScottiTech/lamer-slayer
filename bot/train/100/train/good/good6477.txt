@@ -1,0 +1,1 @@
+[{'type': 'mention_name', 'text': '@Luca_C1VHosting', 'user_id': 766254943}, ' [', {'type': 'code', 'text': '766254943'}, '] bannato.']

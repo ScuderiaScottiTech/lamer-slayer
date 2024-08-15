@@ -1,0 +1,1 @@
+[{'type': 'link', 'text': 'https://blog.alexellis.io/docker-is-deleting-open-source-images/?ref=noted'}]

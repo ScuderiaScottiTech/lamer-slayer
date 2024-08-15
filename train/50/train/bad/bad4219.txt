@@ -1,0 +1,1 @@
+ho un raspberry pi4 fermo da 2anni l'ho riacceso e fa boot loop

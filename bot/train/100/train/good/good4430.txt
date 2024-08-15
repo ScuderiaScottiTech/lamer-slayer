@@ -1,0 +1,1 @@
+avresti qualche fonte su cui iniziare cybersec? su C e C++ si trova facilmente qualcosa, al contrario della cybersec che si trovano alcuni walk-through però la maggior parte prevedono anche delle conoscenze sempre di cybersecurity più base ed elementari e non saprei una fonte abbastanza valida da cui partire

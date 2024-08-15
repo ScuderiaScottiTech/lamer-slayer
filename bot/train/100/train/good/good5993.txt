@@ -1,0 +1,1 @@
+la logica degli algoritmi è molto riduttivo,non puoi non sapere cosa sia un puntatore,come viene allocata la memoria,un tipo generico etc

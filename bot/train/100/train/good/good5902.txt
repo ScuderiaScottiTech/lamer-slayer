@@ -1,0 +1,1 @@
+Guarda che 20 mil i/o e 80 gb significa 10k messaggi giornalieri

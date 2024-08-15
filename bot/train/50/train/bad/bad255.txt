@@ -1,0 +1,1 @@
+['Techs:\n\n.info\n.async\n.ping\n.spam\n.LIBERO!', {'type': 'bot_command', 'text': '/FINE_LIBERO'}, '!\n\n.help']

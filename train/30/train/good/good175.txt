@@ -1,0 +1,1 @@
+['perché il cert usa come domain ', {'type': 'link', 'text': 'fritz.box'}, ' (interno) ed ho la mia CA interna']

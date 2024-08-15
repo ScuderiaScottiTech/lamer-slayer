@@ -1,0 +1,3 @@
+i modelli relazionali sono più adatti per l'80% degli use-case, quindi più comodi. Non ho mai adottato e non inizierò oggi ad adottare la filosofia
+del geek che dice "gent00000 è meglio pkè compilo il kernellll!!!!!" 
+se un sistema funziona bene, è mantenuto, scalabile e offre le stesse soluzioni ma con un effort minore, non faccio l'alternativo, uso quello che più fitta le mie esigenze

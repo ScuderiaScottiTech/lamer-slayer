@@ -1,0 +1,1 @@
+['Comunque volevo informare il mondo che mi sono convertito a neovim per i programmini di carattere algoritmico piccolini, è molto godurioso ', {'type': 'mention', 'text': '@DumbMahreeo'}, ' aveva ragione']

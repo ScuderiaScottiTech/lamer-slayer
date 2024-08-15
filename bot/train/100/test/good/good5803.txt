@@ -1,0 +1,1 @@
+['Mongodb è per mongoloidi ', {'type': 'bot_command', 'text': '/s'}, '']

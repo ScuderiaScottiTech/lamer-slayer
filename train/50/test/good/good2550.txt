@@ -1,0 +1,3 @@
+Sto cercando di ridurre la partizione di KDE Neon ma ogni volta la live si inchioda durante l'esecuzione di resize2fs.
+
+Ho provato una live di KDE ed una di Lubuntu

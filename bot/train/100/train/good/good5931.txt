@@ -1,0 +1,1 @@
+Nella serverless, per restare pertinenti, abbiamo Vercel e Astra. Nel server DigitalOcean

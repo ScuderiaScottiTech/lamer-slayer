@@ -1,0 +1,1 @@
+[{'type': 'mention', 'text': '@Gius_00'}, ' ho sentito che hai cambiato isp a casa xD']

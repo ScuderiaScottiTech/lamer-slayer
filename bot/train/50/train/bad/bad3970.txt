@@ -1,0 +1,1 @@
+rimedi per ridurre l'io delay su proxmox ?
