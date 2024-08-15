@@ -3,6 +3,7 @@ import os
 import re
 import shutil
 import string
+import sys
 import tensorflow as tf
 
 from tensorflow import keras
@@ -12,8 +13,11 @@ from keras._tf_keras.keras import losses
 import numpy as np
 from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay, classification_report
 
-train_dir = "/home/spar/code/beef/train/scam/train"
-test_dir = "/home/spar/code/beef/train/scam/test"
+natural_processing_dir = sys.argv[1]
+train_dir = f"{natural_processing_dir}/train"
+test_dir = f"{natural_processing_dir}/test"
+
+# settings
 batch_size = 32
 seed = 42
 max_features = 10000
@@ -84,6 +88,8 @@ model.compile(
     optimizer='adam',
     metrics=[tf.metrics.BinaryAccuracy(threshold=0.5)]
 )
+
+print("beginning training")
 history = model.fit(
     train_ds,
     validation_data=val_ds,
