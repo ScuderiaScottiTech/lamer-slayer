@@ -9,8 +9,8 @@ def split_into_files(target_dir: str, prefix: str, messages: dict, delete_dir=Fa
     try:
         os.mkdir(target_dir)
     except FileExistsError:
-        print("Error!! target dir exists you may be overwriting an existing dataset")
-        exit(1)
+        print("Warning: target dir exists you may be overwriting an existing dataset. Not creating.")
+        # exit(1)
     
     for index, v in enumerate(messages.values()):
         f = open(f"{target_dir}/{prefix}-{index}.txt", "x")

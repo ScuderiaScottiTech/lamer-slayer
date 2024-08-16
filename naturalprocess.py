@@ -68,7 +68,7 @@ train_ds = train_ds.cache().prefetch(buffer_size=AUTOTUNE)
 val_ds = val_ds.cache().prefetch(buffer_size=AUTOTUNE)
 test_ds = test_ds.cache().prefetch(buffer_size=AUTOTUNE)
 
-hidden_units = 2
+hidden_units = 8
 
 model = tf.keras.Sequential([
     layers.Embedding(max_features, embedding_dim),
@@ -81,7 +81,7 @@ model = tf.keras.Sequential([
 )
 
 
-epochs = 70 # 84 is the sweet spot with 50 dataset
+epochs = 60 # 84 is the sweet spot with 50 dataset
 model.compile(
     loss=losses.BinaryCrossentropy(),
     optimizer='adam',

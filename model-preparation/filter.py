@@ -1,5 +1,7 @@
 import sys
 
+bad_user_commands = ["/ban", ".ban", "/warn", ".warn", "/mute", ".mute", "/regime", ".regime", "/saliera", ".saliera"]
+
 def filter_message(message: str, strip_emoji=False):
     message = message \
         .replace('\n', '') \

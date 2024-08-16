@@ -46,7 +46,7 @@ for msg in dataset["messages"]:
 
 # filter out messages from banned ids
 messages = {k: v for k, v in messages.items() if v["userid"] not in banned_ids}
-messages = messages[-max_messages:]
+messages = dict(list(messages.items())[-max_messages:])
 
 output_directory = sys.argv[2]
 split.split_into_files(output_directory, os.path.basename(dataset_filepath), messages)
