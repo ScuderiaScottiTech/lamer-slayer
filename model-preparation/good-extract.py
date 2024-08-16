@@ -1,6 +1,9 @@
 import json, sys
 import filter
 
+# TODO:
+# Write to file(s) (one for each line, i.e. msg)
+
 bad_user_commands = ["/ban", ".ban", "/warn", ".warn", "/mute", ".mute"]
 adminIds = [
     "user680674121",    #spat

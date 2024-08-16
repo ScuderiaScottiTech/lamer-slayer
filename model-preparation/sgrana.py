@@ -7,28 +7,19 @@ import json, sys, os
 chat_export_dir = sys.argv[1]
 MSG_PRE_BAN = int(sys.argv[2])
 
-try:
-    os.rmdir("good")
-    os.rmdir("bad")
-except FileNotFoundError:
-    pass
-
-os.mkdir('bad')
-os.mkdir('good')
-
 adminIds = [
-    "user680674121",    #spat
-    "user160598362",    #pietrodev vecchio
-    "user6640826178",   #pietrodev nuovo
-    "user242808656",    #godde 
-    "user399555502",    #notty
-    "user1412637208",   #alpha
-    "user374247068",    #exploiter
-    "channel1445413335" #lol
+    # "user680674121",    #spat
+    # "user160598362",    #pietrodev vecchio
+    # "user6640826178",   #pietrodev nuovo
+    # "user242808656",    #godde 
+    # "user399555502",    #notty
+    # "user1412637208",   #alpha
+    # "user374247068",    #exploiter
+    # "channel1445413335" #lol
     #infosec
-    # "user5666776330",
-    # "user228641220",
-    # "user231705046"
+    "user5666776330",
+    "user228641220",
+    "user231705046"
 ]
 banSlashCommands = [
     "/mute",
@@ -90,7 +81,7 @@ for file in os.listdir(chat_export_dir):
                 filecounter_index += 1
                 f.close()
             lastIndex -= 1
-        iters += 1
+            # iters += 1 # Uncommentare se si vuole prendere solo messaggi recenti max 1000 dal ban
     # f_tot.close()
 
 # Prendi gli ultimi N messaggi dalla fine di scuderia esclusi i messaggi che precedono un ban
