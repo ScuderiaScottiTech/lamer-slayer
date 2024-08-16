@@ -134,7 +134,7 @@ def predict(text):
         print("GOOD")
         the_sentence = True
     print("-----------------")
-0.9325 
+
 app = Client("c1vtoccibot")
 
 @app.on_message(filters.text & filters.group)

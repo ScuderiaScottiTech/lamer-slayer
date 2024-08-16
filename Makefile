@@ -1,8 +1,8 @@
 CHATS 		:= $(wildcard chat-exports/*.json)
 WHITELIST 	:= chat-exports/scuderia.json chat-exports/rustita.json
 
-LAST_BAD_MESSAGES_FOR_USER ?= 30
-LAST_GOOD_MESSAGES ?= 3250
+LAST_BAD_MESSAGES_FOR_USER ?= 50
+LAST_GOOD_MESSAGES ?= 5000
 
 TRAIN_DIR ?= ./train
 

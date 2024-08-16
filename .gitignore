@@ -12,10 +12,9 @@ train/infosec
 infosecdataset/
 .venv/
 **/.venv/
-bot/*.session
-bot/*.session-journal
+**/*.session
+**/*.session-journal
 **/__pycache__
 chat-exports/*.json
 models/*
-
 train/

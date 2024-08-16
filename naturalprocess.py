@@ -1,11 +1,9 @@
 import matplotlib.pyplot as plt
-import os
-import re
 import shutil
-import string
 import sys
 import tensorflow as tf
 import random
+import shutil
 
 from tensorflow import keras
 from keras._tf_keras.keras import layers
@@ -23,20 +21,23 @@ max_features = 10000
 sequence_length = 150
 embedding_dim = 16
 
-
 raw_training_dataset, raw_validation_dataset = tf.keras.utils.text_dataset_from_directory(
     dataset_dir,
     batch_size=batch_size,
     validation_split=0.2,
     subset="both",
-    seed=int(random.random()*500),
+    # seed=int(random.random()*500),
+    seed = seed
 )
+
+shutil.rmtree('models/saved_data/rawtrain', ignore_errors=True)
+tf.data.experimental.save(raw_training_dataset, 'models/saved_data/rawtrain')
 
 # take first 1000 elements for testing
 raw_test_dataset = raw_validation_dataset.take(10)
 raw_validation_dataset = raw_validation_dataset.skip(10)
 
-print(raw_test_dataset)
+print(raw_training_dataset)
 
 print("Test dataset size:", raw_test_dataset.cardinality())
 print("Validation dataset size:", raw_validation_dataset.cardinality())
@@ -81,7 +82,6 @@ model = tf.keras.Sequential([
     layers.Dense(1, activation='sigmoid')]
 )
 
-
 epochs = 200 # 84 is the sweet spot with 50 dataset
 model.compile(
     loss=losses.BinaryCrossentropy(),
@@ -90,7 +90,7 @@ model.compile(
 )
 model.summary()
 
-stopping = keras.callbacks.EarlyStopping(monitor="val_loss", patience=5)
+stopping = keras.callbacks.EarlyStopping(monitor="val_loss", patience=4)
 
 print("beginning training")
 history = model.fit(
@@ -170,6 +170,7 @@ examples = [
     ["Ho installato Kali ma non so farlo funzionare"],
     # ["Come entro nel profilo di Gianni Morandi di Instagram"],
     ["Vi faccio vedere il mio progetto su GitHub"],
-    ["Ciao ragazzi cosa ne pensate delle equazioni differenziali"]
+    ["Ciao ragazzi cosa ne pensate delle equazioni differenziali"],
+    ["Ciao ragazzi cosa ne pensate di nextjs"]
 ]
 predict(examples)

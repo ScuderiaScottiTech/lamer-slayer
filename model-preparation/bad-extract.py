@@ -83,7 +83,6 @@ messages = {}
 # for user_id, message_id in bannedUsersIds.items():
 #     bad_messages |= {id: messages[id] for id in range(int(message_id) - MSG_PRE_BAN, int(message_id)) if id in messages and messages[id]["userid"] == user_id }
 
-
 for msg in data["messages"]:
     #mesaggio deve essere vettore perché lo prende come un comando bot 
     #prendere la prima entry che dev'essere un dizionario
@@ -127,6 +126,5 @@ for (userId, msgId, lastIndex) in bannedUsersIds_Index:
         # iters += 1 # Uncommentare se si vuole prendere solo messaggi recenti max 1000 dal ban
 # f_tot.write(str(messages))
 # f_tot.close()
-
 
 split.split_into_files(output_directory, os.path.basename(filename), messages)  
