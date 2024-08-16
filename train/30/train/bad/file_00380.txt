@@ -1,1 +1,1 @@
-[{'type': 'bot_command', 'text': '/dadoh'}]
+Wuagliu porcodio chi cazzo é sto demor

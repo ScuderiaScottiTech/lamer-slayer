@@ -1,1 +1,1 @@
-CI STANNO TRACCIANDO
+[{'type': 'mention', 'text': '@sandral37'}, ' i soldi virtuali bro']

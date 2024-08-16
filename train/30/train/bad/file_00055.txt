@@ -1,1 +1,1 @@
-BONOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+[{'type': 'bot_command', 'text': '/saliera'}]

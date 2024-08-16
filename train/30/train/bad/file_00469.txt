@@ -1,1 +1,1 @@
-['.unban ', {'type': 'mention', 'text': '@iosiquevalez'}]
+Non si può?

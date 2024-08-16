@@ -1,1 +1,1 @@
-nessuno in particolare
+[{'type': 'mention', 'text': '@admin'}]

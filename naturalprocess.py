@@ -13,9 +13,7 @@ from keras._tf_keras.keras import losses
 import numpy as np
 from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay, classification_report
 
-natural_processing_dir = sys.argv[1]
-train_dir = f"{natural_processing_dir}/train"
-test_dir = f"{natural_processing_dir}/test"
+dataset_dir = sys.argv[1]
 
 # settings
 batch_size = 32
@@ -24,29 +22,24 @@ max_features = 10000
 sequence_length = 150
 embedding_dim = 16
 
-raw_train_ds = tf.keras.utils.text_dataset_from_directory(
-    train_dir,
-    batch_size=batch_size,
-    validation_split=0.2,
-    subset='training',
-    seed=seed
+
+raw_training_dataset, raw_validation_dataset = tf.keras.utils.text_dataset_from_directory(
+    dataset_dir,
+    batch_size=16,
+    validation_split=0.25,
+    subset="both",
+    seed=seed,
 )
 
-print("Label 0 corresponds to", raw_train_ds.class_names[0])
-print("Label 1 corresponds to", raw_train_ds.class_names[1])
+# take first 1000 elements for testing
+raw_test_dataset = raw_validation_dataset.take(10)
+raw_validation_dataset = raw_validation_dataset.skip(10)
 
-raw_val_ds = tf.keras.utils.text_dataset_from_directory(
-    train_dir,
-    batch_size=batch_size,
-    validation_split=0.2,
-    subset='validation',
-    seed=seed
-)
+print("Test dataset size:", raw_test_dataset.cardinality())
+print("Validation dataset size:", raw_validation_dataset.cardinality())
 
-raw_test_ds = tf.keras.utils.text_dataset_from_directory(
-    test_dir, 
-    batch_size=batch_size
-)
+print("Label 0 corresponds to", raw_training_dataset.class_names[0])
+print("Label 1 corresponds to", raw_training_dataset.class_names[1])
 
 vectorize_layer = layers.TextVectorization(
     standardize="strip_punctuation",
@@ -55,7 +48,7 @@ vectorize_layer = layers.TextVectorization(
     output_sequence_length=sequence_length
 )
 
-train_text = raw_train_ds.map(lambda x, y: x)
+train_text = raw_training_dataset.map(lambda x, y: x)
 # OUT_OF_RANGE warning. This is the shit the docs gave to us. "This is expected behavior"
 # "adapt() will run until the input dataset is exhausted"
 vectorize_layer.adapt(train_text)
@@ -64,30 +57,35 @@ def vectorize_text(text, label):
     text = tf.expand_dims(text, -1)
     return vectorize_layer(text), label
 
-train_ds = raw_train_ds.map(vectorize_text)
-val_ds = raw_val_ds.map(vectorize_text)
-test_ds = raw_test_ds.map(vectorize_text)
+train_ds = raw_training_dataset.map(vectorize_text)
+val_ds = raw_validation_dataset.map(vectorize_text)
+test_ds = raw_test_dataset.map(vectorize_text)
 
 AUTOTUNE = tf.data.AUTOTUNE
 train_ds = train_ds.cache().prefetch(buffer_size=AUTOTUNE)
 val_ds = val_ds.cache().prefetch(buffer_size=AUTOTUNE)
 test_ds = test_ds.cache().prefetch(buffer_size=AUTOTUNE)
 
+hidden_units = 3
+
 model = tf.keras.Sequential([
     layers.Embedding(max_features, embedding_dim),
     layers.Dropout(0.2),
     layers.GlobalAveragePooling1D(),
     layers.Dropout(0.2),
+    # layers.Dense(hidden_units, activation='relu'),
+    # layers.Dropout(0.2),
     layers.Dense(1, activation='sigmoid')]
 )
-model.summary()
 
-epochs = 75 # 84 is the sweet spot with 50 dataset
+
+epochs = 60 # 84 is the sweet spot with 50 dataset
 model.compile(
     loss=losses.BinaryCrossentropy(),
     optimizer='adam',
     metrics=[tf.metrics.BinaryAccuracy(threshold=0.5)]
 )
+model.summary()
 
 print("beginning training")
 history = model.fit(
@@ -137,6 +135,7 @@ def predict(text):
         print("Considering message:", message)
         vectorized_text = vectorize_layer(message)
         result = model.predict(vectorized_text)
+        print("full result: ", result)
         result = result[0][0]
         confidence = 0
         if result >= 0.5:
@@ -156,6 +155,8 @@ def predict(text):
 examples = [
     ["cerco cc scrivetemi in pm per info"],
     ["Ragazzi volevo condividere con voi un progetto di Microsoft che si è rivelato ottimo!"],
+    ["Ciao ragazzi sono Pietro e sviluppo in Rust"],
+    ["Voglio uccidere tutti vi ammazzo uno ad uno"],
     ["l'unico tossico sei tu chissà che cazzo ti cali per stare messo così"]
 ]
 predict(examples)

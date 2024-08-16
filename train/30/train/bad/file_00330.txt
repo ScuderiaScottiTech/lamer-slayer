@@ -1,1 +1,1 @@
-[{'type': 'bot_command', 'text': '/saliera'}]
+(In realtà non ho idea di cosa voi state parlando, però va bene sto al gioco)

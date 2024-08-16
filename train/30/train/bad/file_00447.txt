@@ -1,1 +1,1 @@
-❤️
+[{'type': 'custom_emoji', 'text': '🔴', 'document_id': 'video_files/sticker (1).webm'}, 'Gift zalando 35% ', {'type': 'custom_emoji', 'text': '🔴', 'document_id': 'video_files/sticker (1).webm'}, '\n\nTagli da 500-750-1000 \nScrivetemi solo se volete comprare \nEscrow Obbligatorio ', {'type': 'custom_emoji', 'text': '✅', 'document_id': 'video_files/sticker (2).webm'}, '\n', {'type': 'mention', 'text': '@myboicarti'}, '']

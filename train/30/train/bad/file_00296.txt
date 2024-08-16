@@ -1,1 +1,1 @@
-Giusto
+['cmq ', {'type': 'mention', 'text': '@Chicchi7393'}, ' mandami il nick di quella persona e chiedo a hole di darmi informazioni, poi ti farò sapere']

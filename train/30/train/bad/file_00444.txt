@@ -1,1 +1,1 @@
-['.unban ', {'type': 'mention', 'text': '@iosiquevalez'}]
+infatti non uso windows

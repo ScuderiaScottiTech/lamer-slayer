@@ -1,1 +1,1 @@
-MOCC A MAMMT
+['Pippo Baudo ❄️ (', {'type': 'mention', 'text': '@IoSiQueVales'}, ") ha spammato un gruppo... vergogna. TE SPETA N'warnato (", {'type': 'code', 'text': '2'}, '/', {'type': 'code', 'text': '6'}, ' warns)']

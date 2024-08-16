@@ -1,1 +1,1 @@
-['.unban ', {'type': 'mention', 'text': '@IoSiQueVales'}]
+leggi la conversione dall'inizio

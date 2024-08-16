@@ -1,1 +1,1 @@
-Non mi importa
+[{'type': 'bold', 'text': 'Canale già presente in lista!'}, '❌']

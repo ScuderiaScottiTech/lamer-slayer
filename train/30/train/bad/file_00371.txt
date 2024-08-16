@@ -1,1 +1,1 @@
-['.unsaliera ', {'type': 'mention', 'text': '@markinovbot'}]
+svegliatevi

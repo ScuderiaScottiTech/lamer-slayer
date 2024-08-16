@@ -1,1 +1,1 @@
-['.unsaliera ', {'type': 'mention', 'text': '@markinovbot'}]
+non è un linguaggio ignorante

@@ -1,1 +1,1 @@
-['.unban ', {'type': 'mention', 'text': '@iosiquevalez'}]
+ma infatti qi di 0

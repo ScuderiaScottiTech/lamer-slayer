@@ -1,1 +1,1 @@
-['.unsaliera ', {'type': 'mention', 'text': '@markinovbot'}]
+quella roba là di uniswap

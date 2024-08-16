@@ -1,1 +1,1 @@
-['.unban ', {'type': 'mention', 'text': '@iosiquevales'}]
+Scusate
