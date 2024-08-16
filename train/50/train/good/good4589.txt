@@ -1,1 +1,0 @@
-mi sembri basti eliminare la cartella della cache che sta sotto Library, quindi /Library/Caches

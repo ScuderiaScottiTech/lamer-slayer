@@ -1,3 +1,0 @@
-Del tipo:
-Cookie: session=true;
-E bypassi tutto

@@ -1,1 +1,0 @@
-Update pare che la risposta sia sì, con 12V sulla principale e segnale PWM sulle rail dei colori si accende poco poco poco

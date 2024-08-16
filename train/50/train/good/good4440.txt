@@ -1,2 +1,0 @@
-Pretty on point! 
-Sta ultimo perchè lo vedo un po' come un python evoluto, è poco flessibile non mi piace come cerca di rimediare a non avere la OOP, la gestione degli errori fa schifo e quella della memoria ancora di più con il suo garbage collector schifoso, tuttavia, per me resta comunque un'ottima scelta su programmi che non hanno bisogno di un'efficienza estrema (ma comunque solida) e che siano in un contesto di alto livello (spesso networking, api, gui...)

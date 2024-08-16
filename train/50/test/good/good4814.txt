@@ -1,1 +1,0 @@
-Di solito non è una cosa che si fa con bit-banging ma ci sono delle periferiche hardware specificatamente disegnate per gestirti tutta la parte dei clock e dei segnali di sincronizzazione

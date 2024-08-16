@@ -1,1 +1,0 @@
-Ho 13 verifiche su 16 materie in 8 giorni, 2 progetti dove devo reimplementare un intera blockchain custom in java che nemmeno l'ho mai praticamente usato e in tutto ciò ho creato un virtualizzatore con istruzioni custom in powershell e vbnet

@@ -1,1 +1,0 @@
-Sapete perché se apro una porta sul router non risulta aperta se controllo con appositi tool (se la porta è aperta o meno)?

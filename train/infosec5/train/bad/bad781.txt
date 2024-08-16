@@ -1,5 +1,0 @@
-Buongiorno, vi espongo un problema a cui non sono in grado di dare una soluzione.
-L'università bicocca per le lezioni registrate utilizza il portale di Bicocca didattica.
-Ero interessato a capire come velocizzare il video nei momenti morti o nelle pause ma il sito utilizzato non lo permette. 
-Ho provato tantissime estensioni del browser e addirittura a scaricare i video con qualche programma ma purtroppo non riesco a risolvere.
-Qualcuno che ha trovato già in passato una soluzione ad un problema simile?

@@ -1,1 +1,0 @@
-che poi io stavo iterando una cartella e mi dava che il directory entry era una cartella readonly, che mi pare di non aver visto nelle docs di microsoft

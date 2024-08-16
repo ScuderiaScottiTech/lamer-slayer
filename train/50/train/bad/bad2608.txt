@@ -1,1 +1,0 @@
-ma poi come faccio a non incazzarmi con lang del genere dio porco "Option::None" e se metto none su parameter pointer mi da errore

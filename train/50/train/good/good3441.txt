@@ -1,1 +1,0 @@
-[{'type': 'mention', 'text': '@FrogsLover'}, ' non sapevo che tu fossi senior admin di coral']

@@ -1,1 +1,0 @@
-Suite cuda disponibile per amd

@@ -1,1 +1,0 @@
-comunque è tutto basato sulla logica d'utilizzo, se il tuo progetto può basarsi su un SQL, io utilizzerei un classico db relazionale, se invece hai in mente di basarlo su schemi meno tradizionali, vai su altro

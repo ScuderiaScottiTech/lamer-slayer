@@ -1,1 +1,0 @@
-bisogna mettere più codice possibile, o regex che riportano ad un hello world che in realtà poi esegue un altro script che porta a termine il job

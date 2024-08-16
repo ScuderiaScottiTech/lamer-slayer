@@ -1,1 +1,0 @@
-[{'type': 'bold', 'text': 'Errore:'}, ' Questo utente è amministratore del gruppo.']

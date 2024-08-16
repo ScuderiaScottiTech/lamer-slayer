@@ -1,1 +1,0 @@
-['È un nome gnu? ', {'type': 'mention', 'text': '@SparBTW'}, '']

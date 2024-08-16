@@ -1,1 +1,0 @@
-Un modulo ddr5, a 4000mt/s a C40 performa un 10~% meglio rispetto ad un modulo DDR4 3200mhz C15

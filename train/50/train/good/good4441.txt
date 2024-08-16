@@ -1,1 +1,0 @@
-sisi asm è troppo di basso livello per lavorarci seriamente per programmazione di componenti hw o interfacciamento con sistemi embedded o semplicemente componenti hw del computer, ad esempio la creazione di driver

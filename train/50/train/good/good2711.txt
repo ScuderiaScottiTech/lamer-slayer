@@ -1,1 +1,0 @@
-['hai come reference che genere di problemi sono? tipo leetcode medium?', {'type': 'bot_command', 'text': '/hard'}, '? anche se è molto relativo']

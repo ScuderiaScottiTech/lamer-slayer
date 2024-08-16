@@ -1,12 +1,18 @@
 import sys
 
-def filter_message(message: str):
-    return message \
+def filter_message(message: str, strip_emoji=False):
+    message = message \
         .replace('\n', '') \
         .strip() \
+        
+    if strip_emoji:
+        message = message \
         .encode('ascii', 'ignore') \
         .decode('ascii')
+    
+    return message
 
+banned_types = ['code', 'link', 'pre', 'mention']
 def get_text(msg):
     composed = ""
     if type(msg["text"]) is list:
@@ -15,7 +21,7 @@ def get_text(msg):
                 composed += element
             elif type(element) is dict:
                 # ignore code segments and links
-                if element['type'] == 'code' or element['type'] == 'link':
+                if element['type'] in banned_types:
                     continue
 
                 composed += element["text"]

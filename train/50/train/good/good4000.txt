@@ -1,1 +1,0 @@
-anche se fosse su un numero di cicli maggiori è sempre da 0 a 1 per definizione

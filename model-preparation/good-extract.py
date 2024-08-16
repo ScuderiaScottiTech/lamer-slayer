@@ -1,5 +1,5 @@
-import json, sys
-import filter
+import json, sys, os
+import filter, split
 
 # TODO:
 # Write to file(s) (one for each line, i.e. msg)
@@ -16,7 +16,10 @@ adminIds = [
     "channel1445413335" #lol
 ]
 
-dataset = json.load(open(sys.argv[1]))
+dataset_filepath = sys.argv[1]
+dataset = json.load(open(dataset_filepath))
+
+max_messages = int(sys.argv[3])
 
 messages = {}
 banned_ids = {}
@@ -27,7 +30,7 @@ for msg in dataset["messages"]:
         continue
 
     # filter out unwanted characters or escapes from text
-    composed = filter.filter_message(composed)
+    composed = filter.filter_message(composed, strip_emoji=True)
 
     bad_command = ""
     for buc in bad_user_commands:
@@ -43,4 +46,8 @@ for msg in dataset["messages"]:
 
 # filter out messages from banned ids
 messages = {k: v for k, v in messages.items() if v["userid"] not in banned_ids}
-print(messages)
+messages = messages[-max_messages:]
+
+output_directory = sys.argv[2]
+split.split_into_files(output_directory, os.path.basename(dataset_filepath), messages)
+# print(messages)

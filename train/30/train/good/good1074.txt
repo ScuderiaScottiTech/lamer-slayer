@@ -1,1 +1,0 @@
-Io se streammo osu sopra il 720p saturo la vram della GPU ed il gioco aumenta il frame time da 1ms a 15ms

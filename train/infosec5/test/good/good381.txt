@@ -1,1 +1,0 @@
-Io lo uso per le mie note con markdown + sync automatico tramite Google o Nextcloud

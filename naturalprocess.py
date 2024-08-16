@@ -35,6 +35,8 @@ raw_training_dataset, raw_validation_dataset = tf.keras.utils.text_dataset_from_
 raw_test_dataset = raw_validation_dataset.take(10)
 raw_validation_dataset = raw_validation_dataset.skip(10)
 
+print(raw_test_dataset)
+
 print("Test dataset size:", raw_test_dataset.cardinality())
 print("Validation dataset size:", raw_validation_dataset.cardinality())
 
@@ -66,7 +68,7 @@ train_ds = train_ds.cache().prefetch(buffer_size=AUTOTUNE)
 val_ds = val_ds.cache().prefetch(buffer_size=AUTOTUNE)
 test_ds = test_ds.cache().prefetch(buffer_size=AUTOTUNE)
 
-hidden_units = 3
+hidden_units = 2
 
 model = tf.keras.Sequential([
     layers.Embedding(max_features, embedding_dim),
@@ -79,7 +81,7 @@ model = tf.keras.Sequential([
 )
 
 
-epochs = 60 # 84 is the sweet spot with 50 dataset
+epochs = 70 # 84 is the sweet spot with 50 dataset
 model.compile(
     loss=losses.BinaryCrossentropy(),
     optimizer='adam',
@@ -106,8 +108,11 @@ val_acc = history_dict['val_binary_accuracy']
 loss = history_dict['loss']
 val_loss = history_dict['val_loss']
 epochs = range(1, len(acc) + 1)
-plt.plot(epochs, loss, 'bo', label='Training loss')
-plt.plot(epochs, val_loss, 'b', label='Validation loss')
+plt.plot(epochs, loss, 'b--', label='Training loss')
+# plt.plot(epochs, acc, 'bo', label='Training accuracy')
+plt.plot(epochs, val_loss, 'g--', label='Validation loss')
+plt.plot(epochs, val_acc, 'g', label='Validation accuracy')
+plt.plot()
 plt.title('Training and validation loss')
 plt.xlabel('Epochs')
 plt.ylabel('Loss')

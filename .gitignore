@@ -17,3 +17,5 @@ bot/*.session-journal
 **/__pycache__
 chat-exports/*.json
 models/*
+
+train/

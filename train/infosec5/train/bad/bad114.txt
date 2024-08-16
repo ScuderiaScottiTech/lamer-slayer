@@ -1,1 +1,0 @@
-La domanda è intrinsecamente ricorsiva quindi non l'ho del tutto

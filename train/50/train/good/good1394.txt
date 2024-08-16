@@ -1,7 +1,0 @@
-We somehow missed a semi-undocumented CrowdStrike EDR disable* technique that was unveiled in 2022.
-
-It requires administrative access. This makes it more difficult to perform in enterprise environments.
-
-Jonas Lyk discovered the CrowdStrike minifilter did not catch NtCreateFile when the FILE_APPEND_DATA access mask was present. It was possible to open a CrowdStrike driver with FILE_APPEND_DATA and append an additional byte to the driver opened.
-
-When rebooting the machine, the driver signature would not match and CrowdStrike would not load.

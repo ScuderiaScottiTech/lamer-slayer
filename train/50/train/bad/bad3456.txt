@@ -1,1 +1,0 @@
-da quello che mi ricordo devi: installare WSL, installare il componente kernel di WSL 2.0 e poi mettere docker desktop

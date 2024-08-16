@@ -1,1 +1,0 @@
-['non le ho scritto niente di male ', {'type': 'mention_name', 'text': 'Giulia', 'user_id': 5244784832}, ' può confermare']

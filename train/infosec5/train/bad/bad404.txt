@@ -1,1 +1,0 @@
-['Tempo fa lessi di ', {'type': 'email', 'text': 'me@rescam.org'}, ' basta inoltrargli una mail che per te sembra sospetta e quando viene verificato sia realmente scam pensa a tutto un bot']

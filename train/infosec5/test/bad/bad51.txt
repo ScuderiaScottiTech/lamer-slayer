@@ -1,1 +1,0 @@
-['Ok chiedo scusa allora...però girarsi in quel modo come ha fatto ', {'type': 'mention', 'text': '@vbextreme'}, ' e ', {'type': 'mention', 'text': '@KezioIio'}, '  no']

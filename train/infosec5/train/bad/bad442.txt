@@ -1,1 +1,0 @@
-Non riesco ad implementare la tecnica pass the hash nell autenticazione ad un OS windows

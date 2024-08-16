@@ -1,1 +1,0 @@
-che sia con embedded, che sia con software che interagisce a basso livello con il kernel... ci sono un miliardo di possibilità, secondo me è un ottimo modo per imparare tutta quella roba

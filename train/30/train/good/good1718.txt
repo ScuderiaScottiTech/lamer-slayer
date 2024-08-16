@@ -1,7 +1,0 @@
-Salve signori, sto provando a fare un po' di *hack* sulla mia schifosa striscia led proprietaria. Ci sono un po' di misteri.
-Il problema di base è che non riesco a farla accendere, o meglio:
-per un po' di testing, ho provato ad alimentare la rail +12V con il corretto pin del connettore tramite un jumper, e se faccio la stessa cosa con un altro jumper dal connettore proprietario sulle rail R/G/B, riesce ad accendersi; se invece utilizzo un segnale PWM dall'STM32 per le rail dei colori, non si accende nulla.
-Ci sono un paio di cose che non capisco:
-- Se powero la rail +12V con il PWM dell'stm (benché sia più basso di tensione, ok) e attacco una qualsiasi linea R/G/B al GND, non si degna di una minima accensione. 
-(Ho provato con un led su una breadboard e il setup va, quindi non è qualche stronzata superficiale)
-La differenza di tensione da 12 a 5 dell'stm può fare tutta questa differenza tale che non si accende proprio?

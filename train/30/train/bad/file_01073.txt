@@ -1,1 +1,0 @@
-['A volte funziona per bipassare ip ', {'type': 'mention', 'text': '@no_niente'}]

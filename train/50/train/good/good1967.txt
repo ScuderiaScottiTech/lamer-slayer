@@ -1,1 +1,0 @@
-Questo è quando scoperto che tengo un RP2040 con un pulldown rotto

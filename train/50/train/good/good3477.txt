@@ -1,4 +1,0 @@
-- Piccolo WoT su quello che sta accadendo ultimamente -
-
-Ragazzi negli ultimi mesi c'è tantissima polvere sulla figura dell'SWE. Tutti che dicono che sia una posizione in declino, che l'AI sta rendendo il programmatore meno utile e che le big tech saranno sempre più scoraggiate ad assumere i software engineer.
-Secondo me sta accadendo un po' come si fa spesso nel mercato, quando sei ai massimi storici tutti comprano, ai minimi tutti che panic sellano o guai a pensare di entrare nel mercato perché paura! Eventualmente, credo che torneranno sicuramente ad esserci periodi di "all time high" del programmatore e ora tutti stanno sparando un mondo di stronzate biased dal momento. Che ne pensate?

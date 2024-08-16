@@ -1,1 +1,0 @@
-['Raga perchè quando provo ad entrare su ', {'type': 'link', 'text': 'subito.it'}, ' spunta così? Aiutatemi perfavore']
