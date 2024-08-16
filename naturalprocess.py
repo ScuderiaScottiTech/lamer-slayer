@@ -5,6 +5,7 @@ import shutil
 import string
 import sys
 import tensorflow as tf
+import random
 
 from tensorflow import keras
 from keras._tf_keras.keras import layers
@@ -16,8 +17,8 @@ from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay, classifica
 dataset_dir = sys.argv[1]
 
 # settings
-batch_size = 32
-seed = 42
+batch_size = 16
+seed = 999
 max_features = 10000
 sequence_length = 150
 embedding_dim = 16
@@ -25,10 +26,10 @@ embedding_dim = 16
 
 raw_training_dataset, raw_validation_dataset = tf.keras.utils.text_dataset_from_directory(
     dataset_dir,
-    batch_size=16,
-    validation_split=0.25,
+    batch_size=batch_size,
+    validation_split=0.2,
     subset="both",
-    seed=seed,
+    seed=int(random.random()*500),
 )
 
 # take first 1000 elements for testing
@@ -68,7 +69,7 @@ train_ds = train_ds.cache().prefetch(buffer_size=AUTOTUNE)
 val_ds = val_ds.cache().prefetch(buffer_size=AUTOTUNE)
 test_ds = test_ds.cache().prefetch(buffer_size=AUTOTUNE)
 
-hidden_units = 8
+hidden_units = 4
 
 model = tf.keras.Sequential([
     layers.Embedding(max_features, embedding_dim),
@@ -81,7 +82,7 @@ model = tf.keras.Sequential([
 )
 
 
-epochs = 60 # 84 is the sweet spot with 50 dataset
+epochs = 200 # 84 is the sweet spot with 50 dataset
 model.compile(
     loss=losses.BinaryCrossentropy(),
     optimizer='adam',
@@ -89,10 +90,13 @@ model.compile(
 )
 model.summary()
 
+stopping = keras.callbacks.EarlyStopping(monitor="val_loss", patience=5)
+
 print("beginning training")
 history = model.fit(
     train_ds,
     validation_data=val_ds,
+    callbacks=[stopping],
     epochs=epochs
 )
 loss, accuracy = model.evaluate(test_ds)
@@ -159,9 +163,13 @@ def predict(text):
 
 examples = [
     ["cerco cc scrivetemi in pm per info"],
-    ["Ragazzi volevo condividere con voi un progetto di Microsoft che si è rivelato ottimo!"],
+    # ["Ragazzi volevo condividere con voi un progetto di Microsoft che si è rivelato ottimo!"],
     ["Ciao ragazzi sono Pietro e sviluppo in Rust"],
     ["Voglio uccidere tutti vi ammazzo uno ad uno"],
-    ["l'unico tossico sei tu chissà che cazzo ti cali per stare messo così"]
+    ["l'unico tossico sei tu chissà che cazzo ti cali per stare messo così"],
+    ["Ho installato Kali ma non so farlo funzionare"],
+    # ["Come entro nel profilo di Gianni Morandi di Instagram"],
+    ["Vi faccio vedere il mio progetto su GitHub"],
+    ["Ciao ragazzi cosa ne pensate delle equazioni differenziali"]
 ]
 predict(examples)

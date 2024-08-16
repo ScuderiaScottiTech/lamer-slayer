@@ -16,6 +16,8 @@ def split_into_files(target_dir: str, prefix: str, messages: dict, delete_dir=Fa
         f = open(f"{target_dir}/{prefix}-{index}.txt", "x")
         f.write(v["message"])
         f.close()
+    
+    print(f"Outputted {len(messages)} messages into {target_dir} for {prefix}")
 
 # if __name__ == "__main__":
 #     split_into_files(sys.argv[1])
