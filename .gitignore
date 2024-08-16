@@ -9,10 +9,10 @@ train/20
 train/70
 train/100
 train/infosec
-.venv/
-bot/.venv/
-**/*.json
-*.json
 infosecdataset/
-*.session
-*.session-journal
+.venv/
+**/.venv/
+bot/*.session
+bot/*.session-journal
+**/__pycache__
+chat-exports/*.json

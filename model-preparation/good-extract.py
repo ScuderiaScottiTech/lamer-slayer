@@ -1,4 +1,5 @@
 import json, sys
+import filter
 
 bad_user_commands = ["/ban", ".ban", "/warn", ".warn", "/mute", ".mute"]
 adminIds = [
@@ -12,26 +13,18 @@ adminIds = [
     "channel1445413335" #lol
 ]
 
-messages = {}
-banned_ids = {}
 dataset = json.load(open(sys.argv[1]))
 
-for msg in dataset["messages"]:
-    composed = ""
-    if type(msg["text"]) is list:
-        for element in msg["text"]:
-            if type(element) is str:
-                composed += element
-            elif type(element) is dict:
-                composed += element["text"]
-            else:
-                print("cannot determine type of element", type(element), msg)
-                sys.exit(1)
-    else:
-        composed = msg["text"]
+messages = {}
+banned_ids = {}
 
-    if "from_id" not in msg:
+for msg in dataset["messages"]:
+    composed = filter.get_text(msg) 
+    if composed == "" or "from_id" not in msg:
         continue
+
+    # filter out unwanted characters or escapes from text
+    composed = filter.filter_message(composed)
 
     bad_command = ""
     for buc in bad_user_commands:
@@ -45,4 +38,6 @@ for msg in dataset["messages"]:
 
     messages[msg["id"]] = { "message": composed, "userid": msg["from_id"] }
 
-print(banned_ids)
+# filter out messages from banned ids
+messages = {k: v for k, v in messages.items() if v["userid"] not in banned_ids}
+print(messages)
