@@ -11,7 +11,7 @@ from keras._tf_keras.keras import losses
 
 import numpy as np
 from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay, classification_report
-
+ 
 dataset_dir = sys.argv[1]
 
 # settings
@@ -19,15 +19,15 @@ batch_size = 16
 seed = 999
 max_features = 10000
 sequence_length = 150
-embedding_dim = 16
+embedding_dim = 8
 
 raw_training_dataset, raw_validation_dataset = tf.keras.utils.text_dataset_from_directory(
     dataset_dir,
     batch_size=batch_size,
     validation_split=0.2,
     subset="both",
-    # seed=int(random.random()*500),
-    seed = seed
+    seed=int(random.random()*500),
+    # seed = seed
 )
 
 shutil.rmtree('models/saved_data/rawtrain', ignore_errors=True)
@@ -70,14 +70,13 @@ train_ds = train_ds.cache().prefetch(buffer_size=AUTOTUNE)
 val_ds = val_ds.cache().prefetch(buffer_size=AUTOTUNE)
 test_ds = test_ds.cache().prefetch(buffer_size=AUTOTUNE)
 
-hidden_units = 4
-
 model = tf.keras.Sequential([
     layers.Embedding(max_features, embedding_dim),
-    layers.Dropout(0.2),
+    # layers.Dropout(0.2),
+    layers.Conv1D(embedding_dim, 3, activation='relu'),
     layers.GlobalAveragePooling1D(),
-    layers.Dropout(0.2),
-    # layers.Dense(hidden_units, activation='relu'),
+    # layers.Dropout(0.2),
+    layers.Dense(16, activation='relu'),
     # layers.Dropout(0.2),
     layers.Dense(1, activation='sigmoid')]
 )
@@ -88,6 +87,7 @@ model.compile(
     optimizer='adam',
     metrics=[tf.metrics.BinaryAccuracy(threshold=0.5)]
 )
+
 model.summary()
 
 stopping = keras.callbacks.EarlyStopping(monitor="val_loss", patience=4)
@@ -99,6 +99,7 @@ history = model.fit(
     callbacks=[stopping],
     epochs=epochs
 )
+
 loss, accuracy = model.evaluate(test_ds)
 print("Loss: ", loss)
 print("Accuracy: ", accuracy)
