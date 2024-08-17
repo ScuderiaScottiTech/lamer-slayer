@@ -15,11 +15,12 @@ from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay, classifica
 dataset_dir = sys.argv[1]
 
 # settings
-batch_size = 16
+batch_size = 32
 seed = 999
 max_features = 10000
 sequence_length = 150
-embedding_dim = 8
+embedding_dim = 300
+filters = 12
 
 raw_training_dataset, raw_validation_dataset = tf.keras.utils.text_dataset_from_directory(
     dataset_dir,
@@ -72,16 +73,20 @@ test_ds = test_ds.cache().prefetch(buffer_size=AUTOTUNE)
 
 model = tf.keras.Sequential([
     layers.Embedding(max_features, embedding_dim),
-    # layers.Dropout(0.2),
-    layers.Conv1D(embedding_dim, 3, activation='relu'),
-    layers.GlobalAveragePooling1D(),
-    # layers.Dropout(0.2),
-    layers.Dense(16, activation='relu'),
-    # layers.Dropout(0.2),
+    
+    layers.Conv1D(100, 3, activation='relu'),
+    # layers.GlobalMaxPooling1D(),
+    layers.Conv1D(100, 5, activation='relu'),
+    # layers.GlobalMaxPooling1D(),
+    layers.Conv1D(100, 7, activation='relu'),
+    layers.GlobalMaxPooling1D(),
+
+    # layers.Dense(16, activation='relu'),
+    layers.Dropout(0.5),
     layers.Dense(1, activation='sigmoid')]
 )
 
-epochs = 200 # 84 is the sweet spot with 50 dataset
+epochs = 10 # 84 is the sweet spot with 50 dataset
 model.compile(
     loss=losses.BinaryCrossentropy(),
     optimizer='adam',
@@ -90,7 +95,7 @@ model.compile(
 
 model.summary()
 
-stopping = keras.callbacks.EarlyStopping(monitor="val_loss", patience=4)
+stopping = keras.callbacks.EarlyStopping(monitor="val_loss", patience=3)
 
 print("beginning training")
 history = model.fit(
@@ -164,14 +169,13 @@ def predict(text):
 
 examples = [
     ["cerco cc scrivetemi in pm per info"],
-    # ["Ragazzi volevo condividere con voi un progetto di Microsoft che si è rivelato ottimo!"],
     ["Ciao ragazzi sono Pietro e sviluppo in Rust"],
     ["Voglio uccidere tutti vi ammazzo uno ad uno"],
     ["l'unico tossico sei tu chissà che cazzo ti cali per stare messo così"],
     ["Ho installato Kali ma non so farlo funzionare"],
-    # ["Come entro nel profilo di Gianni Morandi di Instagram"],
     ["Vi faccio vedere il mio progetto su GitHub"],
-    ["Ciao ragazzi cosa ne pensate delle equazioni differenziali"],
-    ["Ciao ragazzi cosa ne pensate di nextjs"]
+    ["Ciao ragazzi cosa ne pensate di nextjs"],
+    ["Ahahah"],
+    ["Andatemi a mettere una star sul progetto"]
 ]
 predict(examples)
