@@ -31,6 +31,8 @@ for msg in dataset["messages"]:
 
     # filter out unwanted characters or escapes from text
     composed = filter.filter_message(composed, strip_emoji=True)
+    if composed == '':
+        continue
 
     bad_command = ""
     for buc in bad_user_commands:
@@ -48,6 +50,9 @@ for msg in dataset["messages"]:
 messages = {k: v for k, v in messages.items() if v["userid"] not in banned_ids}
 messages = dict(list(messages.items())[-max_messages:])
 
+splitted = os.path.basename(dataset_filepath).split('.')
+label = splitted[0]
+name = splitted[1]
+
 output_directory = sys.argv[2]
-split.split_into_files(output_directory, os.path.basename(dataset_filepath), messages)
-# print(messages)
+split.output_file(f"{output_directory}/label/", name, messages)

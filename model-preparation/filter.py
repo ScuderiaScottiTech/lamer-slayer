@@ -9,8 +9,8 @@ def filter_message(message: str, strip_emoji=False):
         
     if strip_emoji:
         message = message \
-        .encode('ascii', 'ignore') \
-        .decode('ascii')
+        .encode('latin-1', 'ignore') \
+        .decode('latin-1')
     
     return message
 

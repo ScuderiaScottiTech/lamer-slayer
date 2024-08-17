@@ -16,11 +16,8 @@ dataset_dir = sys.argv[1]
 
 # settings
 batch_size = 32
-seed = 999
 max_features = 10000
 sequence_length = 150
-embedding_dim = 300
-filters = 12
 
 raw_training_dataset, raw_validation_dataset = tf.keras.utils.text_dataset_from_directory(
     dataset_dir,
@@ -59,7 +56,7 @@ train_text = raw_training_dataset.map(lambda x, y: x)
 vectorize_layer.adapt(train_text)
 
 def vectorize_text(text, label):
-    text = tf.expand_dims(text, -1)
+    text = tf.expand_dims(text, -1) # Punto (stringa) -> Vettore
     return vectorize_layer(text), label
 
 train_ds = raw_training_dataset.map(vectorize_text)
@@ -72,13 +69,11 @@ val_ds = val_ds.cache().prefetch(buffer_size=AUTOTUNE)
 test_ds = test_ds.cache().prefetch(buffer_size=AUTOTUNE)
 
 model = tf.keras.Sequential([
-    layers.Embedding(max_features, embedding_dim),
+    layers.Embedding(max_features, 200),
     
     layers.Conv1D(100, 3, activation='relu'),
-    # layers.GlobalMaxPooling1D(),
     layers.Conv1D(100, 5, activation='relu'),
-    # layers.GlobalMaxPooling1D(),
-    layers.Conv1D(100, 7, activation='relu'),
+    layers.Conv1D(100, 6, activation='relu'),
     layers.GlobalMaxPooling1D(),
 
     # layers.Dense(16, activation='relu'),
@@ -176,6 +171,7 @@ examples = [
     ["Vi faccio vedere il mio progetto su GitHub"],
     ["Ciao ragazzi cosa ne pensate di nextjs"],
     ["Ahahah"],
-    ["Andatemi a mettere una star sul progetto"]
+    ["Andatemi a mettere una star sul progetto"],
+    ["Vaffanculo a tutti"]
 ]
 predict(examples)
