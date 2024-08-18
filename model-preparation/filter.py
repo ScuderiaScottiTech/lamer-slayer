@@ -2,7 +2,7 @@ import sys
 
 bad_user_commands = ["/ban", ".ban", "/warn", ".warn", "/mute", ".mute", "/regime", ".regime", "/saliera", ".saliera"]
 
-def filter_message(message: str, strip_emoji=False):
+def sanitize_message(message: str, strip_emoji=False):
     message = message \
         .replace('\n', '') \
         .strip() \
@@ -13,6 +13,11 @@ def filter_message(message: str, strip_emoji=False):
         .decode('latin-1')
     
     return message
+
+def filter_message(message: str):
+    words = message.split(' ')
+    # todo write a filte
+    return len(words) >= 3 and len(words) < 200
 
 banned_types = ['code', 'link', 'pre', 'mention']
 def get_text(msg):
