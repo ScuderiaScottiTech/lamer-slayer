@@ -118,9 +118,9 @@ model = tf.keras.Sequential([
     layers.Embedding(max_features, 320),
     # layers.Dropout(0.5),
 
-    layers.Conv1D(100, 3, activation='relu'),
-    # layers.Conv1D(100, 5, activation='relu'),
-    # layers.Conv1D(100, 6, activation='relu'),
+    layers.Conv1D(100, 3, activation='silu'),
+    # layers.Conv1D(100, 5, activation='gelu'),
+    # layers.Conv1D(100, 6, activation='silu'),
     layers.GlobalMaxPooling1D(),
 
     layers.Dropout(0.5),
