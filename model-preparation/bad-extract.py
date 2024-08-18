@@ -110,7 +110,7 @@ for msg in data["messages"]:
         bad_counter += 1
     lastIndex += 1
 
-# f_tot = open("bad/bad.txt", "w")
+f_tot = open(output_directory+'/'+str(os.path.basename(filename)), "w")
 messages = {}
 for (userId, msgId, lastIndex) in bannedUsersIds_Index:
     curr_numpreban = 0
@@ -118,13 +118,15 @@ for (userId, msgId, lastIndex) in bannedUsersIds_Index:
     while curr_numpreban < MSG_PRE_BAN and lastIndex >= 1 and iters < 1000:
         if data["messages"][lastIndex]["type"] != "service" and data["messages"][lastIndex]["from_id"] == userId:
             text = filter.get_text(data["messages"][lastIndex])
-            if text != "":
+            text = filter.sanitize_message(text, strip_emoji=True)
+            if text != "" and filter.filter_message(text):
                 messages[data["messages"][lastIndex]["id"]] = {"message": text, "userid": data["messages"][lastIndex]["from_id"]}
+                f_tot.write(text+'\n')
             curr_numpreban += 1
             filecounter_index += 1
         lastIndex -= 1
         # iters += 1 # Uncommentare se si vuole prendere solo messaggi recenti max 1000 dal ban
 # f_tot.write(str(messages))
-# f_tot.close()
+f_tot.close()
 
-split.split_into_files(output_directory, os.path.basename(filename), messages)  
+# split.split_into_files(output_directory, os.path.basename(filename), messages)  

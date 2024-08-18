@@ -18,3 +18,4 @@ infosecdataset/
 chat-exports/**/*.json
 models/*
 train/
+.vscode/

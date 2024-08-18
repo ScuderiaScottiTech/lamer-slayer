@@ -49,17 +49,14 @@ dataset = dataset.shuffle(dataset.cardinality(), seed=int(random.random()*1000))
 cardinality = dataset.cardinality().numpy()
 print("Finished loading dataset, output is", dataset, "with cardinality", cardinality)
 
-
-
 def dataset_size(dataset):
     return dataset.reduce(0, lambda x,_: x+1).numpy()
 
-print("--------------")
-print("Demo of the dataset:")
-for text, label in dataset.take(4):
-    print(f"- {label}: {text}")
-
-print("--------------")
+# print("--------------")
+# print("Demo of the dataset:")
+# for text, label in dataset.take(4):
+#     print(f"- {label}: {text}")
+# print("--------------")
 
 total_size = dataset_size(dataset)
 
@@ -96,16 +93,13 @@ vectorize_layer.adapt(sentences)
 
 vocabulary = vectorize_layer.get_vocabulary()
 # print(vocabulary)
-
 # def vectorize_text(text, label):
 #     text = tf.expand_dims(text, -1) # Punto (stringa) -> Vettore
 #     return vectorize_layer(text), label   
-
 # dataset = dataset.map(vectorize_text)
 
 VALIDATION_SHARE = 0.3
 TEST_SHARE = 0.3
-
 
 AUTOTUNE = tf.data.AUTOTUNE
 train_ds = train_ds.prefetch(buffer_size=AUTOTUNE)
@@ -168,7 +162,6 @@ plt.xlabel('Epochs')
 plt.ylabel('Loss')
 plt.legend()
 plt.show()
-
 
 tf.saved_model.save(model, export_dir="./models/model.tf")
 
