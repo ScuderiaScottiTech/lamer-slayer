@@ -1,14 +1,11 @@
+from itertools import product
 import json, sys, os
-import filter, split
-
-# args:
-# 1) nome dataset .json
-# 2) output directory
-# 3) num messaggi dell'utente che precedono /ban
+import filter
 
 filename = sys.argv[1]
 output_directory = sys.argv[2]
 MSG_PRE_BAN = int(sys.argv[3])
+MAX_BACK_ITERS = 1000
 
 adminIds = [
     "user680674121",    #spat
@@ -31,102 +28,66 @@ adminIds = [
     "user5424622807",
     "user1886971377",
 ]
-banSlashCommands = [
-    "/mute",
-    "/ban",
-    "/regime",
-    "/saliera",
-    "/warn",
+
+banCommands = [
+    "mute",
+    "ban",
+    "regime",
+    "saliera",
+    "warn",
 ]
-banDotCommands = [
-    ".mute",
-    ".ban",
-    ".regime",
-    ".saliera",
-    ".warn"
-]
+prefixes = ['/', '.']
 
-
-
-filecounter_index = 0
 f = open(filename, "r")
 data = json.load(f)
 f.close()
 
-bannedUsersMessageIds = []
-bannedUsersIds_Index = []
+bannedUserMessageIds_Index = []
+bannedUserIds = []
 
-# bannedUsersIds = {}
-bannedUsersIds = []
-messages = {}
-# for msg in data["messages"]:
-#     text = filter.get_text(msg)
+c = -1
+for msg in data["messages"]:
+    c += 1
+    text = filter.get_text(msg)
+    if text == "":
+        continue
 
-#     if text == "":
-#         continue
-
-#     bc = False
-#     for bad_command in filter.bad_user_commands:
-#         if text.startswith(bad_command):
-#             bc = True
+    action = False
+    for bc in list(product(prefixes, banCommands)):
+        if text.startswith(''.join(bc)):
+            action = True
     
-#     if bc and msg["from_id"] in adminIds:
-#         reply_to = msg.get("reply_to_message_id", "")
-#         banned_message = messages.get(reply_to, None)
-#         if banned_message != None and reply_to != "":
-#             bannedUsersIds[banned_message["userid"]] = reply_to
+    if action and msg["from_id"] in adminIds:
+        # Check if reply exists
+        reply_to = msg.get("reply_to_message_id", "")
+        # Check if repliant is not an admin
+        if reply_to != "" and reply_to not in adminIds:
+            bannedUserMessageIds_Index.append((reply_to, c))
 
-#     userid = msg["from_id"].strip("user")
-#     messages[msg["id"]] = { "message": text, "userid": userid }
-
-# bad_messages = {}
-# for user_id, message_id in bannedUsersIds.items():
-#     bad_messages |= {id: messages[id] for id in range(int(message_id) - MSG_PRE_BAN, int(message_id)) if id in messages and messages[id]["userid"] == user_id }
-
+# Get actual index of repliant message
+c = 0
 for msg in data["messages"]:
-    #mesaggio deve essere vettore perché lo prende come un comando bot 
-    #prendere la prima entry che dev'essere un dizionario
-    if "reply_to_message_id" in msg and msg["from_id"] in adminIds:
-        if isinstance(msg["text"], list) and isinstance(msg["text"][0], dict):
-            for banCommand in banSlashCommands:
-                if banCommand in msg["text"][0]["text"]:
-                    text = filter.get_text(msg)
-                    if text != "":
-                        bannedUsersMessageIds.append(msg["reply_to_message_id"])
-        else:
-            for banCommand in banDotCommands:
-                if banCommand in msg["text"] and msg["reply_to_message_id"] not in bannedUsersMessageIds:
-                    text = filter.get_text(msg)
-                    if text != "":
-                        bannedUsersMessageIds.append(msg["reply_to_message_id"])
-                        
-lastIndex = 0
-bad_counter = 0
-for msg in data["messages"]:
-    #per quando spat trolla
-    if msg["type"] != "service" and msg["id"] in bannedUsersMessageIds and msg["from_id"] not in adminIds:
-        bannedUsersIds_Index.append((msg["from_id"], msg["id"], lastIndex))
-        bannedUsersIds.append(msg["from_id"])
-        bad_counter += 1
-    lastIndex += 1
+    c += 1
+    text = filter.get_text(msg)
+    if text == "":
+        continue
 
-f_tot = open(output_directory+'/'+str(os.path.basename(filename)), "w")
-messages = {}
-for (userId, msgId, lastIndex) in bannedUsersIds_Index:
-    curr_numpreban = 0
-    iters = 0
-    while curr_numpreban < MSG_PRE_BAN and lastIndex >= 1 and iters < 1000:
-        if data["messages"][lastIndex]["type"] != "service" and data["messages"][lastIndex]["from_id"] == userId:
-            text = filter.get_text(data["messages"][lastIndex])
-            text = filter.sanitize_message(text, strip_emoji=True)
-            if text != "" and filter.filter_message(text):
-                messages[data["messages"][lastIndex]["id"]] = {"message": text, "userid": data["messages"][lastIndex]["from_id"]}
-                f_tot.write(text+'\n')
-            curr_numpreban += 1
-            filecounter_index += 1
-        lastIndex -= 1
-        # iters += 1 # Uncommentare se si vuole prendere solo messaggi recenti max 1000 dal ban
-# f_tot.write(str(messages))
-f_tot.close()
+    if any(repliantBannedMessageId[0] == msg["id"] for repliantBannedMessageId in bannedUserMessageIds_Index):
+        bannedUserIds.append((msg["from_id"], c))
 
-# split.split_into_files(output_directory, os.path.basename(filename), messages)  
+# print(bannedUserMessageIds_Index)
+# print(bannedUserIds)
+    
+# Push last N messages into file
+f = open(f"{output_directory}/{os.path.basename(os.path.splitext(filename)[0])}.txt", "w")
+for (userId, lastBanIndex) in bannedUserIds:
+    currPreBanNum = maxIters = 0
+    while currPreBanNum < MSG_PRE_BAN and lastBanIndex >= 0 and maxIters < MAX_BACK_ITERS:
+        text = filter.get_text(data["messages"][lastBanIndex])
+        text = filter.sanitize_message(text, strip_emoji=True)
+        if text != "" and any(bannedUserId[0] == data["messages"][lastBanIndex]["from_id"] for bannedUserId in bannedUserIds) and filter.filter_message(text):
+            f.write(text+'\n')
+            currPreBanNum += 1
+        maxIters += 1
+        lastBanIndex -= 1
+f.close()
