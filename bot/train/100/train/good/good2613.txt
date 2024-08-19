@@ -1,1 +1,0 @@
-come verrà usata la swap? scrive di buffer in buffer grossi o pezzettini?

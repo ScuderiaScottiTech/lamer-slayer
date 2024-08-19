@@ -1,1 +1,0 @@
-[{'type': 'link', 'text': 'https://www.amazon.it/dp/B08MDC8J27/ref=cm_sw_r_cp_apa_fabt1_GoLRFb3X3Q72F?_encoding=UTF8&psc=1'}]

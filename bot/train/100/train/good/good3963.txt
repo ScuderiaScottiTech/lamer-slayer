@@ -1,1 +1,0 @@
-[{'type': 'link', 'text': 'https://en.m.wikipedia.org/wiki/Eduroam'}]

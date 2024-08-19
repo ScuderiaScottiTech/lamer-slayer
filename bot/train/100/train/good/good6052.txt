@@ -1,1 +1,0 @@
-['allora\n\nscrivere un programma è come scrivere un libro\n\nse tu vuoi imparare da zero a scrivere un libro, ci metti tantissimo tempo, ma se tu sai già scrivere libri in italiano e vuoi iniziare a scrivere in inglese ti basta imparare la lingua e non serve imparare effettivamente ', {'type': 'italic', 'text': 'a scrivere'}, ' di nuovo']

@@ -1,1 +1,0 @@
-['Io le VPS non le uso più. Per ogni side project devo pagare 10€', {'type': 'bot_command', 'text': '/mo'}, ' per un computer di merda']

@@ -1,1 +1,0 @@
-['Qui ci stanno tutte le feature\n', {'type': 'link', 'text': 'https://kde.org/it/announcements/megarelease/6/'}, '\n\nPer me è fighissimo, sul laptop ero obbligato a tenere gnome ma adesso cambia tutto (perchè sto nel periodo DE floating, sennò un WM sarebbe andato più che bene veramente)']

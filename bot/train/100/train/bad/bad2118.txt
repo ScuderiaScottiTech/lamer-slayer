@@ -1,1 +1,0 @@
-[{'type': 'mention_name', 'text': 'Rennaarenata', 'user_id': 743185718}, ' ha mutato ', {'type': 'mention_name', 'text': 'Pippo Baudo ❄️', 'user_id': 570486946}, '  per ', {'type': 'italic', 'text': 'contenuti espliciti'}, ' (', {'type': 'code', 'text': '6/6'}, ' warns)']

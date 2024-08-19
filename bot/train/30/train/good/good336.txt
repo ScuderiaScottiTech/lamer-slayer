@@ -1,1 +1,0 @@
-[{'type': 'mention_name', 'text': '@OnlyDemor', 'user_id': 1755296389}, ' [', {'type': 'code', 'text': '1755296389'}, '] è stato 🔇 mutato.\n\n~ ', {'type': 'bold', 'text': 'Utente smutato'}, '']

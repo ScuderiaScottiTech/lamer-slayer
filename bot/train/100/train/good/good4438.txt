@@ -1,3 +1,0 @@
-rust mi ha sempre affascinato, più di go, solo che effettivamente ha senso consigliarlo dopo C o C++ perché è fatto meglio ma anche leggermente più complesso a causa della sua ottimizzazione anche a livello di prestazioni e sicurezza.
-
-Go non mi sembrava malissimo però ho notato poche persone che lo usano, non avevo mai visto i difetti ed effettivamente non sembra il migliore per programmazione di basso livello

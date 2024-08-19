@@ -1,1 +1,0 @@
-Ora, perchè la tua chat app scali, devi per forza utilizzare load balancer con l'architettura server, e in più devi incasinarti con altri 100 servizi del tuo provider cloud affinchè la latenza non causi un timeout

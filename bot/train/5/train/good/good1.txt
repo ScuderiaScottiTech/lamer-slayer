@@ -1,1 +1,0 @@
-Sul fatto che "sono due mondi completamente diversi" non mi trovo d'accordo, io le vedo come due insiemi separati che fanno parte "delle api che espone Windows" se non le vuoi chiamare "winapi" perchè il nome è legato a quelle userland. Alla fine anche quelle kernel sono documentate ora, anche se non tutte

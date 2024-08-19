@@ -1,1 +1,0 @@
-e comunque non sono vuote è che non ho sbatti di mettere readme e cazzi vari, è solo codice puro e dipendenze dell'ide

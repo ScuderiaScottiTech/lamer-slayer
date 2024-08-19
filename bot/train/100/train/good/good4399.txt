@@ -1,2 +1,0 @@
-come vulnerabilità livello hw, per fare un esempio, intendevo una sorta di attacchi come il dump della ram ecc.
-più livello base ma comunque a basso livello

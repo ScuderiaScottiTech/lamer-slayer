@@ -1,1 +1,0 @@
-e poi ci stanno editor molto più leggeri che possono unire tutte queste funzioni sotto plugin

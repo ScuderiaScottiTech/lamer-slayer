@@ -1,1 +1,0 @@
-Ma se ad esempio volessi usare un microcontrollore per mandare qualcosa a schermo, un stm32 ad esempio

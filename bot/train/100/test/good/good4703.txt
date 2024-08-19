@@ -1,1 +1,0 @@
-se vuoi usare i3wm con wayland ti conviene usare sway

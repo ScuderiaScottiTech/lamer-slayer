@@ -1,1 +1,0 @@
-[{'type': 'link', 'text': 'https://www.polito.it/didattica/didattica-partecipata/honors-programs'}]

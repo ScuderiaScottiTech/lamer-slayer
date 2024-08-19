@@ -1,1 +1,0 @@
-Cioè da C++ e C cambia l'aggiunta del cin e cout?

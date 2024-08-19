@@ -1,1 +1,0 @@
-Prendi gli eventi della transazione e probabilmente l’ultimo è quello che cerchi

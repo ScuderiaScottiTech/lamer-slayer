@@ -1,5 +1,0 @@
-PC HP con su Windows
-Elimino Windows, installo Ubuntu 
-Così nel menu gnu grub mi da boot loader ubuntu e stop.
-
-Reinstallo Windows e quindi nel boot loader mi da boot loader ubuntu e boot loader windows

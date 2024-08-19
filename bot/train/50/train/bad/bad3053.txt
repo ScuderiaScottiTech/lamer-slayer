@@ -1,1 +1,0 @@
-la sintassi è troppo simile a quello di py

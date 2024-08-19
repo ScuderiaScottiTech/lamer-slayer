@@ -1,1 +1,0 @@
-ok e finchè quel programma non runna con permessi elevati cosa ci sarebbe di assurdo nel fargli runnare codice?

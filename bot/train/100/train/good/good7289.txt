@@ -1,1 +1,0 @@
-Usando cloudflare, ovviamente puoi bypassare cloudflare, perché c'è una chain di trust più elevata ed "autentica"

@@ -1,1 +1,0 @@
-nulla togliere ad astra, ma c'è un motivo se tutt'ora i database enterprise più utilizzati rimangono postgres ed oracle

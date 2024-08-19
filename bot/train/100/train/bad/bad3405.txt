@@ -1,1 +1,0 @@
-['quindi tua madre paga 700€', {'type': 'bot_command', 'text': '/mese'}, ' circa per assumerti']

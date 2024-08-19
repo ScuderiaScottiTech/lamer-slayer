@@ -1,1 +1,0 @@
-usando le winapi mi sono accorto che una funzione su tre ha almeno un parametro reserved

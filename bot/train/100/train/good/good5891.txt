@@ -1,1 +1,0 @@
-Se tu fai refresh ogni secondo al giorno consumi 86400 read. 10k messaggi sono 10k wrties e boh 1 mb di storage

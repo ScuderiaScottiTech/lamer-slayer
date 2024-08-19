@@ -1,1 +1,0 @@
-in c# si fa così se hai parametri

@@ -1,1 +1,0 @@
-È come se io usassi un worker per analizzare un sito da targettare

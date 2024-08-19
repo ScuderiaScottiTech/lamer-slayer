@@ -1,1 +1,0 @@
-['Pietro ☬ (', {'type': 'mention', 'text': '@stack_smash'}, ") ha spammato un gruppo... vergogna. TE SPETA N'warnato (", {'type': 'code', 'text': '1'}, '/', {'type': 'code', 'text': '6'}, ' warns)']

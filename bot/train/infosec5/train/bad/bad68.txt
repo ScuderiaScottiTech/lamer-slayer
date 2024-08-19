@@ -1,2 +1,0 @@
-C:\WINDOWS\system32>Format C:\
-Unità specificata non valida.

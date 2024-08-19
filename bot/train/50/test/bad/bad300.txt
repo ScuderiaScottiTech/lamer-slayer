@@ -1,1 +1,0 @@
-[{'type': 'bold', 'text': 'Dice il saggio:'}, '\nOgnuno che ha un gran coltello, ruba assai.']

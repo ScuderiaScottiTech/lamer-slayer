@@ -1,1 +1,0 @@
-non capisco come mai dovrebbe essere considerato un bug che impatta sulla security di google assistant

@@ -1,1 +1,0 @@
-Ma io devo mettere 4 dati in croce: utonto, data telefonata, problema, risolto in data X, numero ticket

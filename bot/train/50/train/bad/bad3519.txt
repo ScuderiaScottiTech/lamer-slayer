@@ -1,1 +1,0 @@
-Questo dovrebbe essere il contenuto di HKEY_CLASSES_ROOT\.001

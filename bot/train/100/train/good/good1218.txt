@@ -1,1 +1,0 @@
-se non sbaglio, il CLS è il numero di cicli per accedere ad un dato

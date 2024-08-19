@@ -1,4 +1,0 @@
-diciamo che C/C++ lo stiamo affrontando a scuola come primo approccio alla programmazione, provo a concentrarmi su quello dai tuoi consigli e successivamente spostarmi su rust che ha una gestione della memoria molto più rigida.
-proverò innanzitutto ad approfondire le basi del linguaggio e in seguito a creare qualche piccolo software di basso livello che comunica direttamente con componenti hw allora
-
-comunque ricordavo che Go fosse più semplice di rust, come mai nella tua lista sta come ultimo step?

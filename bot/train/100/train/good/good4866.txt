@@ -1,1 +1,0 @@
-[{'type': 'mention', 'text': '@fuffaguru'}, ' scam per 15€ 😂']

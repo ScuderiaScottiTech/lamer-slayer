@@ -1,1 +1,0 @@
-Qualcuno conosce come fare a forwardare il traffico che arriva su un'interfaccia su Windows 11 ad un'altra interfaccia senza perdere il source IP del pacchetto sostituendolo con l'IP del PC che sta forwardando il pacchetto?

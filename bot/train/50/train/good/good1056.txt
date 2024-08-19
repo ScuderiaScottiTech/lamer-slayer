@@ -1,1 +1,0 @@
-['Che scheda hai ', {'type': 'mention', 'text': '@SparBTW'}, ' ?']

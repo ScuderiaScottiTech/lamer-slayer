@@ -1,2 +1,0 @@
-Qualche sfigato che sa usare Maven con Java8?
-Nel dockerfile quando faccio il compile mi dice che non riesce a trovare le cartelle target dei submodule presenti :D

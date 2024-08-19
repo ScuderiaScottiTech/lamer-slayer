@@ -1,1 +1,0 @@
-E poi così posso usare i miei software interni in modalità prod, così da non avere errori SSL e modalità di debug attive varie

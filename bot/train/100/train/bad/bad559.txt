@@ -1,1 +1,0 @@
-[{'type': 'bold', 'text': 'Dice il saggio:'}, '\nLa luna è bugiarda: quando fa la C diminuisce, cavalier vecchio.']

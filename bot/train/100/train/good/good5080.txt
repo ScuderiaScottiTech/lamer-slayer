@@ -1,1 +1,0 @@
-solo distribuzioni linux alternative, e kernel manualmente compilati

@@ -1,1 +1,0 @@
-bot entra -> aggiunge il gruppo alla lista di gente in cui far entrare bot/spammare cose/whatever

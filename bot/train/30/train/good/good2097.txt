@@ -1,2 +1,0 @@
-in più, preferisco linguaggi che abbiano un orientamento "mvc" nativo (se così vogliamo dire) e non unicamente scripting, come nasce php
-posso però dire che in effetti è molto comodo e scalabile per molte cose, ma potendo evito di usarlo

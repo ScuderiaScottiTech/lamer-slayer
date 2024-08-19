@@ -1,2 +1,0 @@
-che API consigliate per mandare sms in bulk (100k daily) e una volta ricevuta una risposta da uno dei destinatari, rispondere con un altro messaggio? 
-La più economica se possibile che è per un cliente

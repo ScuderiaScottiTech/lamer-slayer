@@ -1,1 +1,0 @@
-lo so benissimo che è minimal apposta ma tu dici che è meglio farlo in go quando non lo è

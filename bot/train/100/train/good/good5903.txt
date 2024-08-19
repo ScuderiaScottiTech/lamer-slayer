@@ -1,1 +1,0 @@
-e difficilmente mongo lo usi in mono, hai sempre (o quasi) in progetti con un minimo di complessità, un relazionale + un memory/dataless

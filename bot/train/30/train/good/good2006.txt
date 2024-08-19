@@ -1,1 +1,0 @@
-direi che è la scelta giusta evitare qualcosa di vendor specific

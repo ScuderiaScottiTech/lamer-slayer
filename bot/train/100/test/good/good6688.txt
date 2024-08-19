@@ -1,1 +1,0 @@
-In realtà era più una path confusion/ ssrf per poi arrivare ad rce , ma non penso parli di quella

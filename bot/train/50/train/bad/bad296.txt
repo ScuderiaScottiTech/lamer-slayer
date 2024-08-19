@@ -1,1 +1,0 @@
-[{'type': 'bold', 'text': 'Dice il saggio:'}, '\nIl denaro può molto, non occorre dir trotta.']

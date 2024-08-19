@@ -1,1 +1,0 @@
-['Ma bucati un wisp e dirotta una ', {'type': 'bot_command', 'text': '/24'}, ' via bgp']

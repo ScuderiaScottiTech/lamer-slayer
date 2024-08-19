@@ -1,1 +1,0 @@
-['devi fare ', {'type': 'bot_command', 'text': '/traccia'}, ' mac_address <nickname> sulla chat minecraft']

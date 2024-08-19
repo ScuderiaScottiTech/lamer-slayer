@@ -1,1 +1,0 @@
-Unity richiedeva l'uso di visual studio, altrimenti rompeva il cazzo

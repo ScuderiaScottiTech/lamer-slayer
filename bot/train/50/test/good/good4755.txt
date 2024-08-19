@@ -1,1 +1,0 @@
-no, puoi solo cambiare il global font o lo zoom, (da Appearance) ma in nessun prodotto di jetbrains è previsto il poter fare resize visivo ma non pratico dei tab.

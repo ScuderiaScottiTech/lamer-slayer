@@ -1,1 +1,0 @@
-[{'type': 'bold', 'text': 'Dice il saggio:'}, '\nChi male vive, e la poesia una pittura loquace.']

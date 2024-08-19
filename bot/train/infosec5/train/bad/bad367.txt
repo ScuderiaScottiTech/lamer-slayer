@@ -1,1 +1,0 @@
-Ah quindi java è un linguaggio strutturato e javascript utilizza gli oggetti come paradigma principale?

@@ -1,1 +1,0 @@
-['"CEO of DDoS Protection system (', {'type': 'link', 'text': 'lucadev.tk'}, ', ', {'type': 'link', 'text': 'example.lucadev.tk'}, ')"']

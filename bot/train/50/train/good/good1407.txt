@@ -1,1 +1,0 @@
-*pusha un aggiornamento senza testarlo anche su Windows*

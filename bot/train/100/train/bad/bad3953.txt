@@ -1,1 +1,0 @@
-non puoi "dossare" da un applicazione, ti servono dei server e una fibra da + di 1gbps ecc. poi che per dossare basta capire come inviare pacchetti ad un ip

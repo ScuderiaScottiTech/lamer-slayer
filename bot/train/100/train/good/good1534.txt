@@ -1,1 +1,0 @@
-[{'type': 'link', 'text': 'https://www.qualys.com/2024/07/01/cve-2024-6387/regresshion.txt'}]

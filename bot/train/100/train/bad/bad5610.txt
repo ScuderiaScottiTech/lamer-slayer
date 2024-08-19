@@ -1,1 +1,0 @@
-[{'type': 'mention', 'text': '@SilentKx'}, ' ', {'type': 'mention', 'text': '@SparBTW'}]

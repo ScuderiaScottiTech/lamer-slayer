@@ -1,1 +1,0 @@
-['Non mi sono mai addentrato a fare gui con la winapi ma il primo risultato potrebbe fare al caso tuo: ', {'type': 'link', 'text': 'https://www.gamedev.net/forums/topic/709412-flickering-title-bar-and-menu-bar-text-in-win32-double-buffered-code/'}]

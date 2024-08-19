@@ -1,1 +1,0 @@
-È lo stesso principio del DMA  delle periferiche hdd e illo tempore FDD che svincolava la cpu dall’I/O e permetteva un accesso alle memorie di massa real time?

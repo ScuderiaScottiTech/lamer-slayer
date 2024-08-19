@@ -1,1 +1,0 @@
-[{'type': 'mention_name', 'text': '@AAnonimo0000', 'user_id': 973602511}, ' [', {'type': 'code', 'text': '973602511'}, '] bannato.\n', {'type': 'bold', 'text': 'Motivo'}, ': arrivederci e buona giornata']

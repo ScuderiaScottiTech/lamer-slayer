@@ -1,6 +1,7 @@
 import os
 import tensorflow as tf
 import numpy as np
+import keras
 
 model = tf.saved_model.load("./models/model.tf")
 model_forward = model.signatures["serving_default"]
@@ -16,16 +17,25 @@ test = [
     "Meglio kali o parrot?",
     "Meglio blackarch o parrot?",
     "Come listo tutti i file in una directory su linux?",
-    "ciao ragazzi, vorrei installare ubuntu in dual boot da utilizzare come suite pronta per veloci penetration tests automatizzati, è una buona idea?"
+    "ciao ragazzi, vorrei installare ubuntu in dual boot da utilizzare come suite pronta per veloci penetration tests automatizzati, è una buona idea?",
+    "Ciao a tutti",
+    "Un messaggio generico",
+    "Vendo cc carte di credito tutto",
+    "cerco hash milano",
+    "vendo log esselunga"
 ]
 evaluation = model_forward(tf.constant(test))['output_0']
 
+labels = {}
 for label, folder in enumerate(os.listdir("train/")):
+    labels[label] = folder
     print(f"Considering {folder} as {label}")
 
-print(evaluation)
-
+softmax = keras.layers.Softmax()
 for prediction, test in zip(evaluation, test):
-    predicted_label = np.argmax(prediction)
+    softmaxed = softmax(prediction)
+    predicted_label = np.argmax(softmaxed)
 
-    print("Test", test, "predicted", predicted_label)
+    predicted_label = labels[predicted_label]
+
+    print("Test", test, "| predicted", predicted_label, "| with percentages of", softmaxed.numpy())

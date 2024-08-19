@@ -1,5 +1,0 @@
-Yes, we're aware of the OpenSSH exploit – "regreSSHion". 
-
-Everyone and their grandmother is discussing it, it'd be difficult to miss it. We didn't have anything meaningful to contribute to the conversation, so we didn't mention it.
-
-tl;dr exploit bad, its monday, nerd stuff

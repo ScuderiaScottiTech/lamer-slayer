@@ -1,1 +1,0 @@
-Lo faccio per evitare di usare roba self signed, perché in caso di compromissione, potrebbero anche fare MITM senza troppi problemi e vorrei evitare

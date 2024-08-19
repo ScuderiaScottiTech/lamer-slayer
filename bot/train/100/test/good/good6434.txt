@@ -1,1 +1,0 @@
-[{'type': 'strikethrough', 'text': 'ricco'}, ' ione che non sei altro']

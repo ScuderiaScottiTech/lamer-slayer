@@ -1,1 +1,0 @@
-['Ciao Bohhh! (Bohhh67) sei appena entrato nel canale tech per eccellenza! Per qualsiasi domanda taggare ', {'type': 'mention', 'text': '@SparPivuppi'}, ' o ', {'type': 'mention', 'text': '@xNotturnox'}, '\nAh, ogni tanto si farà qualche give!\nInfo ulteriori:\nDC: 0\nuserid: ', {'type': 'phone', 'text': '808116284'}, '']

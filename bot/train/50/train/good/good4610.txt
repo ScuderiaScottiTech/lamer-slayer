@@ -1,1 +1,0 @@
-per qualche motivo da un update circa il mio portatile con ubuntu non va più in sleep quando lo chiudo, va in sleep solo se premo il tasto di accensione (perchè è configurato per fare così), anche se su gnome tweaks tool è abilitato suspend on lid close e su logind.conf tutti e tre i parametri di HandleLidSwitch sono su suspend

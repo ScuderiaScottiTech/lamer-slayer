@@ -1,1 +1,0 @@
-[{'type': 'mention', 'text': '@SparPivuppi'}, '  cazzo chiedi pietà']

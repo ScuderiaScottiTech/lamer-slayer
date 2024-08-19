@@ -1,1 +1,0 @@
-[{'type': 'link', 'text': 'https://certitude.consulting/blog/en/using-cloudflare-to-bypass-cloudflare/'}, '\n\n', {'type': 'link', 'text': 'https://www.bleepingcomputer.com/news/security/cloudflare-ddos-protections-ironically-bypassed-using-cloudflare/'}]

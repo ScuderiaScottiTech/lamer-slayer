@@ -1,1 +1,0 @@
-io l'ho interpretato come "sto accidentalmente calcolando come se fosse un ciclo solo mentre dovrei dividere"

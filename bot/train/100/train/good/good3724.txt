@@ -1,1 +1,0 @@
-['questo ', {'type': 'link', 'text': 'https://t.me/c/1445413335/551751'}, "\n\nnon tanto le developer sburricchio ideas che ho scritto all'inizio"]

@@ -1,1 +1,0 @@
-['però sto stupemdo: ', {'type': 'mention', 'text': '@SparBTW'}, ' con alcune info che avevo raccolto un pò di tempo fà']

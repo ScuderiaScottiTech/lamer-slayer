@@ -1,1 +1,0 @@
-[{'type': 'cashtag', 'text': '$GET'}]

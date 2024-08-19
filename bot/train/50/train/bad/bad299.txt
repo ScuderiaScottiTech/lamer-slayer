@@ -1,1 +1,0 @@
-[{'type': 'bold', 'text': 'Dice il saggio:'}, '\nA chi ha abbastanza, non vi conosco alcuna differenza.']

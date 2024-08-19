@@ -1,1 +1,0 @@
-[{'type': 'mention_name', 'text': '@pamelaxeron', 'user_id': 6971185155}, ' [', {'type': 'code', 'text': '6971185155'}, '] bannato.\n', {'type': 'bold', 'text': 'Motivo'}, ': arrivederci e buona giornata (ban old school)']

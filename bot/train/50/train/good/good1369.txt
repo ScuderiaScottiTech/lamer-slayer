@@ -1,1 +1,0 @@
-Ma cambia il socket di 2 pin

@@ -1,1 +1,0 @@
-['Cosa si usa ora al posto di ', {'type': 'link', 'text': '911.re'}]

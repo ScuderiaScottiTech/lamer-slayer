@@ -1,1 +1,0 @@
-detto questo, avendo visto Astra ad un convengo a rotterdam sull'uso dei nosql db in ambito di data analysis, non sembrava avere pessime prestazioni, tuttavia, sarò un vecchia scuola, ma preferisco i relazionali con al massimo supporti

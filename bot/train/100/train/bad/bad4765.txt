@@ -1,1 +1,0 @@
-['e cmq....', {'type': 'mention', 'text': '@SparBTW'}, ' per i documenti?? meglio di no??']

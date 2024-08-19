@@ -1,1 +1,0 @@
-nota bene: su pico puoi usare una DMA per copiare costantemente dal tuo framebuffer i dati nel FIFO del PIO così da non impegnare la cpu

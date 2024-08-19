@@ -1,1 +1,0 @@
-['a meno che sia: ', {'type': 'mention', 'text': '@nexus1336'}, ' che stia dando le mie info a: ', {'type': 'mention', 'text': '@SilentDaemon'}, ' perchè stranamente gli stò parlando in privato e ', {'type': 'mention', 'text': '@SilentDaemon'}, ' sembra sapere che io sono piemontese quando in realtà non lo sono. HAHAHA']

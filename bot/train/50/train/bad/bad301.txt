@@ -1,1 +1,0 @@
-[{'type': 'bold', 'text': 'Dice il saggio:'}, '\nAra nel mare e nella rena semina, tutti sbagliati saranno da cima a fondo.']

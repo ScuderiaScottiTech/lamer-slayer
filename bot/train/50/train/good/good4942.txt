@@ -1,1 +1,0 @@
-ma non ho usato di recente mysql in cluster o con ridondanze particolari (async o sync che sia) quindi non posso giudicare

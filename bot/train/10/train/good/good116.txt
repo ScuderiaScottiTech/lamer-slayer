@@ -1,1 +1,0 @@
-Staranno capendo come far funzionare il bot in js c e python

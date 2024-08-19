@@ -1,1 +1,0 @@
-mongodb non è un db sql, usa il suo lang per fare le query, dipende cosa devi fare

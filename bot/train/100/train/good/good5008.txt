@@ -1,1 +1,0 @@
-io mi trovo perfettamente con RubyMine, anche con 4 progetti aperti, e ognuno in run

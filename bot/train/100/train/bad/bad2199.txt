@@ -1,1 +1,0 @@
-[{'type': 'mention', 'text': '@its_me_RENNA'}, ' sbannalo tu se vuoi']

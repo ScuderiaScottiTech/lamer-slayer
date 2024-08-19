@@ -1,1 +1,0 @@
-A me l'API mi è sembrata ok anche quando caricando un grande dataset. Poi io non lo so se hai avuto un esperienza diversa, ecco perchè ho chiesto qual'era la truffa in primo luogo

@@ -1,1 +1,0 @@
-[{'type': 'bold', 'text': '👤 AntiFlood'}, '\n', {'type': 'mention_name', 'text': '𝗔𝗹𝗽𝗵𝘃𝗶𝗻𝗼 |𝗟𝗲𝗮𝗿𝗻𝗶𝗻𝗴 𝗛𝗧𝗠𝗟 & 𝗖𝗦𝗦', 'user_id': 1077999869}, ' sta flooddando, è stato mutato.']

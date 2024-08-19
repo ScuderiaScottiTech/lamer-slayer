@@ -6,13 +6,13 @@ import random
 import shutil
 import os
 
-from tensorflow import keras
-from keras._tf_keras.keras import layers
-from keras._tf_keras.keras import losses
+import keras
+from keras import layers
+from keras import losses
 
 import numpy as np
 from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay, classification_report
- 
+
 dataset_dir = sys.argv[1]
 
 def load_partial_dataset(directory: str, label: int):
@@ -94,7 +94,7 @@ vocabulary = vectorize_layer.get_vocabulary()
 # print(vocabulary)
 # def vectorize_text(text, label):
 #     text = tf.expand_dims(text, -1) # Punto (stringa) -> Vettore
-#     return vectorize_layer(text), label   
+#     return vectorize_layer(text), label
 # dataset = dataset.map(vectorize_text)
 
 VALIDATION_SHARE = 0.3
@@ -105,19 +105,18 @@ train_ds = train_ds.prefetch(buffer_size=AUTOTUNE)
 val_ds = val_ds.prefetch(buffer_size=AUTOTUNE)
 test_ds = test_ds.prefetch(buffer_size=AUTOTUNE)
 
-model = tf.keras.Sequential([
+model = keras.Sequential([
     vectorize_layer,
 
     layers.Embedding(max_features, 320),
-    # layers.Dropout(0.5),
-
-    layers.Conv1D(100, 3, activation='relu'),
-    # layers.Conv1D(100, 5, activation='relu'),
-    # layers.Conv1D(100, 6, activation='relu'),
-    layers.GlobalMaxPooling1D(), # Try other pooling methods
+    layers.Conv1D(100, 3, activation='sigmoid'),
+    layers.GlobalMaxPooling1D(),
 
     layers.Dropout(0.5),
-    layers.Dense(n_labels) # Add normalization
+    layers.Dense(n_labels), # Add normalization
+    # directly output logits (need softmax activation afterwards)
+
+    # layers.Softmax(),
 ])
 
 epochs = 40 # 84 is the sweet spot with 50 dataset
@@ -145,7 +144,7 @@ print("Accuracy: ", accuracy)
 # model.save("models/model-"+str(accuracy)[:7]+".keras")
 
 history_dict = history.history
-history_dict.keys()
+keys = history_dict.keys()
 acc = history_dict['accuracy']
 val_acc = history_dict['val_accuracy']
 loss = history_dict['loss']
@@ -162,6 +161,8 @@ plt.ylabel('Loss')
 plt.legend()
 plt.show()
 
+print(keys)
+
 tf.saved_model.save(model, export_dir="./models/model.tf")
 
 # y_true = np.concatenate([y for x, y in test_ds], axis=0)
@@ -175,7 +176,7 @@ tf.saved_model.save(model, export_dir="./models/model.tf")
 # disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=["BAD", "GOOD"])
 # disp.plot(cmap=plt.cm.Blues)
 # plt.title("Confusion Matrix")
-# plt.show()    
+# plt.show()
 
 # clr = classification_report(y_true, y_pred)
 # print("Classification Report:\n----------------------\n", clr)

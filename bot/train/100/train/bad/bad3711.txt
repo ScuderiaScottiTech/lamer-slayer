@@ -1,1 +1,0 @@
-['Luca - C1V Hosting:\nDa sempre?\n\n', {'type': 'link', 'text': 'onlycr.is'}, ':\nsi certo\n\nsai son geni diversi\n\ncovid != influenza\n\nLuca - C1V Hosting:\nChe ne sai?\n\n', {'type': 'link', 'text': 'onlycr.is'}, ':\nè scienza oh\n\nmi prendi per il culo?']

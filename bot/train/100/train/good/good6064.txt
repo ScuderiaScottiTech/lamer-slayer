@@ -1,2 +1,0 @@
-Magari come hanno consigliato, inizia con python che è un linguaggio molto entry level , per la sintassi, poi magari ti muovi verso la strada che vuoi fare.
-In realtà puoi usare qualsiasi linguaggio per qualsiasi cosa, solo che alcuni hanno più supporto per certe situazioni che altre ed etc

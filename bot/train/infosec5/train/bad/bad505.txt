@@ -1,1 +1,0 @@
-Nel senso che il servizio su quella porta c'è ma non è già usata da altri servizi (tipo non ho preso quella del 443 per fare ciò che vorrei fare perché è occupata dal https)

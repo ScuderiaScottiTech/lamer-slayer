@@ -1,1 +1,0 @@
-E ma il punto è che la free tier di astra ha molte più risorse di altri servizi (mongodb atlas e.g.) che ti permettono di andare anche oltre a provare il servizio. Non è solo un trial

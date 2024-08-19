@@ -1,1 +1,0 @@
-Perché certo, nel 2024 avere la parte wireless che basa la propria sicurezza sul mac address ACL senza WPA2, vale 5k al mese.

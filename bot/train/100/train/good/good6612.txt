@@ -1,1 +1,0 @@
-Comunque cambiando topic, riguardo NASM ci sarebbe qualcuno interessato ad aiutarmi a creare una libreria di ML utilizzabile poi in c++? Sto sviluppando intanto una libreria spero migliore di NASMX come appoggio

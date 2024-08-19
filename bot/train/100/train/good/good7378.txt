@@ -1,1 +1,0 @@
-Ma scherzi sarà una rete neurale della dimensione di openai

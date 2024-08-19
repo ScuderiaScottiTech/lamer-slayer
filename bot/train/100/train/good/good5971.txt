@@ -1,1 +1,0 @@
-nel backend quasi ogni linguaggio non sia lowlevel ha una vm che processa le cose, chiamala jvm per java, beam per elixir e via dicendo but still

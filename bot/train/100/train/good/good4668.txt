@@ -1,1 +1,0 @@
-[{'type': 'bold', 'text': "The teenager who lives like it's the 1940s"}, '\n', {'type': 'text_link', 'text': 'Article', 'href': 'https://www.bbc.com/news/articles/crgpjpr35nko'}, ', ', {'type': 'text_link', 'text': 'Comments', 'href': 'https://news.ycombinator.com/item?id=38687171'}]

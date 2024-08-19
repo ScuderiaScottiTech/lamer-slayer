@@ -1,1 +1,0 @@
-['‼️', {'type': 'bold', 'text': "BREAKING - ULTIM'ORA\n\nJoe Biden eletto 46º presidente degli Stati Uniti "}, '🇺🇸\n\n📰 ', {'type': 'mention', 'text': '@ultimora'}, '']

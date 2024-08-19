@@ -1,1 +1,0 @@
-["Ok, però io preferisco comunque una calligrafia un po' più pulita e sopratutto ", {'type': 'bold', 'text': 'leggibile'}, '']

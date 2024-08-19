@@ -1,1 +1,0 @@
-['con questo posso dichiarare ufficialmente please andate su ', {'type': 'mention', 'text': '@scuderiaot'}]

@@ -1,1 +1,0 @@
-nemmeno MS lo sa, tbh non vedo perché quella roba li invece di KeAcquireSpinLock o i mutex molto semplicemente

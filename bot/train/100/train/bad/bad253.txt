@@ -1,1 +1,0 @@
-['Se mi mandate off ', {'type': 'link', 'text': 'example.lucadev.tk'}, ' vi mando 25€ btc']

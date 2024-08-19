@@ -1,3 +1,0 @@
-Una domanda, magari qua c'è qualcuno di più esperto.
-Un linguaggio per iniziare quale può essere ? A scuola mi hanno consigliato python, ma molte persone lo vedono male.
-Il mio obbiettivo è scrivere una app con grafica che possa funzionare su ogni sistema operativo, avete consigli ?

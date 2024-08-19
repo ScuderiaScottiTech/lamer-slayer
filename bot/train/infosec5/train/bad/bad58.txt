@@ -1,1 +1,0 @@
-['Perche quando installo mi dice che non cé ', {'type': 'link', 'text': 'win32-loader.in'}, ' i?']

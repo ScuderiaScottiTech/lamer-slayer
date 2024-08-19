@@ -1,5 +1,0 @@
-var uno = new System.Drawing.Point
-{
-   x = X,
-   y = Y,
-};

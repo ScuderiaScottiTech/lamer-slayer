@@ -1,1 +1,0 @@
-[{'type': 'bold', 'text': 'Utilizza:'}, ' ', {'type': 'code', 'text': '/ban ID/username/reply durata motivo'}]

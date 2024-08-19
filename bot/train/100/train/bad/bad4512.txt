@@ -1,1 +1,0 @@
-comunque dobbiamo fare pure un wrapper per il login ssh

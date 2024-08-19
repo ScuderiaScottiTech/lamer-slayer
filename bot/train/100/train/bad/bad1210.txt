@@ -1,1 +1,0 @@
-[{'type': 'bold', 'text': 'CHAT_ID:'}, ' ', {'type': 'phone', 'text': '1274975183'}, ' ', {'type': 'bold', 'text': 'NAME:'}, ' ˢᵃⁿᵈʳᵃˡ³⁷']

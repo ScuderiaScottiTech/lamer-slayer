@@ -1,1 +1,0 @@
-giovedì scorso c'erano le reply (gare di info orrende) e uniud (l'unica squadra che ha fatto un punteggio > 0 era la mia, dove praticamente lavoravo solo io) è arrivata 52esima perché ho risolto due testcase facendoli a mano su un foglio guardando il file di input e ho fatto un programma che outputasse i risultati che avevo fatto io

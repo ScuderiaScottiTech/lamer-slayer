@@ -1,1 +1,0 @@
-Allora, mettiamo che dobbiamo fare una chat app (progetto base ma non troppo)

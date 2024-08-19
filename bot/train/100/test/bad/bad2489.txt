@@ -1,1 +1,0 @@
-[{'type': 'link', 'text': 'https://www.google.com/amp/s/www.wired.it/amp/273102/mobile/smartphone/2020/03/03/class-action-iphone-rallentati/'}]

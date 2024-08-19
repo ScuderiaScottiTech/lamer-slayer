@@ -1,1 +1,0 @@
-mongodb è un trial?

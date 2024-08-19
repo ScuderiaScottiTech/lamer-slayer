@@ -1,1 +1,0 @@
-Pcf8591 perché un analog to digital converter ha bisogno di un fotoresistore?

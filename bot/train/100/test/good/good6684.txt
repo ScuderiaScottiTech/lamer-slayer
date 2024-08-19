@@ -1,1 +1,0 @@
-Visto che Outlook usa Exchange (se configurato a farlo)

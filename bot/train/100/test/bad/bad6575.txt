@@ -1,1 +1,0 @@
-[{'type': 'mention', 'text': '@stack_smash'}, ' te che zona di roma sei']

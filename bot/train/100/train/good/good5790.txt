@@ -1,1 +1,0 @@
-[{'type': 'link', 'text': 'https://learn.microsoft.com/en-us/cpp/cpp/modules-cpp?view=msvc-170'}]

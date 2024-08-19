@@ -1,1 +1,0 @@
-usa rust-analyzer, ha una UI nativa e supporta tutto

@@ -1,1 +1,0 @@
-['Buon anno scuderia\n\nanche da napoli\n', {'type': 'link', 'text': 'https://www.skylinewebcams.com/it/webcam/italia/campania/napoli/panorama-penisola-sorrentina.html'}]

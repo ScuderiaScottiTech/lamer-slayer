@@ -1,1 +1,0 @@
-Era già tanto se girava su un plesk con php 5.6 quel coso

@@ -1,1 +1,0 @@
-diobestia vercel ci sta mettendo 20 minuti per un deployment del cazzo perchè "hanno difficolta ad assegnare i domini"

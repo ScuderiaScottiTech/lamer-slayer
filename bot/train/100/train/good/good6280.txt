@@ -1,1 +1,0 @@
-ctf con 2 web, 1 reverse, 2 forencsis e 1 crypto

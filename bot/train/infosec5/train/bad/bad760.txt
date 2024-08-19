@@ -1,1 +1,0 @@
-['Architettura dei calcolatori e sistemi operativi ', {'type': 'link', 'text': 'https://www.amazon.it/dp/1790429242/'}, '\n\nSecondo voi ci sta?']

@@ -1,1 +1,0 @@
-[{'type': 'bold', 'text': 'Dice il saggio:'}, '\nDonna adorna, ma il fuoco lo rende morbido.']

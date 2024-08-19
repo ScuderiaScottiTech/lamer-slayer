@@ -1,1 +1,0 @@
-si risolve con percorsi su griglie n-dimensionali

@@ -1,1 +1,0 @@
-usa psql o oracle as as service di digitalocean, di enterprisedb, di azure, di gcloud o di chiunque (vultr, linode, ovh, cloudzy and such)

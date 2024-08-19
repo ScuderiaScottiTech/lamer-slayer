@@ -1,1 +1,0 @@
-si alla fine se non per casi estremamente specifici uso postgres
