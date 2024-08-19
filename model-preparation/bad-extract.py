@@ -75,11 +75,16 @@ for msg in data["messages"]:
     if any(repliantBannedMessageId[0] == msg["id"] for repliantBannedMessageId in bannedUserMessageIds_Index):
         bannedUserIds.append((msg["from_id"], c))
 
-# print(bannedUserMessageIds_Index)
-# print(bannedUserIds)
-    
+splitted = os.path.basename(filename).split('.') # name is label.messages.groupname.json
+label = splitted[0]
+n_msgs = 0
+try:
+    os.mkdir(f"{output_directory}/{label}")
+except FileExistsError:
+    pass
+
 # Push last N messages into file
-f = open(f"{output_directory}/{os.path.basename(os.path.splitext(filename)[0])}.txt", "w")
+f = open(f"{output_directory}/{label}/{os.path.basename(os.path.splitext(filename)[0])}.txt", "w")
 for (userId, lastBanIndex) in bannedUserIds:
     currPreBanNum = maxIters = 0
     while currPreBanNum < MSG_PRE_BAN and lastBanIndex >= 0 and maxIters < MAX_BACK_ITERS:
@@ -88,6 +93,9 @@ for (userId, lastBanIndex) in bannedUserIds:
         if text != "" and any(bannedUserId[0] == data["messages"][lastBanIndex]["from_id"] for bannedUserId in bannedUserIds) and filter.filter_message(text):
             f.write(text+'\n')
             currPreBanNum += 1
+            n_msgs += 1
         maxIters += 1
         lastBanIndex -= 1
 f.close()
+
+print(f"--> Produced {n_msgs} for {label}")

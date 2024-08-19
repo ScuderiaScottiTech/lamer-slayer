@@ -38,7 +38,6 @@ dataset = datasets.pop()
 while len(datasets) > 0:
     dataset = dataset.concatenate(datasets.pop())
 
-
 # settings
 batch_size = 32
 max_features = 10000
@@ -115,10 +114,10 @@ model = tf.keras.Sequential([
     layers.Conv1D(100, 3, activation='relu'),
     # layers.Conv1D(100, 5, activation='relu'),
     # layers.Conv1D(100, 6, activation='relu'),
-    layers.GlobalMaxPooling1D(),
+    layers.GlobalMaxPooling1D(), # Try other pooling methods
 
     layers.Dropout(0.5),
-    layers.Dense(n_labels)
+    layers.Dense(n_labels) # Add normalization
 ])
 
 epochs = 40 # 84 is the sweet spot with 50 dataset

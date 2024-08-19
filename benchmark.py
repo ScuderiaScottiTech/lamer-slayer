@@ -15,7 +15,8 @@ test = [
     "Sapete entrare in account instagram?",
     "Meglio kali o parrot?",
     "Meglio blackarch o parrot?",
-    "Come listo tutti i file in una directory su linux?"
+    "Come listo tutti i file in una directory su linux?",
+    "ciao ragazzi, vorrei installare ubuntu in dual boot da utilizzare come suite pronta per veloci penetration tests automatizzati, è una buona idea?"
 ]
 evaluation = model_forward(tf.constant(test))['output_0']
 
