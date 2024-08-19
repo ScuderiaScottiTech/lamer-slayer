@@ -28,7 +28,8 @@ def output_file(target_dir: str, name: str, messages: dict, delete_dir=False):
     try:
         os.mkdir(target_dir)
     except FileExistsError:
-        print("Warning: target dir exists you may be overwriting an existing dataset. Not creating.")
+        pass
+        # print("Warning: target dir exists you may be overwriting an existing dataset. Not creating.")
 
     f_output = open(f"{target_dir}/{name}.txt", 'x');
     f_output.writelines(map(lambda msg: msg['message']+'\n', messages.values()))

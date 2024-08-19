@@ -12,7 +12,7 @@ from keras._tf_keras.keras import losses
 
 import numpy as np
 from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay, classification_report
- 
+
 dataset_dir = sys.argv[1]
 
 def load_partial_dataset(directory: str, label: int):
@@ -37,7 +37,6 @@ for label, folder in enumerate(os.listdir(dataset_dir)):
 dataset = datasets.pop()
 while len(datasets) > 0:
     dataset = dataset.concatenate(datasets.pop())
-
 
 # settings
 batch_size = 32
@@ -95,7 +94,7 @@ vocabulary = vectorize_layer.get_vocabulary()
 # print(vocabulary)
 # def vectorize_text(text, label):
 #     text = tf.expand_dims(text, -1) # Punto (stringa) -> Vettore
-#     return vectorize_layer(text), label   
+#     return vectorize_layer(text), label
 # dataset = dataset.map(vectorize_text)
 
 VALIDATION_SHARE = 0.3
@@ -112,13 +111,15 @@ model = tf.keras.Sequential([
     layers.Embedding(max_features, 320),
     # layers.Dropout(0.5),
 
+
     layers.Conv1D(100, 3, activation='silu'),
     # layers.Conv1D(100, 5, activation='gelu'),
     # layers.Conv1D(100, 6, activation='silu'),
     layers.GlobalMaxPooling1D(),
 
+
     layers.Dropout(0.5),
-    layers.Dense(n_labels)
+    layers.Dense(n_labels) # Add normalization
 ])
 
 epochs = 40 # 84 is the sweet spot with 50 dataset
@@ -176,7 +177,7 @@ tf.saved_model.save(model, export_dir="./models/model.tf")
 # disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=["BAD", "GOOD"])
 # disp.plot(cmap=plt.cm.Blues)
 # plt.title("Confusion Matrix")
-# plt.show()    
+# plt.show()
 
 # clr = classification_report(y_true, y_pred)
 # print("Classification Report:\n----------------------\n", clr)
