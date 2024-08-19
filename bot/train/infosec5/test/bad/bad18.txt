@@ -1,2 +1,0 @@
-Ho in mente una cosa...vorrei sapere solo se è fattibile
-Avendo un raspberry, programmando un programmino per il controllo di luci (teste mobili, meglio dire, teste rotanti...o le luci che ci sono in discoteca, del tipo RGB) come faccio poi a collegarmi un piccolo controller al raspberry , collegato alla testa per comandarla?

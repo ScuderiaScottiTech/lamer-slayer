@@ -1,1 +1,0 @@
-['Aveva "ddossato" anche ', {'type': 'link', 'text': 'awaremc.com'}]

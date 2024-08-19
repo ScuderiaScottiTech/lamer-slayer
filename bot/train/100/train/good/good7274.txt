@@ -1,1 +1,0 @@
-Comunque ripeto, l'unico passo che non mi torna, è che l'attaccante sa già l' IP di origine (vedi le istruzioni di setup, non leggo niente di Discovery/ information gathering)

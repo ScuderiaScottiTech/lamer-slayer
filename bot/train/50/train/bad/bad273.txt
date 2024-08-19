@@ -1,1 +1,0 @@
-[{'type': 'bold', 'text': 'Dice il saggio:'}, '\nBella ostessa, il medico non vede gotta.']

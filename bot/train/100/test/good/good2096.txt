@@ -1,2 +1,0 @@
-Sinceramente eviterei di utilizzarlo pur'io ma sarà l'idea che ho del vecchio e caccoso php.
-Il problema è che se è ancora possibile utilizzare il php caccoso, con il 99% del php che c'è online (ossia, caccoso) rischi di infilare merda nei tuoi progetti

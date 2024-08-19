@@ -1,1 +1,0 @@
-non esiste netsh interface ip add forward

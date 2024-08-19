@@ -1,1 +1,0 @@
-Uscirà un modulo per metasploit un giorno che installerà Windows sul target remoto per consentirti l’attacco, ne sono certo

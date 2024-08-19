@@ -1,1 +1,0 @@
-[{'type': 'bold', 'text': 'Ue'}, ' 🇪🇺', {'type': 'bold', 'text': ', multa record ad Apple per 1,8 miliardi di euro '}, 'per abuso di posizione dominante nel mercato dello streaming musicale.', {'type': 'bold', 'text': '\n\n'}, '📰 ', {'type': 'mention', 'text': '@ultimora'}, '']

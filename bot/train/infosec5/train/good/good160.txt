@@ -1,1 +1,0 @@
-Ma fidati che se c'è roba Self Signed, permetti solo a qualcuno di fare mitm

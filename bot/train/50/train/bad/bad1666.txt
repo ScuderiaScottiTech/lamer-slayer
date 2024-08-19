@@ -1,1 +1,0 @@
-['Luca - ', {'type': 'link', 'text': 'C1VHosting.it'}, ', [17.02.21 14:11]\nSi è azzittito 😂\n\nLuca - ', {'type': 'link', 'text': 'C1VHosting.it'}, ', [17.02.21 14:11]\nHa capito di essere stupido 😊']

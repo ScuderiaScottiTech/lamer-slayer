@@ -1,1 +1,0 @@
-[{'type': 'bold', 'text': 'Dice il saggio:'}, '\nGran giustizia, in capo gli torna.']

@@ -1,1 +1,0 @@
-Ciao, avete mai usato astro:transitions con Svelte? Sto cercando di animare con transition:fade un link dentro un component Svelte ma fa solo un fetch e non cambia l'animazione. (No, non sto usando Firefox)

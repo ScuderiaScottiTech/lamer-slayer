@@ -1,1 +1,0 @@
-[{'type': 'mention', 'text': '@SparBTW'}, ' ma cosa sta diventando questo posto😔']

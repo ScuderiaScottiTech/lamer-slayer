@@ -1,1 +1,0 @@
-Già, go non lo é assolutamente. L'ho incluso comunque perché se devo fare qualcosa senza impazzire troppo dietro a delle strette regole di rust o a una complessità stupidamente elevata delle librerie di C++ é veramente life saver.

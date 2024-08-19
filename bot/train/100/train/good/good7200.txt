@@ -1,4 +1,0 @@
-Come ho detto, imho le botnet IoT nel 2023 è mirai n.4848383
-Falla in C, falla in Pascal, come ti pare
-Rimane il niente ed entri solo in dispositivi già stuprati
-A meno che tu non abbia chissà che 0day, ma non penso lui lo abbia (idk) né penso abbia i soldi per comprare un 0day per router / iot (per quanto ne so)

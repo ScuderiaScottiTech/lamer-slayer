@@ -1,1 +1,0 @@
-[{'type': 'hashtag', 'text': '#nome'}, ' (', {'type': 'mention', 'text': '@dnsflush'}, ') è un voip demmerda... mutato \n\nUn moderatore sceglierà a breve se smutarti.']

@@ -1,1 +1,0 @@
-Risparmiate il rm -rf * no preserve, I’m aware of that.

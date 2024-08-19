@@ -1,1 +1,0 @@
-Poi 12V è 12V non puoi mettergli il pwm

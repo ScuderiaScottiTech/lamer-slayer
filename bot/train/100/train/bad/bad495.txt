@@ -1,1 +1,0 @@
-[{'type': 'bold', 'text': 'Dice il saggio:'}, "\nPerdonare è da uomini, diffondere l'invenzione è tutto."]

@@ -1,1 +1,0 @@
-non mi serve l'ultimo kernel module bleeding edge

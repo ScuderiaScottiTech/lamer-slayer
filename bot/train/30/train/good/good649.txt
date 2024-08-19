@@ -1,1 +1,0 @@
-['comunque ', {'type': 'mention', 'text': '@nulled_space'}, ' niente più infosec']

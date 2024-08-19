@@ -1,1 +1,0 @@
-['Ditemi se vi piacciono i componenti del mio nuovo pc ', {'type': 'link', 'text': 'https://youtu.be/D0pr51ijd_U'}]

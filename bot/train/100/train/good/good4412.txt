@@ -1,1 +1,0 @@
-con standard moderni intendi che attraverso l'integrazione di librerie che rendono migliore la scrittura del codice su tutti gli aspetti (sicurezza, semplicità, correttezza e modi di comunicazioni secondo standard moderni)?

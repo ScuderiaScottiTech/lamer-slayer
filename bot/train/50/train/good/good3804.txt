@@ -1,1 +1,0 @@
-[{'type': 'bot_command', 'text': '/ban'}, ' ma capaci di cosa']

@@ -1,1 +1,0 @@
-Letteralmente hanno rotto il boot di un bel po' di Debian servers Ed un'altra distro perché "Linux non è nella matrice dei nostri test"

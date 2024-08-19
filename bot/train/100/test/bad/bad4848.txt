@@ -1,1 +1,0 @@
-io per compilare devo usare dev cpp perché non hanno compilatori installati

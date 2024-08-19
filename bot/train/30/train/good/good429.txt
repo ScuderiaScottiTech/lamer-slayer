@@ -1,1 +1,0 @@
-['[Meme] uberVoucherGoesBrrr\n', {'type': 'link', 'text': 'https://redd.it/1ecifm8'}, '\n\nby ', {'type': 'mention', 'text': '@programmer_humor'}]

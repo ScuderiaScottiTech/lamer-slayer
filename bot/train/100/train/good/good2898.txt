@@ -1,1 +1,0 @@
-e prendi punti in base ai test case

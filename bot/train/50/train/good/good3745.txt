@@ -1,1 +1,0 @@
-['Son curioso di saper la tua ', {'type': 'mention', 'text': '@stack_smash'}, ' se hai voglia di leggere questi due messaggi fino a qui. Il punto è proprio "ha il VR fatto bene potenziale?", tralascia altri fatti che non voglio includere']

@@ -1,1 +1,0 @@
-['Comunque ', {'type': 'mention', 'text': '@uraele'}, ' prova a fare la prova di 9 euro']

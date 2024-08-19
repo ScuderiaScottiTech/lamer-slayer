@@ -1,1 +1,0 @@
-ho pure creato un piccolo gioco in c

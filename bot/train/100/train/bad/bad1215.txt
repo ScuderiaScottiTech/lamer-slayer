@@ -1,1 +1,0 @@
-Ma posso deployare il mio bot pyrogram su heroku

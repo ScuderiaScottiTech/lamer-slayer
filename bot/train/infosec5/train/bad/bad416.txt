@@ -1,1 +1,0 @@
-['Grazie ', {'type': 'mention', 'text': '@TheZer0'}]

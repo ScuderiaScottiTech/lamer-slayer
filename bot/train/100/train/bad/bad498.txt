@@ -1,1 +1,0 @@
-[{'type': 'bold', 'text': 'Dice il saggio:'}, '\nMaggio ortolano, il terreno produce ortiche.']

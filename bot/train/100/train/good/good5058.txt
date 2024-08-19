@@ -1,1 +1,0 @@
-[{'type': 'mention', 'text': '@vftable'}, ' potremmo usarlo per qualcosa']

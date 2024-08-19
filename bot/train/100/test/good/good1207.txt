@@ -1,1 +1,0 @@
-[{'type': 'blockquote', 'text': 'DDR5 has about the same\xa0latency\xa0(around 14\xa0ns) as DDR4 and DDR3.[7]', 'collapsed': False}, '\nDa Wikipedia']

@@ -1,1 +1,0 @@
-['mi corregga ', {'type': 'mention', 'text': '@DumbMahreeo'}, ' se sbaglio']

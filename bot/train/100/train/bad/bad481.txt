@@ -1,1 +1,0 @@
-[{'type': 'bold', 'text': 'Dice il saggio:'}, '\nNella felicità ragione, di coltel perisce.']

@@ -1,1 +1,0 @@
-['Mining continuo senza fine? ', {'type': 'custom_emoji', 'text': '😂', 'document_id': 'video_files/sticker (5).webm'}, {'type': 'custom_emoji', 'text': '😂', 'document_id': 'video_files/sticker (5).webm'}, '\nCracking di hashes varie?']

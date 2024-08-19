@@ -1,1 +1,0 @@
-Ma l'installer artix default non è gui

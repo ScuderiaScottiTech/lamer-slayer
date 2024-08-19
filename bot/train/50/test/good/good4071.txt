@@ -1,1 +1,0 @@
-la nostra aritmetica è praticamente la seconda metà di quel corso solo che dimostri TUTTO a partire solo dagli assiomi di peano, solo che poi ci si stacca completamente perché si va a costruire Q R C e H e si lavora soprattutto su quelli

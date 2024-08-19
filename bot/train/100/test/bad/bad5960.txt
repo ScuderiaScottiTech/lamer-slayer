@@ -1,1 +1,0 @@
-['smutate ', {'type': 'mention', 'text': '@sergenteantifroc'}, ' ?']

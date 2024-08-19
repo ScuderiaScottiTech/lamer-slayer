@@ -1,1 +1,0 @@
-['Non so esattamente perchè si chiama ', {'type': 'link', 'text': 'nft.storage'}, ", forse mette un hash su eth o qualcos'altro"]

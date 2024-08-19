@@ -1,1 +1,0 @@
-[{'type': 'bold', 'text': 'Dice il saggio:'}, '\nIl gatto ama i pesci, è prossima ad arrendersi.']

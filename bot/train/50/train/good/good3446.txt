@@ -1,1 +1,0 @@
-["di nuovo cacate a dimostrarlo c'è l'intervista con ", {'type': 'link', 'text': 'mr.rip'}, ' di un googler appena laureato entrato poco fa']

@@ -1,1 +1,0 @@
-[{'type': 'bold', 'text': 'Dice il saggio:'}, '\nSi bacia il fanciullo a causa della madre, conto caro.']

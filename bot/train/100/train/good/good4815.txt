@@ -1,1 +1,0 @@
-i timings per VGA sono precisi, devi innanzitutto trovare una dimensione di display che abbia un multiplo del tuo clock. Questa cosa per esempio viene molto bene con i PIO di pico perchè sono praticamente fatti apposta per questi timings clock-precise

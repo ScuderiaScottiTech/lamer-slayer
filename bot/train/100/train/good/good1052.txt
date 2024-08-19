@@ -1,1 +1,0 @@
-Comunque è ridicolo come Nvidia non abbia supportato nativamente dx12 sulla GTX 750ti nonostante sia la stessa architettura delle 1060 etc

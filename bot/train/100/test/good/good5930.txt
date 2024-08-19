@@ -1,1 +1,0 @@
-se non devo preoccuparmi del data retention, è probabile andrei serverless, se il linguaggio in cui sto scrivendo il backend e i db che utilizzo sono ben gestiti dal provider scelto

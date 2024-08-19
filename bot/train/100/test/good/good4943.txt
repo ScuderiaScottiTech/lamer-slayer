@@ -1,1 +1,0 @@
-chiaro è che c'è un motivo se psql e oracle sono i più utilizzati a livello di grandi aziende e webapp, mysql ha una larga fetta, ma solo per via dello usage che gli ha dato php, e non è una merda nella gestione dei cluster (usando soluzioni premium) ma comunque preferisco psql

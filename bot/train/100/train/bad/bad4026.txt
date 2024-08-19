@@ -1,1 +1,0 @@
-cosa che sarà con .net 6

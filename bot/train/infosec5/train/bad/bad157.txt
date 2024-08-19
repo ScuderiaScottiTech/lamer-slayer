@@ -1,1 +1,0 @@
-Boh ho nginx che litiga solo con quel form (l'unico form del framework non scritto da me) e non capisco cosa possa essere perché può essere che ci sia altro codice nelle librerie, domani guardo meglio e vedo di capire cosa è ( non credo nel mio caso sia essenziale il token in quel punto, è una questione di principio)

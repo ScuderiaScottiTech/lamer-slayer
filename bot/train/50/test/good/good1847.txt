@@ -1,1 +1,0 @@
-[{'type': 'custom_emoji', 'text': '🤝', 'document_id': 'stickers/AnimatedSticker (15).tgs'}, '']

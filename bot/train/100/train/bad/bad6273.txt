@@ -1,1 +1,0 @@
-['ma comunque 3050 va bene ', {'type': 'mention', 'text': '@stack_smash'}]

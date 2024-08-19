@@ -1,1 +1,0 @@
-[{'type': 'custom_emoji', 'text': '😏', 'document_id': 'stickers/sticker (18).webp'}, {'type': 'custom_emoji', 'text': '😏', 'document_id': 'stickers/sticker (18).webp'}, {'type': 'custom_emoji', 'text': '😏', 'document_id': 'stickers/sticker (18).webp'}, {'type': 'custom_emoji', 'text': '😏', 'document_id': 'stickers/sticker (18).webp'}, '']

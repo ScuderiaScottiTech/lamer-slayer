@@ -1,1 +1,0 @@
-non fraintendermi, ma per quanto mi riguarda, optare all'uso o all'apprendimento di un db, che sia nosql o sql o pietrosql, per un free tier, non è qualcosa che farei mai

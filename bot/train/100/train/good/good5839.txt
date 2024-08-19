@@ -1,1 +1,0 @@
-che è un modello a colonne, e quindi devi adattare tu il db ad ogni esigenza, e non il contrario

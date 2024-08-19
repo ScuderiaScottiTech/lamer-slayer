@@ -1,3 +1,0 @@
-Qualcuno ha mai usato Astra come DB? Mi dice che ho 80gb di spazio, 20 milioni di read/writes al mese e database illimitati gratis.
-
-Qual'è la truffa? (So già che il db si iberna dopo 48h di inattività, ma quello lo risolvi con un cron job)

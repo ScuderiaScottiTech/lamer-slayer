@@ -1,2 +1,0 @@
-sto cercando di disinstallare icue da windows, ma rimane questo file: CorsairLLAccess64.sys  che non riesco a eliminare perchè dice che è sempre aperto.
-Su task manager non c'è, sui processi con process explorer neanche e cercandolo nella sezione handle and dll di process explorer non viene fuori niente

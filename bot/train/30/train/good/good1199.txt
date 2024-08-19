@@ -1,1 +1,0 @@
-The number of cycles it takes between the processor asking for data from the memory and returning it.

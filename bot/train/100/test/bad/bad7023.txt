@@ -1,1 +1,0 @@
-[{'type': 'link', 'text': 'https://www.ebay.it/itm/334487314985'}]

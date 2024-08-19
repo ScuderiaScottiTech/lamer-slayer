@@ -1,1 +1,0 @@
-mongo lo utilizzo per due sistemi WAF\Antiflood in delle webapp (attualmente) e per storare dei log che ciclano spesso

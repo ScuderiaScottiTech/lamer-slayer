@@ -1,1 +1,0 @@
-Siccome mi piace dormire tranquillo, ho trasformato tutta la rete da tunnel eoip del cazzo (con problemi di MTU a non finire) a vpls:mpls

@@ -1,1 +1,0 @@
-[{'type': 'mention', 'text': '@OnlyDemor'}, ' te che dici']

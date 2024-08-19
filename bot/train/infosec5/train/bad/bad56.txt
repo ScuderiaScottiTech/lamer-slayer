@@ -1,1 +1,0 @@
-[{'type': 'hashtag', 'text': '#0daytoday'}, ' ', {'type': 'hashtag', 'text': '#ESET'}, ' Endpoint Antivirus 6 Remote Code Execution Exploit [remote ', {'type': 'hashtag', 'text': '#exploits'}, ' ', {'type': 'hashtag', 'text': '#0day'}, ' ', {'type': 'hashtag', 'text': '#Exploit'}, '] ', {'type': 'link', 'text': 'http://dlvr.it/NVcqFq'}]

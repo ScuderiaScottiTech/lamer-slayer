@@ -1,0 +1,19 @@
+Considering cybersec as 0
+Considering dev as 1
+Considering scam as 2
+Test quanto lunghe sono queste stringhe? | predicted dev | with percentages of [1.3718714e-03 9.9860090e-01 2.7238280e-05]
+Test Ciao ragazzi ho installato kali sapete come si hackera un wifi?? | predicted cybersec | with percentages of [9.9807429e-01 1.8739680e-04 1.7382446e-03]
+Test Conoscete il linguaggio c++? | predicted dev | with percentages of [1.7246124e-03 9.9818063e-01 9.4869378e-05]
+Test Conoscete il linguaggio di programmazione Rust? Sembra interessante e nuovo. | predicted dev | with percentages of [2.1753424e-04 9.9968612e-01 9.6376622e-05]
+Test Sto programmando un'applicazione in NextJS ma non funziona come inteso. | predicted dev | with percentages of [1.3164411e-01 8.6770111e-01 6.5473496e-04]
+Test Vorrei imparare ad usare Electron ma attualmente mi mancano i fondamenti di JS e React. Come consigliate di iniziare? | predicted dev | with percentages of [2.7771365e-02 9.7152966e-01 6.9891615e-04]
+Test Sapete entrare in account instagram? | predicted cybersec | with percentages of [0.8758351  0.07521036 0.04895451]
+Test Meglio kali o parrot? | predicted cybersec | with percentages of [9.9768317e-01 5.6282875e-05 2.2605231e-03]
+Test Meglio blackarch o parrot? | predicted cybersec | with percentages of [0.9835149  0.01544246 0.00104268]
+Test Come listo tutti i file in una directory su linux? | predicted dev | with percentages of [1.8157793e-03 9.9815696e-01 2.7216722e-05]
+Test ciao ragazzi, vorrei installare ubuntu in dual boot da utilizzare come suite pronta per veloci penetration tests automatizzati, è una buona idea? | predicted dev | with percentages of [0.06059806 0.93776155 0.00164041]
+Test Ciao a tutti | predicted cybersec | with percentages of [0.7029403  0.29099786 0.00606188]
+Test Un messaggio generico | predicted dev | with percentages of [8.0042500e-03 9.9193609e-01 5.9713122e-05]
+Test Vendo cc carte di credito tutto | predicted dev | with percentages of [0.2048057  0.770041   0.02515329]
+Test cerco hash milano | predicted scam | with percentages of [0.02138295 0.00492285 0.97369415]
+Test vendo log esselunga | predicted dev | with percentages of [5.4011192e-02 9.4527078e-01 7.1805390e-04]

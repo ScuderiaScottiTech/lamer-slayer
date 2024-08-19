@@ -1,1 +1,0 @@
-["ma non ci ha ancora detto cosa e' successo ", {'type': 'mention', 'text': '@DumbMahreeo'}]

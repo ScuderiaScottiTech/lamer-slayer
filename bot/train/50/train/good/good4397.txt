@@ -1,2 +1,0 @@
-okay, dovrei studiarmelo bene sinceramente haha
-in questo periodo approfondisco C++ per avere i concetti base, fra qualche mese magari provo ad iniziare con rust e fare un parallelismo fra i due linguaggi

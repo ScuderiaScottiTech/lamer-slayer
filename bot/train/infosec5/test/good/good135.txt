@@ -1,1 +1,0 @@
-ti serve trovare l' hostname interno del mio Rev Proxy

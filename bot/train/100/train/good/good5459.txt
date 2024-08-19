@@ -1,2 +1,0 @@
-non vedo perchè devo spendere X quando posso spendere X - 30-40% avendo servizi anche più efficenti. 
-mi vuoi paragonare, andando a spendere comunque meno di un terzo, Vultr? con i datacenter, cloning, snapshotting instant, VPC, VPC2.0 servizi di app balancing integrati?

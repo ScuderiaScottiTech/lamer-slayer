@@ -1,1 +1,0 @@
-vbb GL con un paio di vuln di halley ancora in the wild

@@ -1,1 +1,0 @@
-["Ma guarda che cambiano solo alcune keyword, non l'intero modello mentale. L'unica cosa è che non hai j joins\n\n", {'type': 'link', 'text': 'https://medium.com/@alexbmeng/cassandra-query-language-cql-vs-sql-7f6ed7706b4c'}, '']

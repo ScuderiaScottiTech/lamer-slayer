@@ -1,1 +1,0 @@
-i server aziendali sono quasi tutti su Windows Server soprattutto per chi usa Active directory che é insostituibile con kerberos su Linux

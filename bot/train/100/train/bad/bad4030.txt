@@ -1,1 +1,0 @@
-poi con .net 6 esce il supporto praticamente completo cross platform

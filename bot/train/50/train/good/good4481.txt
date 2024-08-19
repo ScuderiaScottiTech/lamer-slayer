@@ -1,1 +1,0 @@
-[{'type': 'mention', 'text': '@PixelGodV3'}, ' ne sa qualcosa te ti ricordi il modello?']

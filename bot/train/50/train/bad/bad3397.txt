@@ -1,1 +1,0 @@
-se rivedi i miei messaggi ho sempre detto di voler fare un intranet con bgp gre e wireguard per dare la possibilità a tutti

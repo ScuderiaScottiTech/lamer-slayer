@@ -1,1 +1,0 @@
-[{'type': 'bold', 'text': 'Dice il saggio:'}, "\nQuando piove d'agosto, Dio lo considera per male."]

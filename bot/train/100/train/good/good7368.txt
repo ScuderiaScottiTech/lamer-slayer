@@ -1,2 +1,0 @@
-Secondo me è tipo:
-If RAM usage > 90%, kill processes

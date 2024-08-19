@@ -1,1 +1,0 @@
-E ok, ma allora stai passando da un provider serverless all'altro

@@ -1,1 +1,0 @@
-Ti attivi due FTTH 2,5 e le splitti 1:8 dalle 10 porte. L’uplink ci metti una CCR1072 che fa da bras, fine

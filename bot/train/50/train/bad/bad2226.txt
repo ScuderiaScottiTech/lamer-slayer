@@ -1,1 +1,0 @@
-mi riferivo al fatto che ricordavo si potesse transpilare in rust

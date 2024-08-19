@@ -1,1 +1,0 @@
-['Swift removing ++ and -- operators because they can be confusing because of code like this:\n\n', {'type': 'pre', 'text': 'int i = 5;\ni = ++i + i++;', 'language': ''}, "\n\nThis is the beauty of the C/C++ programming language. You can make the metaphorical gun and metaphorically shoot yourself with it. Also, don't code like this"]

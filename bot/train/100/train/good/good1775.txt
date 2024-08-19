@@ -1,1 +1,0 @@
-sapete se in qualche modo si possono modificare le impostazioni dhcp dell'hotspot di un telefono android?

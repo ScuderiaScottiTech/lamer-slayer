@@ -1,1 +1,0 @@
-[{'type': 'bold', 'text': 'Dice il saggio:'}, '\nCader non può, i cardi non porterebbero mai rose.']

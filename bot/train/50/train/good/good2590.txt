@@ -1,1 +1,0 @@
-['oh ', {'type': 'mention', 'text': '@DumbMahreeo'}, ' ma sei omosessuale?']

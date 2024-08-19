@@ -1,3 +1,0 @@
-Il language server non è minimamente on par con rust analyzer
-
-La base dell'IDE, che oramai vengono tutti da IntelliJ, è pesante, scritta in java, e consuma troppa memoria

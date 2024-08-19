@@ -1,1 +1,0 @@
-[{'type': 'bold', 'text': 'Canale già presente in lista!'}, '❌']

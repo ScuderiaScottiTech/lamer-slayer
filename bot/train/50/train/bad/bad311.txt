@@ -1,1 +1,0 @@
-[{'type': 'bold', 'text': 'Dice il saggio:'}, '\nVi sono dei matti savi, è uomo non fortunato.']

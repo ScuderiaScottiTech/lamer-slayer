@@ -1,9 +1,0 @@
-👾 Malware: aumentano le minacce e gli skimming online
-
-È tempo di bilanci, e, come al solito, è Kaspersky a pensarci. È stato registrato un aumento del 13,7% della varietá dei malware, ed anche un preoccupante aumento dei software per skimming online (usati per rubare soprattutto dati delle carte di credito) pari al 187%. 
-
-Ad aumentare ci sono anche le backdoor ed i trojan bancari, mentre i miner sono diminuiti. In confronto al 2018, nel 2019 sono stati rilevati ben 24.610.126 virus, con un aumento del 523%.
-
-Il numero di URL dannosi è invece diminuito del 25%, dovuta al calo dei web miner nascosti.
-
-Per proteggersi, Kaspersky consiglia di non installare applicazioni da fonti sconosciute, usare sempre password forti ed installare sempre gli aggiornamenti.

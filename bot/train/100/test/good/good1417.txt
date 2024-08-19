@@ -1,1 +1,0 @@
-["c'é a ", {'type': 'text_link', 'text': 'chi', 'href': 'http://t.me/stack_smash'}, ' piace']

@@ -1,1 +1,0 @@
-['Ti do il mio account paypal,versami pure qua i soldi ', {'type': 'email', 'text': 'massimiliano.allegri@paypal.com'}, ' pw:finoallafine']

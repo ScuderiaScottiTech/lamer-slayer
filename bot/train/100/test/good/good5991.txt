@@ -1,1 +1,0 @@
-Non tanto i puntatori in python non ti servono

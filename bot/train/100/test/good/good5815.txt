@@ -1,1 +1,0 @@
-è uno dei punti su cui è stata la stessa datastax ha detto che avrebbero dovuto migliorare le performance della compressione del dato

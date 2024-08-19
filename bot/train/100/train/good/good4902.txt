@@ -1,1 +1,0 @@
-Hanno un vector database quindi io personalmente non ho bisogno di ottimizzare i dati manualmente

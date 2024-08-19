@@ -1,1 +1,0 @@
-[{'type': 'bold', 'text': 'Dice il saggio:'}, '\nLa fedeltà non è mai rimeritata abbastanza, estremi rimedi.']

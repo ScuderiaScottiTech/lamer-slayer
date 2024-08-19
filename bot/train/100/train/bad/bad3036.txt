@@ -1,1 +1,0 @@
-Wait wait, sottolineamo che era fatto in PHP

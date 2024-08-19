@@ -1,1 +1,0 @@
-Il nostro mitico antiddos-specialist non ha ancora capito che per mitigare un DDoS non devi averlo già ricevuto sul layer di corrispondenza.

@@ -1,2 +1,0 @@
-Pensaci, usando cloudflare, è come uno shared hosting
-Cambi l'host header ed accedi ad altri server nattati

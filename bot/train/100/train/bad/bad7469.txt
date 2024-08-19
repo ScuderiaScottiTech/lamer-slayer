@@ -1,1 +1,0 @@
-[{'type': 'link', 'text': 'https://www.speedtest.net/result/12003306632.png'}]

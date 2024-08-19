@@ -1,1 +1,0 @@
-devo decryptare il cloudflare e bypassare la request all'api e l'alveare di sandali

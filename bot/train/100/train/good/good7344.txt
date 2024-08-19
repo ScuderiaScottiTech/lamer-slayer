@@ -1,1 +1,0 @@
-['Boh strano, ', {'type': 'link', 'text': 'bgp.tools'}, ' dovrebbe essere aggiornato(?)']

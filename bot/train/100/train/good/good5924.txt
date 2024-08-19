@@ -1,1 +1,0 @@
-beh, allora fai la prova, vai serverless, e poi mi dirai, se cassandra è una soluzione divina e gratuita

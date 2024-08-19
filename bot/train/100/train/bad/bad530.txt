@@ -1,1 +1,0 @@
-[{'type': 'bold', 'text': 'Dice il saggio:'}, '\nNel monte di Brianza, chiuderebbe spesso la borsa.']

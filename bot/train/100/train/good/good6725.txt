@@ -1,1 +1,0 @@
-La CVE dell’anteprima di guardafuori/outlook era praticamente 0-appear RCE

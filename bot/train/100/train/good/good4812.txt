@@ -1,1 +1,0 @@
-[{'type': 'link', 'text': 'https://vanhunteradams.com/Pico/VGA/VGA.html'}]

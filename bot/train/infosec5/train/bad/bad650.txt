@@ -1,1 +1,0 @@
-Buongiorno a tutti, ho un problema cona gestione del disco su Windows ho appena eliminato Ubuntu (avevo dual boot) ma non riesco ad estendere il disco in modo da aggiungere quei 340gb

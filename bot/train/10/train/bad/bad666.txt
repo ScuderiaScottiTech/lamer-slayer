@@ -1,1 +1,0 @@
-['comunque ho risolto grazie pietro dei consigli provvedero a vedere i tutorial firebase per i parametri rust ', {'type': 'mention', 'text': '@stack_smash'}]

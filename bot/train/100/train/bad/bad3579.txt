@@ -1,1 +1,0 @@
-C# no? È mantenuto da microsoft e go da google

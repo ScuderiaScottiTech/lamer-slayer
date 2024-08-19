@@ -1,1 +1,0 @@
-se il sistema operativo supporta 128 gb di ram e ne usa 127 in idle????

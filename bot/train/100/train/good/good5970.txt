@@ -1,1 +1,0 @@
-javascript come back può avere un senso, che poi lo ha anche come front, è solo troppo scripting-merdoso per quanto mi riguarda, ma mi sono adeguato a python, facendo downgrade da ruby, poi son tornato su elixir, ed ora mi sto infrociando come pietro su rust

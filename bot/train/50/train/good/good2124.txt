@@ -1,1 +1,0 @@
-anche se me le sto studiando le cl, se metti tipo come price range 0.1 o close allo 0 hai apr assurde, solo che se varia un pelo il prezzo ti inculi

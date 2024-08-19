@@ -1,1 +1,0 @@
-['.unsaliera ', {'type': 'mention', 'text': '@markinovbot'}]

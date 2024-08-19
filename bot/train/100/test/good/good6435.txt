@@ -1,1 +1,0 @@
-Visto che penso la causa sia qualche conflitto tra thread ho anche provato a creare il tread direttamente con win32 invece che con pthread ma niente

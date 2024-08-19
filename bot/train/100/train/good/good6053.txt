@@ -1,4 +1,0 @@
-Alla fine sono tutti uguali
-Cambiamo piccole cose o certi fattori, come la gestione di memoria ed etc.
-
-Ma la sintassi base è pressoché identica, cambia il contorno

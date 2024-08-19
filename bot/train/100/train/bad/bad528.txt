@@ -1,1 +1,0 @@
-[{'type': 'bold', 'text': 'Dice il saggio:'}, "\nQuando c'è l'esercito, può naufragare in porto."]
