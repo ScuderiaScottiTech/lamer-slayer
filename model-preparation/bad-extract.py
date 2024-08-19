@@ -42,7 +42,9 @@ f = open(filename, "r")
 data = json.load(f)
 f.close()
 
+# Id del reply del bannato + Index del messaggio con il comando
 bannedUserMessageIds_Index = []
+# UserId dei bannati
 bannedUserIds = []
 
 c = -1
@@ -65,7 +67,7 @@ for msg in data["messages"]:
             bannedUserMessageIds_Index.append((reply_to, c))
 
 # Get actual index of repliant message
-c = 0
+c = -1
 for msg in data["messages"]:
     c += 1
     text = filter.get_text(msg)
@@ -90,7 +92,7 @@ for (userId, lastBanIndex) in bannedUserIds:
     while currPreBanNum < MSG_PRE_BAN and lastBanIndex >= 0 and maxIters < MAX_BACK_ITERS:
         text = filter.get_text(data["messages"][lastBanIndex])
         text = filter.sanitize_message(text, strip_emoji=True)
-        if text != "" and any(bannedUserId[0] == data["messages"][lastBanIndex]["from_id"] for bannedUserId in bannedUserIds) and filter.filter_message(text):
+        if text != "" and filter.filter_message(text) and userId == data["messages"][lastBanIndex]["from_id"]:
             f.write(text+'\n')
             currPreBanNum += 1
             n_msgs += 1
