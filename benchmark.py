@@ -3,9 +3,6 @@ import tensorflow as tf
 import numpy as np
 import keras
 
-model = tf.saved_model.load("./models/model.tf")
-model_forward = model.signatures["serving_default"]
-
 test = [
     "quanto lunghe sono queste stringhe?",
     "Ciao ragazzi ho installato kali sapete come si hackera un wifi??",
@@ -22,16 +19,38 @@ test = [
     "Un messaggio generico",
     "Vendo cc carte di credito tutto",
     "cerco hash milano",
-    "vendo log esselunga"
+    "vendo log esselunga",
+    "se avete log eurospin scrivetemi in privato",
+    "scrivetemi in pm per droga",
+    "le espressioni consteval sono permesse nei template?",
+    "qual è l'equivalente dei trait bounds su altri linguaggi?",
+    "cerco fumo scambio con cc scrivetemi pm",
+    "vendo gift card, logs, tutto fresh scrivetemi pm",
+    "come specifico i lifetime parameters su una funzione?",
+    "conoscete framework per creare webapp responsive in javascript?",
+    "sapete entrare negli account instagram qui?",
+    "io di solito uso i generics un po' per tutto come pietrodev anche quando non servono, voi?",
+    "cerco droga a torino"
 ]
-evaluation = model_forward(tf.constant(test))['output_0']
 
+models_path = "./models/multirelu3conv.tf"
 labels = {}
+softmax = keras.layers.Softmax()
+
 for label, folder in enumerate(os.listdir("train/")):
     labels[label] = folder
     print(f"Considering {folder} as {label}")
 
-softmax = keras.layers.Softmax()
+# for n, model_name in enumerate(os.listdir(models_path)):
+#     print(f"------------------------------\nUsing model{n}: {model_name}")
+#     tf.keras.backend.clear_session()
+#     model = tf.saved_model.load(models_path+model_name)
+
+print(f"------------------------------\nUsing model{models_path}")
+model = tf.saved_model.load(models_path)
+model_forward = model.signatures["serving_default"]
+evaluation = model_forward(tf.constant(test))['output_0']
+
 for prediction, test in zip(evaluation, test):
     softmaxed = softmax(prediction)
     predicted_label = np.argmax(softmaxed)
