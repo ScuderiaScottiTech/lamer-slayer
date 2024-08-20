@@ -1,7 +1,6 @@
 from pyrogram import Client
 from pyrogram import filters
-from pyrogram.types import ChatMemberUpdated
-from pyrogram.types import Message
+from pyrogram.types import ChatMemberUpdated, ChatPermissions, Message
 import asyncio
 
 import tensorflow as tf
@@ -27,6 +26,7 @@ labels = {}
 for label, folder in enumerate(os.listdir("../train/")):
     labels[label] = folder
     print(f"Considering {folder} as {label}")
+bad_labels = ["lamer", "scam"]
 
 def predict(text: str) -> tuple[str, any]:
     text = [text]
@@ -36,6 +36,14 @@ def predict(text: str) -> tuple[str, any]:
     predicted_label = np.argmax(softmaxed)
     predicted_label = labels[predicted_label]
     return (predicted_label, softmaxed.numpy())
+
+# 0: Good, 1: Admin intervention, 2: Mute
+def take_action(label, pred) -> int:
+    if pred.any() > 0.75 and label in bad_labels:
+        return 2
+    elif label in bad_labels:
+        return 1
+    return 0
 
 @app.on_chat_member_updated()
 async def log(_, chat_member_updated: ChatMemberUpdated):
@@ -58,6 +66,14 @@ async def echo(_, message: Message):
         db.update(cur, conn, table_name, user_id, curr_thresh-1)
 
         (label, pred) = predict(message.text)
-        await message.reply(f"La sentenza: {label} con percentuali di {pred}")
+        action = take_action(label, pred)
+        match action:
+            case 0:
+                await message.reply(f"Controllo AI passato.")
+            case 1:
+                await message.reply(f"@admin intervento richiesto. Categoria risultante: {label} | {pred}")
+            case 2:
+                await message.reply(f"@admin Controllo AI non passato.\nIl tuo messaggio risulta nella categoria {label} con percentuali di {pred}.\nVerificheremo la decisione al più presto, se ritieni che sia un errore, puoi scrivere a un admin del gruppo.")
+                await app.restrict_chat_member(message.chat.id, user_id, ChatPermissions())
 
 app.run()
