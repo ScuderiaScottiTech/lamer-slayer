@@ -2,6 +2,7 @@ import os
 import tensorflow as tf
 import numpy as np
 import keras
+from scipy.stats import entropy
 
 test = [
     "quanto lunghe sono queste stringhe?",
@@ -33,7 +34,7 @@ test = [
     "cerco droga a torino"
 ]
 
-models_path = "./models/multirelu3conv.tf"
+models_path = "./models/model.tf"
 labels = {}
 softmax = keras.layers.Softmax()
 
@@ -53,8 +54,9 @@ evaluation = model_forward(tf.constant(test))['output_0']
 
 for prediction, test in zip(evaluation, test):
     softmaxed = softmax(prediction)
-    predicted_label = np.argmax(softmaxed)
+    pred_entropy = entropy(softmaxed)
 
+    predicted_label = np.argmax(softmaxed)
     predicted_label = labels[predicted_label]
 
-    print("Test", test, "| predicted", predicted_label, "| with percentages of", softmaxed.numpy())
+    print("Test", test, "| predicted", predicted_label, "| entropy:", round(pred_entropy, 3), "| with percentages of", softmaxed.numpy())

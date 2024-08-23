@@ -97,9 +97,6 @@ vocabulary = vectorize_layer.get_vocabulary()
 #     return vectorize_layer(text), label
 # dataset = dataset.map(vectorize_text)
 
-VALIDATION_SHARE = 0.3
-TEST_SHARE = 0.3
-
 AUTOTUNE = tf.data.AUTOTUNE
 train_ds = train_ds.prefetch(buffer_size=AUTOTUNE)
 val_ds = val_ds.prefetch(buffer_size=AUTOTUNE)

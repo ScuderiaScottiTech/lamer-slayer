@@ -1,0 +1,32 @@
+Considering dev as 0
+Considering scam as 1
+Considering lamer as 2
+------------------------------
+Using model./models/model.tf
+Test quanto lunghe sono queste stringhe? | predicted dev | entropy: 0.117 | with percentages of [9.7594792e-01 7.5055758e-04 2.3301613e-02]
+Test Ciao ragazzi ho installato kali sapete come si hackera un wifi?? | predicted lamer | entropy: 0.005 | with percentages of [3.1966154e-04 2.2133715e-04 9.9945897e-01]
+Test Conoscete il linguaggio c++? | predicted dev | entropy: 0.356 | with percentages of [0.89053935 0.00213531 0.10732534]
+Test Conoscete il linguaggio di programmazione Rust? Sembra interessante e nuovo. | predicted dev | entropy: 0.066 | with percentages of [0.9893233  0.00464236 0.00603429]
+Test Sto programmando un'applicazione in NextJS ma non funziona come inteso. | predicted lamer | entropy: 0.341 | with percentages of [0.09645912 0.00365891 0.89988196]
+Test Vorrei imparare ad usare Electron ma attualmente mi mancano i fondamenti di JS e React. Come consigliate di iniziare? | predicted lamer | entropy: 0.459 | with percentages of [0.13466287 0.01216278 0.8531743 ]
+Test Sapete entrare in account instagram? | predicted lamer | entropy: 0.245 | with percentages of [4.6710292e-04 6.5143399e-02 9.3438953e-01]
+Test Meglio kali o parrot? | predicted lamer | entropy: 0.004 | with percentages of [2.2887011e-04 1.9563943e-04 9.9957544e-01]
+Test Meglio blackarch o parrot? | predicted lamer | entropy: 0.041 | with percentages of [5.936302e-03 5.822671e-04 9.934815e-01]
+Test Come listo tutti i file in una directory su linux? | predicted dev | entropy: 0.588 | with percentages of [0.73249614 0.00110657 0.26639727]
+Test ciao ragazzi, vorrei installare ubuntu in dual boot da utilizzare come suite pronta per veloci penetration tests automatizzati, è una buona idea? | predicted lamer | entropy: 0.73 | with percentages of [0.29374263 0.03012012 0.67613727]
+Test Ciao a tutti | predicted lamer | entropy: 0.232 | with percentages of [5.993808e-02 6.855078e-04 9.393764e-01]
+Test Un messaggio generico | predicted dev | entropy: 0.589 | with percentages of [0.8219856  0.07339862 0.10461573]
+Test Vendo cc carte di credito tutto | predicted scam | entropy: 0.034 | with percentages of [0.00240064 0.99510807 0.00249126]
+Test cerco hash milano | predicted scam | entropy: 0.007 | with percentages of [2.7333255e-04 9.9920517e-01 5.2147009e-04]
+Test vendo log esselunga | predicted scam | entropy: 0.016 | with percentages of [2.6998241e-04 9.9791533e-01 1.8145955e-03]
+Test se avete log eurospin scrivetemi in privato | predicted lamer | entropy: 0.042 | with percentages of [0.00155304 0.00471364 0.99373335]
+Test scrivetemi in pm per droga | predicted lamer | entropy: 0.636 | with percentages of [0.03444333 0.19554882 0.77000785]
+Test le espressioni consteval sono permesse nei template? | predicted dev | entropy: 0.027 | with percentages of [0.99624497 0.00212062 0.00163442]
+Test qual è l'equivalente dei trait bounds su altri linguaggi? | predicted dev | entropy: 0.121 | with percentages of [0.9752103  0.00124418 0.02354554]
+Test cerco fumo scambio con cc scrivetemi pm | predicted lamer | entropy: 0.598 | with percentages of [0.00597848 0.25081864 0.74320287]
+Test vendo gift card, logs, tutto fresh scrivetemi pm | predicted scam | entropy: 0.651 | with percentages of [0.04756729 0.77379245 0.17864026]
+Test come specifico i lifetime parameters su una funzione? | predicted dev | entropy: 0.378 | with percentages of [0.8803951  0.00231415 0.11729068]
+Test conoscete framework per creare webapp responsive in javascript? | predicted dev | entropy: 0.968 | with percentages of [0.5781038  0.17684941 0.24504673]
+Test sapete entrare negli account instagram qui? | predicted lamer | entropy: 0.038 | with percentages of [5.1669701e-04 5.4892697e-03 9.9399406e-01]
+Test io di solito uso i generics un po' per tutto come pietrodev anche quando non servono, voi? | predicted lamer | entropy: 0.662 | with percentages of [0.36566314 0.00075859 0.6335783 ]
+Test cerco droga a torino | predicted lamer | entropy: 1.052 | with percentages of [0.21993738 0.31203574 0.4680269 ]

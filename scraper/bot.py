@@ -17,7 +17,7 @@ osservation_user_ids = db.load_db(cur, table_name)
 
 app = Client("c1vtoccibot")
 
-model = tf.saved_model.load("../models/einstein.tf")
+model = tf.saved_model.load("../models/multirelu3conv.tf")
 model_forward = model.signatures["serving_default"]
 
 print("Loaded DB:", osservation_user_ids)
