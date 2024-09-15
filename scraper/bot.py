@@ -32,6 +32,18 @@ labels[1] = "scam"
 labels[2] = "lamer"
 bad_labels = ["lamer", "scam"]
 
+def printable_pred(softmax_arr):
+    printarr = ""
+    categories = ['Dev: ', 'Scam: ', 'Lamer: ']
+    i = 0
+    for perc in softmax_arr[0]:
+        printarr += categories[i]
+        printarr += (str(round(perc*100, 5))+'%')
+        printarr += "\n"
+        i += 1
+
+    return printarr
+
 def predict(text: str) -> tuple[str, any]:
     text = [text]
     softmax = keras.layers.Softmax()
@@ -39,7 +51,8 @@ def predict(text: str) -> tuple[str, any]:
     softmaxed = softmax(evaluation)
     predicted_label = np.argmax(softmaxed)
     predicted_label = labels[predicted_label]
-    return (predicted_label, softmaxed.numpy())
+    softmax_arr = softmaxed.numpy()
+    return (predicted_label, softmax_arr)
 
 # 0: Good, 1: Admin intervention, 2: Mute
 def take_action(label, pred) -> int:
@@ -80,7 +93,14 @@ async def echo(_, message: Message):
             case 1:
                 await message.reply(f"@admin intervento richiesto. Categoria risultante: {label} | {pred}")
             case 2:
-                await message.reply(f"@admin Controllo AI non passato.\nIl tuo messaggio risulta nella categoria {label} con percentuali di {pred}.\nVerificheremo la decisione al più presto, se ritieni che sia un errore, puoi scrivere a un admin del gruppo.")
+                # I could not manage to do a multi line string in this language
+                # without using 30 different libraries. You'll be happy with this trash
+                pred = printable_pred(pred)
+                msg = f"**Controllo AI non passato.**\nIl tuo messaggio risulta nella categoria **{label}** con percentuali di:\n{pred}\n__Verificheremo la decisione al più presto, se ritieni che sia un errore, puoi scrivere a un__ @admin __del gruppo.__"
+                await message.reply_photo(
+                    photo = "<photo_name>",
+                    caption = msg
+                )
                 await app.restrict_chat_member(message.chat.id, user_id, ChatPermissions())
 
 app.run()
