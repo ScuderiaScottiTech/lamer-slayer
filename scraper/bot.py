@@ -1,6 +1,7 @@
 from pyrogram import Client
 from pyrogram import filters
 from pyrogram.types import ChatMemberUpdated, ChatPermissions, Message
+from pyrogram.enums import ChatMemberStatus
 import asyncio
 
 import tensorflow as tf
@@ -15,17 +16,20 @@ OSSERVATION_THRESH = 2
 conn, cur = db.establish_connection(table_name)
 osservation_user_ids = db.load_db(cur, table_name)
 
-app = Client("c1vtoccibot")
+app = Client("<app_name>")
 
-model = tf.saved_model.load("../models/multirelu3conv.tf")
+model = tf.saved_model.load("../models/multiclass2.tf")
 model_forward = model.signatures["serving_default"]
 
 print("Loaded DB:", osservation_user_ids)
 
 labels = {}
-for label, folder in enumerate(os.listdir("../train/")):
-    labels[label] = folder
-    print(f"Considering {folder} as {label}")
+# for label, folder in enumerate(os.listdir("../train/")):
+#     labels[label] = folder
+#     print(f"Considering {folder} as {label}")
+labels[0] = "dev"
+labels[1] = "scam"
+labels[2] = "lamer"
 bad_labels = ["lamer", "scam"]
 
 def predict(text: str) -> tuple[str, any]:
@@ -49,8 +53,12 @@ def take_action(label, pred) -> int:
 async def log(_, chat_member_updated: ChatMemberUpdated):
     if chat_member_updated.new_chat_member == None:
         return
-    
+
     user_id = chat_member_updated.from_user.id
+    chat_member = await app.get_chat_member(chat_member_updated.chat.id, user_id)
+    if chat_member.status in [ChatMemberStatus.ADMINISTRATOR, ChatMemberStatus.OWNER]:
+        return
+
     curr_thresh = osservation_user_ids.get(user_id, -1)
     if curr_thresh == -1:
         osservation_user_ids[user_id] = OSSERVATION_THRESH
@@ -58,7 +66,6 @@ async def log(_, chat_member_updated: ChatMemberUpdated):
 
 @app.on_message(filters.text & filters.group)
 async def echo(_, message: Message):
-    print(osservation_user_ids)
     user_id = message.from_user.id
     curr_thresh = osservation_user_ids.get(user_id, -1)
     if curr_thresh >= 1:

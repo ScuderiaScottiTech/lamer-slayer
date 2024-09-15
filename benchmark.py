@@ -34,7 +34,7 @@ test = [
     "cerco droga a torino"
 ]
 
-models_path = "./models/model.tf"
+models_path = "./models/multiclass2.tf"
 labels = {}
 softmax = keras.layers.Softmax()
 
